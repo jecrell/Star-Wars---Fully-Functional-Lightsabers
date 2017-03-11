@@ -126,7 +126,7 @@
 		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 		  </li>
 		  <li Class="CompActivatableEffect.CompProperties_ActivatableEffect">
-			<compClass>ProjectJedi.CompLightsaberActivatableEffect</compClass>
+			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
 			<ActivateLabel>Activate</ActivateLabel>
 			<uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
@@ -149,7 +149,7 @@
 			<soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
 		  </li>
 		  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
-		    <compClass>ProjectJedi.CompCrystalSlotLoadable</compClass>
+		    <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
 		    <slots>
 				<li>PJ_KyberCrystalSlot</li>
 			</slots>
@@ -223,7 +223,7 @@
 		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 		  </li>	
 		  <li Class="CompActivatableEffect.CompProperties_ActivatableEffect">
-			<compClass>ProjectJedi.CompLightsaberActivatableEffect</compClass>
+			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
 			<ActivateLabel>Activate</ActivateLabel>
 			<uiIconPathActivate>UI/Lightsaber/CurActivate</uiIconPathActivate>
@@ -246,7 +246,7 @@
 			<soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
 		  </li>
 		  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
-		  <compClass>ProjectJedi.CompCrystalSlotLoadable</compClass>
+		  <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
 		    <slots>
 				<li>PJ_KyberCrystalSlot</li>
 			</slots>
@@ -320,7 +320,7 @@
 		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 		  </li>	
 		  <li Class="CompActivatableEffect.CompProperties_ActivatableEffect">
-			<compClass>ProjectJedi.CompLightsaberActivatableEffect</compClass>
+			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
 			<ActivateLabel>Activate</ActivateLabel> 
 			<uiIconPathActivate>UI/Lightsaber/KyloActivate</uiIconPathActivate>
@@ -343,7 +343,7 @@
 			<soundHitBuilding>PJ_KyloHit</soundHitBuilding>
 		  </li>
 		  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
-		  <compClass>ProjectJedi.CompCrystalSlotLoadable</compClass>
+		  <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
 		    <slots>
 				<li>PJ_KyberCrystalSlot</li>
 			</slots>
@@ -417,7 +417,7 @@
 		   <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 			</li>
 		  <li Class="CompActivatableEffect.CompProperties_ActivatableEffect">
-			<compClass>ProjectJedi.CompLightsaberActivatableEffect</compClass>
+			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
 			<ActivateLabel>Activate</ActivateLabel>
 			<uiIconPathActivate>UI/Lightsaber/DubActivate</uiIconPathActivate>
@@ -514,7 +514,7 @@
 		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 		  </li>	
 		  <li Class="CompActivatableEffect.CompProperties_ActivatableEffect">
-			<compClass>ProjectJedi.CompLightsaberActivatableEffect</compClass>
+			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
 			<ActivateLabel>Activate</ActivateLabel>
 			<uiIconPathActivate>UI/Lightsaber/ObiActivate</uiIconPathActivate>
@@ -537,7 +537,7 @@
 			<soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
 		  </li>
 		  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
-		  <compClass>ProjectJedi.CompCrystalSlotLoadable</compClass>
+		  <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
 		    <slots>
 				<li>PJ_KyberCrystalSlot</li>
 			</slots>
@@ -612,7 +612,7 @@
 		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 		  </li>	
 		  <li Class="CompActivatableEffect.CompProperties_ActivatableEffect">
-			<compClass>ProjectJedi.CompLightsaberActivatableEffect</compClass>
+			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
 			<ActivateLabel>Activate</ActivateLabel>
 			<uiIconPathActivate>UI/Lightsaber/EleActivate</uiIconPathActivate>
@@ -635,7 +635,7 @@
 			<soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
 		  </li>
 		  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
-		  <compClass>ProjectJedi.CompCrystalSlotLoadable</compClass>
+		  <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
 		    <slots>
 				<li>PJ_KyberCrystalSlot</li>
 			</slots>
