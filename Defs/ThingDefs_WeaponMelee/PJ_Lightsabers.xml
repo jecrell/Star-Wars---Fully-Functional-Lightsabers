@@ -89,7 +89,7 @@
 		<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>PJ_Lightsaber</defName>
 		<label>lightsaber (prototype)</label>
-		<description>An elegant weapon, from a more civilized age - or so it is claimed.</description>
+		<description>An elegant weapon, from a more civilized age - or so it is claimed.\n A basic, simple lightsaber design.</description>
 		<graphicData>
 			<texPath>Weapons/LightsaberHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -186,7 +186,7 @@
 		<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>PJ_DookuSaber</defName>
 		<label>Lightsaber (curved hilt)</label>
-		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.</description>
+		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis hilt is curved, allowing for an altered angle of attack that can be difficult to defend against.</description>
 		<graphicData>
 			<texPath>Weapons/DookuHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -207,7 +207,7 @@
 			<DeteriorationRate>0.025</DeteriorationRate>
 			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
-		<equippedAngleOffset>-72</equippedAngleOffset>
+		<equippedAngleOffset>-32</equippedAngleOffset>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -283,7 +283,7 @@
 			<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>PJ_KyloSaber</defName>
 		<label>Lightsaber (cross hilt)</label>
-		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.</description>
+		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis one looks like it uses a cracked primary crystal.</description>
 		<graphicData>
 			<texPath>Weapons/KyloHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -380,7 +380,7 @@
 		<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>PJ_Doublesaber</defName>
 		<label>Double lightsaber</label>
-		<description>An elegant weapon, from a more civilized age - or so it is claimed.</description>
+		<description>An elegant weapon, from a more civilized age.\nThis hilt boasts a second emitter, making it an exotic double-bladed saber.</description>
 		<graphicData>
 			<texPath>Weapons/DoublesaberHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -477,7 +477,7 @@
 			<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>PJ_ObiSaber</defName>
 		<label>Lightsaber (Old style hilt)</label>
-		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.</description>
+		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis is a classical hilt... very familiar in fact...</description>
 		<graphicData>
 			<texPath>Weapons/ObiwanHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -575,7 +575,7 @@
 		<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>PJ_ElectrumSaber</defName>
 		<label>Lightsaber (Electrum hilt)</label>
-		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.</description>
+		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis version looks like it was designed for a person of high office.</description>
 		<graphicData>
 			<texPath>Weapons/ElectrumHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

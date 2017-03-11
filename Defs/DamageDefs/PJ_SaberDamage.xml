@@ -41,6 +41,134 @@
 			<destroyedOutLabel>sliced out</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
+	
+	<!-- ====== Barab Crystal Damage ====== -->
+	
+	  <DamageDef>
+    <defName>PJ_BarabDam</defName>
+    <label>Saber radburn</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>	
+    <externalViolence>true</externalViolence>
+    <armorCategory>Heat</armorCategory>	
+    <makesBlood>true</makesBlood>	
+    <spreadOut>false</spreadOut>	
+    <deathMessage>{0} died from lightsaber wounds.</deathMessage>
+    <hediff>PJ_BarabRads</hediff>
+    <impactSoundType>Slice</impactSoundType>
+  </DamageDef>
 
+  	<HediffDef>
+		<defName>PJ_BarabRads</defName>
+		<label>barab burn</label>
+		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
+		<displayWound>true</displayWound>		
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>treated</labelTendedWellInner>
+        <labelSolidTendedWell>tended</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsOld">
+        <oldLabel>barab radiation scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.02375</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<!-- ====== Firkrann Crystal Damage ====== -->
+	
+	  <DamageDef>
+    <defName>PJ_FirkDam</defName>
+    <label>Shock burn</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>	
+    <externalViolence>true</externalViolence>
+    <armorCategory>Electric</armorCategory>	
+    <makesBlood>true</makesBlood>	
+    <spreadOut>false</spreadOut>	
+    <deathMessage>{0} died from charged lightsaber wounds.</deathMessage>
+    <hediff>PJ_FirkZap</hediff>
+    <impactSoundType>Slice</impactSoundType>
+  </DamageDef>
+
+  	<HediffDef>
+		<defName>PJ_FirkZap</defName>
+		<label>firkrann shock burn</label>
+		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
+		<displayWound>true</displayWound>		
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>treated</labelTendedWellInner>
+        <labelSolidTendedWell>tended</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsOld">
+        <oldLabel>firkrann shock scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.02375</painPerSeverity>
+      <averagePainPerSeverityOld>0.00325</averagePainPerSeverityOld>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	
+	<!-- ====== Sonic Damage (Dragite) ====== -->
+	
+	<DamageDef>
+    <defName>PJ_SonicDam</defName>
+    <label>Sonic damage</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>	
+    <externalViolence>true</externalViolence>
+    <armorCategory>Blunt</armorCategory>	
+    <makesBlood>true</makesBlood>	
+    <spreadOut>false</spreadOut>	
+    <deathMessage>{0} has died from sonic fractures.</deathMessage>
+    <hediff>PJ_SonicBoom</hediff>
+    <impactSoundType>Slice</impactSoundType>
+  </DamageDef>
+
+  	<HediffDef>
+		<defName>PJ_SonicBoom</defName>
+		<label>sonic fracture</label>
+		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
+		<displayWound>true</displayWound>		
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>treated</labelTendedWellInner>
+        <labelSolidTendedWell>tended</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.03</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsOld">
+        <oldLabel>sonic microfracture</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.02475</painPerSeverity>
+      <averagePainPerSeverityOld>0.00345</averagePainPerSeverityOld>
+      <canMerge>true</canMerge>
+			<destroyedLabel>obliterated</destroyedLabel>
+			<destroyedOutLabel>vaporized</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
   
 </Defs>

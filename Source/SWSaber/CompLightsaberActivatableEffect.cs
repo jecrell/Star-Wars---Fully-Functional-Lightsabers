@@ -23,10 +23,14 @@ namespace SWSaber
                     {
                         if (colorSlot.SlotOccupant != null)
                         {
-                            if (graphic.Shader != null)
+                            CompSlottedBonus slotBonus = colorSlot.SlotOccupant.TryGetComp<CompSlottedBonus>();
+                            if (slotBonus != null)
                             {
-                                Graphic result = graphic.GetColoredVersion(graphic.Shader, colorSlot.SlotOccupant.DrawColor, colorSlot.SlotOccupant.DrawColorTwo);
-                                if (result != null) return result;
+                                if (graphic.Shader != null)
+                                {
+                                    Graphic result = graphic.GetColoredVersion(graphic.Shader, slotBonus.Props.color, slotBonus.Props.color);
+                                    if (result != null) return result;
+                                }
                             }
                         }
                     }
@@ -51,7 +55,7 @@ namespace SWSaber
                     {
                         return true;
                     }
-                }//
+                }
             }
             Messages.Message("KyberCrystalRequired".Translate(), MessageSound.RejectInput);
             return false;
