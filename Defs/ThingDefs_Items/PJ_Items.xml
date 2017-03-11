@@ -182,6 +182,7 @@
 	 <statModifiers>
 	   <MeleeWeapon_DamageAmount>35</MeleeWeapon_DamageAmount>
 	 </statModifiers>
+	 <color>(28,19,151)</color>
 	 	 </li>
 	 </comps>
   </ThingDef>  
@@ -205,6 +206,7 @@
 		<AccuracyMedium>0.82</AccuracyMedium>
 		<AccuracyLong>0.82</AccuracyLong>
 	 </statModifiers>
+	 <color>(124,196,243)</color>
 	 	 </li>
 	 </comps>
   </ThingDef>  
@@ -225,6 +227,7 @@
 				<MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
 			</statModifiers>
 			<damageDef>PJ_SonicDam</damageDef>
+			<color>(60,12,70)</color>
 		</li>
 	 </comps>
   </ThingDef>  
@@ -244,6 +247,7 @@
 	 <statModifiers>
 	   <MeleeWeapon_DamageAmount>40</MeleeWeapon_DamageAmount>
 	 </statModifiers>
+	 <color>(71,29,144)</color>
 	 	 </li>
 	 </comps>
   </ThingDef> 
@@ -263,6 +267,7 @@
 		<statModifiers>
 	   <MeleeWeapon_DamageAmount>32</MeleeWeapon_DamageAmount>
 	 </statModifiers>
+	 <color>(188,206,210)</color>
 	 	 </li>
 	 </comps>
   </ThingDef> 
@@ -283,6 +288,7 @@
 	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
 	   <MeleeWeapon_Cooldown>-0.15</MeleeWeapon_Cooldown>
 	 </statModifiers>
+	 <color>(175,136,72)</color>
 	 	 </li>
 	 </comps>
   </ThingDef> 
@@ -302,6 +308,7 @@
 		<statModifiers>
 	   <MeleeWeapon_DamageAmount>100</MeleeWeapon_DamageAmount>
 	 </statModifiers>
+	 <color>(255,70,70)</color>
 	 	 </li>
 	 </comps>
   </ThingDef>    
@@ -323,6 +330,7 @@
 	   <MeleeWeapon_Cooldown>0.35</MeleeWeapon_Cooldown>
 	 </statModifiers>
 	 <damageDef>PJ_FirkDam</damageDef>
+	   <color>(240,241,241)</color>
 	 	 </li>
 	 </comps>
   </ThingDef>  
@@ -343,6 +351,7 @@
 	   <MeleeWeapon_DamageAmount>45</MeleeWeapon_DamageAmount>
 	 </statModifiers>
 	 <damageDef>PJ_BarabDam</damageDef>
+	 <color>(206,105,27)</color>
 	 </li>
 	 </comps>
   </ThingDef>    
@@ -363,6 +372,7 @@
 	   <MeleeWeapon_DamageAmount>87</MeleeWeapon_DamageAmount>
 	   <MeleeWeapon_Cooldown>-0.35</MeleeWeapon_Cooldown>
 	 </statModifiers>
+	 <color>(170,205,255)</color>
 	  </li>
 	 </comps>
   </ThingDef>  
