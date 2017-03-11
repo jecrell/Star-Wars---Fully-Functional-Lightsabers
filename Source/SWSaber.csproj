@@ -73,6 +73,9 @@
     <Compile Include="SWSaber\CompLightsaberActivatableEffect.cs" />
     <Compile Include="SWSaber\CompCrystalSlotLoadable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SWSaber\CompProperties_CrystalSlotLoadable.cs" />
+    <Compile Include="SWSaber\CompProperties_LightsaberActivatableEffect.cs" />
+    <Compile Include="SWSaber\HarmonyPatches.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

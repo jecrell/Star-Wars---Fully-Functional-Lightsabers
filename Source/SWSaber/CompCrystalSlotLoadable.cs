@@ -11,24 +11,24 @@ namespace SWSaber
     {
         public override void TryEmptySlot(SlotLoadable slot)
         {
-            Log.Message("1");
-            ThingWithComps compOwner = this.parent as ThingWithComps;
+            //Log.Message("1");
+            ThingWithComps compOwner = base.parent as ThingWithComps;
             if (compOwner != null)
             {
-                Log.Message("2");
+                //Log.Message("2");
 
                 CompLightsaberActivatableEffect compLightsaberActivatableEffect = compOwner.TryGetComp<CompLightsaberActivatableEffect>();
                 if (compLightsaberActivatableEffect != null)
                 {
-                    Log.Message("3");
+                    //Log.Message("3");
 
                     if (compLightsaberActivatableEffect.IsActive())
                     {
-                        Log.Message("4");
+                        //Log.Message("4");
 
                         if (!compLightsaberActivatableEffect.TryDeactivate())
                         {
-                            Log.Message("5");
+                            //Log.Message("5");
 
                             Messages.Message("DeactivateLightsaberFirst", MessageSound.RejectInput);
                             return;
