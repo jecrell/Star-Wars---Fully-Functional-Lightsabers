@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PJ_SaberCasing</defName>
+    <label>Lightsaber Casing</label>
+    <description>A shielded outer housing for a lightsaber. Contains several components, including activator switch and blade adjustment controls.</description>
+    <graphicData>
+      <texPath>Items/LSCasing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+    <defName>PJ_SaberInternal</defName>
+    <label>Lightsaber Internal Components</label>
+    <description>Internal components for a Lightsaber, including a diatium power cell, crystal energy chamber, and focusing crystal array.</description>
+    <graphicData>
+      <texPath>Items/LSInternals</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+  
+  
+</ThingDefs>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <!-- ================ Kyber Crystals ================ -->
+  
+  
+  <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KyberCrystal</defName>
+    <label>color crystal (green)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>	
+	  <color>(23,175,10)</color>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KyberCrystalBlue</defName>
+    <label>color crystal (blue)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(39,25,199)</color>
+    </graphicData>
+  </ThingDef>  
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KyberCrystalCyan</defName>
+    <label>color crystal (cyan)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(0,255,255)</color>
+    </graphicData>
+  </ThingDef>  
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KyberCrystalAzure</defName>
+    <label>color crystal (azure)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(0, 153, 255)</color>
+    </graphicData>
+  </ThingDef>  
+  
+  <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KyberCrystalRed</defName>
+    <label>Synthetic crystal (red)</label>
+    <description>This living kyber crystal has been "bled" by the forces of the dark side and corrupted away from its natural color into a crimson red.</description>	
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(206,12,44)</color>
+    </graphicData>
+	<statBases>
+		<MeleeWeapon_DamageAmount>77</MeleeWeapon_DamageAmount>
+	</statBases>
+  </ThingDef>    
+  
+  <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KyberCrystalPurple</defName>
+    <label>color crystal (purple)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	
+	  <drawSize>(1,1)</drawSize>
+	  <color>(153,50,204)</color>
+    </graphicData>
+  </ThingDef>    
+  
+  <!-- ====== Stat Bonus Crystals ====== -->
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_AdeganCrystal</defName>
+    <label>Adegan crystal (green)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>	
+	  <color>(11,176,74)</color>
+    </graphicData>
+  </ThingDef>
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_AnkSapphire</defName>
+    <label>Ankarres Sapphire (Dk blue)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(28,19,151)</color>
+    </graphicData>
+	 <statBases>
+	   <MeleeWeapon_DamageAmount>35</MeleeWeapon_DamageAmount>
+	 </statBases>
+  </ThingDef>  
+  
+      <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_DamindCrystal</defName>
+    <label>Damind crystal (Lt azure)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(124,196,243)</color>
+    </graphicData>
+		<statBases>
+	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
+	 </statBases>
+  </ThingDef>  
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_DragiteCrystal</defName>
+    <label>Dragite crystal (Indigo purple)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	
+	  <drawSize>(1,1)</drawSize>
+	  <color>(71,29,144)</color>
+    </graphicData>
+	 <statBases>
+	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
+	   <AccuracyLong>0.95</AccuracyLong> <!-- Deflection test -->
+	 </statBases>
+  </ThingDef>  
+  
+      <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_HurCrystal</defName>
+    <label>Hurrikaine crystal (Indigo purple)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	
+	  <drawSize>(1,1)</drawSize>
+	  <color>(60,12,70)</color>
+    </graphicData>
+	 <statBases>
+	   <MeleeWeapon_DamageAmount>40</MeleeWeapon_DamageAmount>
+	 </statBases>
+  </ThingDef> 
+  
+       <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_EralamCrystal</defName>
+    <label>Eralam crystal (silver)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(188,206,210)</color>
+    </graphicData>
+		<statBases>
+	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
+	 </statBases>
+  </ThingDef> 
+  
+         <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_RubatCrystal</defName>
+    <label>Rubat crystal (Bronze)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(175,136,72)</color>
+    </graphicData>
+		<statBases>
+	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
+	 </statBases>
+  </ThingDef> 
+
+       <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_KaiburrCrystal</defName>
+    <label>Kaiburr Crystal(Red)</label>
+	<description>The legendary Kaiburr crystal, from which the kyber take their name. Arguably the most powerful crystal</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(255,70,70)</color>
+    </graphicData>
+		<statBases>
+	   <MeleeWeapon_DamageAmount>100</MeleeWeapon_DamageAmount>
+	 </statBases>
+  </ThingDef>    
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_FirkrannCrystal</defName>
+    <label>Firkrann crystal (silver)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(240,241,241)</color>
+    </graphicData>
+	<statBases>
+	   <MeleeWeapon_DamageAmount>97</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_Cooldown>0.35</MeleeWeapon_Cooldown>
+	 </statBases>
+  </ThingDef>  
+  
+    <ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_BarabIngot</defName>
+    <label>Barab Ore Ingot (Orange)</label>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	
+	  <drawSize>(1,1)</drawSize>
+	  <color>(206,105,27)</color>
+    </graphicData>
+	<statBases>
+	   <MeleeWeapon_DamageAmount>45</MeleeWeapon_DamageAmount>
+	 </statBases>
+	 <equippedStatOffsets>
+	 <MeleeHitChance>0.35</MeleeHitChance>
+	 <MoveSpeed>0.20</MoveSpeed>
+	 </equippedStatOffsets>
+  </ThingDef>    
+  
+<ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_UltimaPearl</defName>
+    <label>Ultima Pearl (Pale)</label>
+    <graphicData>
+      <texPath>Items/UltPearl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	
+	  <drawSize>(1,1)</drawSize>
+	  <color>(170,205,255)</color>
+    </graphicData>
+	<statBases>
+	   <MeleeWeapon_DamageAmount>87</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_Cooldown>-0.35</MeleeWeapon_Cooldown>
+	 </statBases>
+	 <equippedStatOffsets>
+	 <MeleeHitChance>0.45</MeleeHitChance>
+	 <MoveSpeed>0.20</MoveSpeed>
+	 
+	 </equippedStatOffsets>
+  </ThingDef>  
+  
+<ThingDef ParentName="KyberCrystalBase">
+    <defName>PJ_BlackPearl</defName>
+    <label>Xen's Pearl (Black)</label>
+    <graphicData>
+      <texPath>Items/UltPearl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	
+	  <drawSize>(1,1)</drawSize>
+	  <color>(38,43,65)</color>
+    </graphicData>
+	<statBases>
+	   <MeleeWeapon_DamageAmount>87</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_Cooldown>-0.75</MeleeWeapon_Cooldown>
+	 </statBases>
+	 <equippedStatOffsets>
+	 <MeleeHitChance>0.45</MeleeHitChance>
+	 <MoveSpeed>0.20</MoveSpeed>
+	 <PsychicSensitivity>-0.5</PsychicSensitivity>
+	 <SurgerySuccessChance>0.25</SurgerySuccessChance>
+	 <HealingQuality>0.30</HealingQuality>
+		<HealingSpeed>0.3</HealingSpeed>
+		<MedicalOperationSpeed>0.3</MedicalOperationSpeed>
+	 </equippedStatOffsets>
+  </ThingDef>  
+  
+  
+  <!--================== Base ==================-->
+  
+  <ThingDef Name="KyberCrystalBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>	
+    <description>The kyber, or living crystal, is a rare force attuned prism able to power lightsabers. Kyber crystals can be found scattered throughout the galaxy.</description>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+     <thingCategories>
+      <li>Artifacts</li>
+    </thingCategories>	
+	<tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>false</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>1</stackLimit>
+	<tradeNeverStack>true</tradeNeverStack>
+	<statBases>
+	  <Beauty>5</Beauty>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.3</Mass>	  
+	</statBases>
+	<comps>
+		<li Class="CompProperties_Forbiddable"/>
+	</comps>
+	<alwaysHaulable>true</alwaysHaulable>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<rotatable>false</rotatable>
+	<pathCost>15</pathCost>
+  </ThingDef>
+  
+
+</Defs>
