@@ -158,13 +158,16 @@
 			</slots>
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
-		    <compClass>CompDeflector.CompDeflector</compClass>
+		    <compClass>SWSaber.CompLightsaberDeflection</compClass>
 			<baseDeflectChance>0.99</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>PJ_LightsaberDeflect</deflectSound>
 			<deflectSkill>Melee</deflectSkill>
 			<deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+            <canReflect>true</canReflect>
+            <reflectSkill>Melee</reflectSkill>
+            <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>

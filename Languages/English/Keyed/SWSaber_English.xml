@@ -4,6 +4,9 @@
 
 <!-- ========== COMPS ============ -->
 
+<SWSaber_TextMote_CriticalSuccess>Critical Hit</SWSaber_TextMote_CriticalSuccess>
+<SWSaber_TextMote_CriticalFailure>Critical Failure</SWSaber_TextMote_CriticalFailure>
+
 <KyberCrystalRequired>Lightsaber crystal required</KyberCrystalRequired>
 <Activated>Activate</Activated>
 <Deactivated>Deactivate</Deactivated>
