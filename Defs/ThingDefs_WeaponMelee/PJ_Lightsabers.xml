@@ -90,7 +90,7 @@
 		<!-- ================== STANDARD ==================== -->
   
 		<ThingDef ParentName="PJ_BaseLightsaber">
-		<defName>PJ_Lightsaber</defName>
+		<defName>SWSaber_Lightsaber</defName>
 		<label>lightsaber (prototype)</label>
 		<description>An elegant weapon, from a more civilized age - or so it is claimed.\n A basic, simple lightsaber design.</description>
 		<graphicData>
@@ -190,8 +190,8 @@
 		<!-- ================== CURVED ==================== -->
 	
 		<ThingDef ParentName="PJ_BaseLightsaber">
-		<defName>PJ_DookuSaber</defName>
-		<label>Lightsaber (curved hilt)</label>
+		<defName>SWSaber_DookuSaber</defName>
+		<label>lightsaber (curved hilt)</label>
 		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis hilt is curved, allowing for an altered angle of attack that can be difficult to defend against.</description>
 		<graphicData>
 			<texPath>Weapons/DookuHilt</texPath>
@@ -258,13 +258,16 @@
 			</slots>
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
-		    <compClass>CompDeflector.CompDeflector</compClass>
+		    <compClass>SWSaber.CompLightsaberDeflection</compClass>
 			<baseDeflectChance>0.99</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>PJ_LightsaberDeflect</deflectSound>
 			<deflectSkill>Melee</deflectSkill>
 			<deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+            <canReflect>true</canReflect>
+            <reflectSkill>Melee</reflectSkill>
+            <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -287,8 +290,8 @@
 		<!-- ======== Kylo Ren Crosshilt Saber ======== -->
 		
 			<ThingDef ParentName="PJ_BaseLightsaber">
-		<defName>PJ_KyloSaber</defName>
-		<label>Lightsaber (cross hilt)</label>
+		<defName>SWSaber_KyloSaber</defName>
+		<label>lightsaber (cross hilt)</label>
 		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis one looks like it uses a cracked primary crystal.</description>
 		<graphicData>
 			<texPath>Weapons/KyloHilt</texPath>
@@ -387,8 +390,8 @@
 		<!-- ======== Darth Maul Double Saber ======== -->
 	
 		<ThingDef ParentName="PJ_BaseLightsaber">
-		<defName>PJ_Doublesaber</defName>
-		<label>Double lightsaber</label>
+		<defName>SWSaber_Doublesaber</defName>
+		<label>lightsaber (double)</label>
 		<description>An elegant weapon, from a more civilized age.\nThis hilt boasts a second emitter, making it an exotic double-bladed saber.</description>
 		<graphicData>
 			<texPath>Weapons/DoublesaberHilt</texPath>
@@ -487,8 +490,8 @@
 		<!-- ======== Obi Wan Saber ======== -->
 	
 			<ThingDef ParentName="PJ_BaseLightsaber">
-		<defName>PJ_ObiSaber</defName>
-		<label>Lightsaber (Old style hilt)</label>
+		<defName>SWSaber_ObiSaber</defName>
+		<label>lightsaber (old style hilt)</label>
 		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis is a classical hilt... very familiar in fact...</description>
 		<graphicData>
 			<texPath>Weapons/ObiwanHilt</texPath>
@@ -588,8 +591,8 @@
 		
 		
 		<ThingDef ParentName="PJ_BaseLightsaber">
-		<defName>PJ_ElectrumSaber</defName>
-		<label>Lightsaber (Electrum hilt)</label>
+		<defName>SWSaber_ElectrumSaber</defName>
+		<label>lightsaber (Electrum hilt)</label>
 		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis version looks like it was designed for a person of high office.</description>
 		<graphicData>
 			<texPath>Weapons/ElectrumHilt</texPath>

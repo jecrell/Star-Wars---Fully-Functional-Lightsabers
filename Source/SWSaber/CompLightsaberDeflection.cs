@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using Harmony;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,63 +11,13 @@ namespace SWSaber
 {
     public class CompLightsaberDeflection : CompDeflector.CompDeflector
     {
- 
+        public readonly int defenseMeleeBlockChance = 15;
+        public readonly FloatRange reflectionReturnChance = new FloatRange(0.15f, 0.25f);
 
         //Determines new accuracy based on skills.
         public override Verb CopyAndReturnNewVerb_PostFix(Verb newVerb)
         {
-            //lastAccuracyRoll = CalculatedAccuracy();
             Verb deflectVerb = newVerb;
-
-            ////Initialize VerbProperties
-            //VerbProperties newVerbProps = new VerbProperties();
-
-            ////Copy values over to a new verb props
-            //newVerbProps.hasStandardCommand = newVerb.verbProps.hasStandardCommand;
-            //newVerbProps.projectileDef = newVerb.verbProps.projectileDef;
-            //newVerbProps.range = newVerb.verbProps.range;
-            //newVerbProps.muzzleFlashScale = newVerb.verbProps.muzzleFlashScale;
-            //newVerbProps.warmupTime = 0;
-            //newVerbProps.defaultCooldownTime = 0;
-            //newVerbProps.soundCast = this.Props.deflectSound;
-            
-            //switch (lastAccuracyRoll)
-            //{
-            //    case AccuracyRoll.CriticalSuccess:
-            //        //if (GetPawn != null)
-            //        //{
-            //        //    MoteMaker.ThrowText(GetPawn.DrawPos, GetPawn.Map, "SWSaber_TextMote_CriticalSuccess".Translate(), 6f);
-            //        //}
-            //        newVerbProps.accuracyLong = 999.0f;
-            //        newVerbProps.accuracyMedium = 999.0f;
-            //        newVerbProps.accuracyShort = 999.0f;
-            //        break;
-            //    case AccuracyRoll.Failure:
-            //        newVerbProps.forcedMissRadius = 50.0f;
-            //        newVerbProps.accuracyLong = 0.0f;
-            //        newVerbProps.accuracyMedium = 0.0f;
-            //        newVerbProps.accuracyShort = 0.0f;
-            //        break;
-
-            //    case AccuracyRoll.CritialFailure:
-            //        if (GetPawn != null)
-            //        {
-            //            MoteMaker.ThrowText(GetPawn.DrawPos, GetPawn.Map, "SWSaber_TextMote_CriticalFailure".Translate(), 6f);
-            //        }
-            //        newVerbProps.accuracyLong = 999.0f;
-            //        newVerbProps.accuracyMedium = 999.0f;
-            //        newVerbProps.accuracyShort = 999.0f;
-            //        break;
-            //    case AccuracyRoll.Success:
-            //        newVerbProps.accuracyLong = 999.0f;
-            //        newVerbProps.accuracyMedium = 999.0f;
-            //        newVerbProps.accuracyShort = 999.0f;
-            //        break;
-            //}
-            ////Apply values
-            //deflectVerb.verbProps = newVerbProps;
-
-            //Log.Message("Accuracy Roll Result: " + lastAccuracyRoll.ToString());
             if (SWSaber.Utility.AreForcePowersLoaded()) deflectVerb = CopyAndReturnNewVerb_ForceAdjustments(deflectVerb);
             return deflectVerb;
         }
@@ -79,17 +30,98 @@ namespace SWSaber
             return result;
         }
 
+        public override void ReflectionAccuracy_InFix(ref int modifier, ref int difficulty)
+        {
+            if (SWSaber.Utility.AreForcePowersLoaded())
+            {
+                difficulty = CalculatedAccuracy_ForceDifficulty();
+                modifier = CalculatedAccuracy_ForceModifier();
+            }
+
+        }
+        public override float DeflectionChance_InFix(float calc)
+        {
+            float result = calc;        
+            if (SWSaber.Utility.AreForcePowersLoaded())
+            {
+                result = CalculatedBlock_ForceModifier();
+            }
+            return result;
+
+        }
+
+
+        //
         #region ForceUsers
-        //Placeholder for now.
+
+        public override bool TrySpecialMeleeBlock()
+        {
+            bool result = false;
+            ThingComp forceUser = GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
+            if (forceUser != null)
+            {
+                int modifier = (int)AccessTools.Method(forceUser.GetType(), "ForceSkillLevel").Invoke(forceUser, new object[] { "PJ_LightsaberDefense" });
+                int blockChance = 0;
+                if (modifier > 0)
+                {
+                    for (int i = 0; i < modifier; i++)
+                    {
+                        blockChance += defenseMeleeBlockChance;
+                    }
+                    if (blockChance > Rand.Range(0, 100))
+                    {
+                        result = true;
+                        MoteMaker.ThrowText(forceUser.parent.Position.ToVector3(), forceUser.parent.Map, "SWSaber_Block".Translate(), 2f);
+                    }
+                }
+            }
+            return result;
+        }
+
+        public float CalculatedBlock_ForceModifier()
+        {
+            float result = 0;
+            ThingComp forceUser = GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
+            if (forceUser != null)
+            {
+                int modifier = (int)AccessTools.Method(forceUser.GetType(), "ForceSkillLevel").Invoke(forceUser, new object[] { "PJ_LightsaberDefense" });
+                if (modifier > 0)
+                {
+                    for (int i = 0; i < modifier; i++)
+                    {
+                        result += Rand.Range(reflectionReturnChance.min, reflectionReturnChance.max);
+                    }
+                }
+                //Log.Message("Lightsabers: :: New Modifier " + modifier.ToString());
+            }
+            return result;
+        }
+
+
         public int CalculatedAccuracy_ForceModifier()
         {
-            return 0;
+            //Log.Message("Lightsabers :: ForceModifier Called");
+            int result = 0;
+            ThingComp forceUser = GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
+            if (forceUser != null)
+            {
+                int modifier = (int)AccessTools.Method(forceUser.GetType(), "ForceSkillLevel").Invoke(forceUser, new object[] { "PJ_LightsaberReflection" });
+                if (modifier > 0)
+                {
+                    for (int i = 0; i < modifier; i++)
+                    {
+                        result += Rand.Range(15, 25);
+                    }
+                }
+                //Log.Message("Lightsabers: :: New Modifier " + modifier.ToString());
+            }
+            return result;
         }
 
         //Placeholder for now.
         public int CalculatedAccuracy_ForceDifficulty()
         {
-            return 80;
+            return 100;
         }
 
         //Placeholder for now.

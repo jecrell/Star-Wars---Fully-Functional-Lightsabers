@@ -18,6 +18,7 @@ namespace SWSaber
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.jecrell.starwars.lightsaber");
             harmony.Patch(AccessTools.Method(typeof(Pawn_EquipmentTracker), "AddEquipment"), null, new HarmonyMethod(typeof(HarmonyPatches).GetMethod("AddEquipment_PostFix")), null);
+            
         }
 
         public static void AddEquipment_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps newEq)

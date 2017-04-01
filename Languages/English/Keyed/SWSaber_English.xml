@@ -6,6 +6,7 @@
 
 <SWSaber_TextMote_CriticalSuccess>Critical Hit</SWSaber_TextMote_CriticalSuccess>
 <SWSaber_TextMote_CriticalFailure>Critical Failure</SWSaber_TextMote_CriticalFailure>
+<SWSaber_Block>Blocked</SWSaber_Block>
 
 <KyberCrystalRequired>Lightsaber crystal required</KyberCrystalRequired>
 <Activated>Activate</Activated>
