@@ -8,6 +8,7 @@ using Verse;
 using Verse.AI;
 using System.Reflection;
 using UnityEngine;
+using CompSlotLoadable;
 
 namespace SWSaber
 {
@@ -18,8 +19,17 @@ namespace SWSaber
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.jecrell.starwars.lightsaber");
             harmony.Patch(AccessTools.Method(typeof(Pawn_EquipmentTracker), "AddEquipment"), null, new HarmonyMethod(typeof(HarmonyPatches).GetMethod("AddEquipment_PostFix")), null);
-            
+            //harmony.Patch(AccessTools.Method(typeof(Pawn_EquipmentTracker), "Remove"), new HarmonyMethod(typeof(HarmonyPatches).GetMethod("Remove_PostFix")), null);
         }
+
+        //public static void Remove_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps eq)
+        //{
+        //    CompLightsaberActivatableEffect lightsaberEffect = eq.TryGetComp<CompLightsaberActivatableEffect>();
+        //    if (lightsaberEffect != null)
+        //    {
+
+        //    }
+        //}
 
         public static void AddEquipment_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps newEq)
         {
@@ -32,9 +42,12 @@ namespace SWSaber
                 {
                     if (pawn.Faction != Faction.OfPlayer)
                     {
+                        Log.Message("1");
                         CompCrystalSlotLoadable crystalSlot = newEq.GetComp<CompCrystalSlotLoadable>();
                         if (crystalSlot != null)
                         {
+                            crystalSlot.Initialize();
+                            Log.Message("2");
                             List<string> randomCrystals = new List<string>()
                             {
                                 "PJ_KyberCrystal",
@@ -45,8 +58,10 @@ namespace SWSaber
                                 "PJ_KyberCrystalPurple",
                             };
                             ThingWithComps thingWithComps = (ThingWithComps)ThingMaker.MakeThing(ThingDef.Named(randomCrystals.RandomElement<string>()), null);
-                            foreach (CompSlotLoadable.SlotLoadable slot in crystalSlot.Slots)
+                            Log.Message(thingWithComps.Label);
+                            foreach (SlotLoadable slot in crystalSlot.Slots)
                             {
+                                Log.Message("3");
                                 slot.TryLoadSlot(thingWithComps);
                             }
                             lightsaberEffect.Activate();

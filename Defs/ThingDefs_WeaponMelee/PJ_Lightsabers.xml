@@ -592,7 +592,7 @@
 		
 		<ThingDef ParentName="PJ_BaseLightsaber">
 		<defName>SWSaber_ElectrumSaber</defName>
-		<label>lightsaber (Electrum hilt)</label>
+		<label>lightsaber (electrum hilt)</label>
 		<description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis version looks like it was designed for a person of high office.</description>
 		<graphicData>
 			<texPath>Weapons/ElectrumHilt</texPath>
