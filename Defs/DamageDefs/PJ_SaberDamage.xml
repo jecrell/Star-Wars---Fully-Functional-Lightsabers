@@ -170,5 +170,19 @@
 			<destroyedOutLabel>vaporized</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
+	
+	
+	<DamageDef>
+		<defName>PJ_PontiteDam</defName>
+		<label>Saber frost</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>	
+		<externalViolence>true</externalViolence>
+		<armorCategory>Heat</armorCategory>	
+		<makesBlood>true</makesBlood>	
+		<spreadOut>false</spreadOut>	
+		<deathMessage>{0} died from freezing lightsaber wounds.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<impactSoundType>Slice</impactSoundType>
+	</DamageDef>
   
 </Defs>
