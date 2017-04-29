@@ -9,19 +9,13 @@
     <description>The kyber, or living crystal, is a rare force attuned prism able to power lightsabers. Kyber crystals can be found scattered throughout the galaxy.</description>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
-     <thingCategories>
-      <li>Artifacts</li>
-    </thingCategories>	
-	<tradeTags>
-      <li>Artifact</li>
-    </tradeTags>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>false</useHitPoints>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>1</stackLimit>
 	<tradeNeverStack>true</tradeNeverStack>
-	<statBases>
+  	<statBases>
 	  <Beauty>5</Beauty>
       <MarketValue>2000</MarketValue>
       <Mass>0.3</Mass>	  
@@ -34,12 +28,40 @@
 	<rotatable>false</rotatable>
 	<pathCost>15</pathCost>
   </ThingDef>
+  
+  <ThingDef Name="KyberCrystalBaseSynthetic" ParentName="KyberCrystalBase" Abstract="True">
+  	<statBases>
+	  <Beauty>5</Beauty>
+      <MarketValue>90</MarketValue>
+      <Mass>0.2</Mass>	  
+	</statBases>
+	<thingCategories>
+      <li>PJ_KyberCrystals</li>
+    </thingCategories>	
+	<tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
 
+  <ThingDef Name="KyberCrystalBaseRare" ParentName="KyberCrystalBase" Abstract="True">
+  	<statBases>
+	  <Beauty>5</Beauty>
+      <MarketValue>4000</MarketValue>
+      <Mass>0.3</Mass>	  
+	</statBases>
+    <thingCategories>
+      <li>PJ_KyberCrystals</li>
+    </thingCategories>	
+	<tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>  
+  
 
-  <!-- ================ Kyber Crystals ================ -->
+  <!-- ================ Synthetic Kyber Crystals ================ -->
   
   
-  <ThingDef ParentName="KyberCrystalBase">
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystal</defName>
     <label>color crystal (green)</label>
 	<description>A basic colored focusing crystal for a lightsaber.</description>
@@ -56,7 +78,7 @@
 	 </comps>
   </ThingDef>
   
-  <ThingDef ParentName="KyberCrystalBase">
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalBlue</defName>
     <label>color crystal (blue)</label>
 	<description>A basic colored focusing crystal for a lightsaber.</description>
@@ -73,7 +95,7 @@
 	 </comps>
   </ThingDef>  
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalCyan</defName>
     <label>color crystal (cyan)</label>
 	<description>A basic colored focusing crystal for a lightsaber.</description>
@@ -90,7 +112,7 @@
 	 </comps>
   </ThingDef>  
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalAzure</defName>
     <label>color crystal (azure)</label>
 	<description>A basic colored focusing crystal for a lightsaber.</description>
@@ -106,28 +128,9 @@
 		</li>
 	 </comps>
   </ThingDef>  
+
   
-  <ThingDef ParentName="KyberCrystalBase">
-    <defName>PJ_KyberCrystalRed</defName>
-    <label>Synthetic crystal (red)</label>
-    <description>This synthesized crystal has been further enhanced, giving it a slightly more powerful blade, and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>	
-    <graphicData>
-      <texPath>Items/KyberCrystal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-	  <color>(206,12,44)</color>
-    </graphicData>
-	  <comps>
-		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
-			<color>(206,12,44)</color>
-			<statModifiers>
-				<MeleeWeapon_DamageAmount>28</MeleeWeapon_DamageAmount>
-			</statModifiers>		
-		</li>
-	 </comps>
-  </ThingDef>    
-  
-  <ThingDef ParentName="KyberCrystalBase">
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalPurple</defName>
     <label>color crystal (purple)</label>
 	<description>A basic colored focusing crystal for a lightsaber.</description>
@@ -144,11 +147,37 @@
 	 </comps>
   </ThingDef>    
   
+  
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalRed</defName>
+    <label>synthetic crystal (red)</label>
+    <description>This synthesized crystal has been further enhanced, giving it a slightly more powerful blade, and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>	
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(206,12,44)</color>
+    </graphicData>
+  	<statBases>
+	  <Beauty>5</Beauty>
+      <MarketValue>1800</MarketValue>
+      <Mass>0.3</Mass>	  
+	</statBases>	
+	  <comps>
+		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+			<color>(206,12,44)</color>
+			<statModifiers>
+				<MeleeWeapon_DamageAmount>28</MeleeWeapon_DamageAmount>
+			</statModifiers>		
+		</li>
+	 </comps>
+  </ThingDef>    
+
   <!-- ====== Stat Bonus Crystals ====== -->
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_AdeganCrystal</defName>
-    <label>Adegan crystal (green)</label>
+    <label>adegan crystal (green)</label>
 	<description>A rare force-reactive crystal, said to make one of the best crystals for a lightsaber focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -167,9 +196,9 @@
 	 </comps>
   </ThingDef>
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_AnkSapphire</defName>
-    <label>Ankarres Sapphire (Dk blue)</label>
+    <label>ankarres sapphire (dk blue)</label>
 	<description>Ankarres sapphires have almost legendary healing properties. This one is tuned to make a powerful deep-blue lightsaber blade when used as a focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -187,9 +216,9 @@
 	 </comps>
   </ThingDef>  
   
-      <ThingDef ParentName="KyberCrystalBase">
+      <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_DamindCrystal</defName>
-    <label>Damind crystal (Lt azure)</label>
+    <label>damind crystal (lt azure)</label>
 	<description>When set in a lightsaber, a Damind crystal produces a very slightly wider beam, making it easier to deflect ranged weapon fire. It is said that the Sith once favored these.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -211,9 +240,9 @@
 	 </comps>
   </ThingDef>  
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_DragiteCrystal</defName> 
-    <label>Dragite crystal (Light purple)</label><!--==Damage Changer==-->
+    <label>dragite crystal (lt purple)</label><!--==Damage Changer==-->
 	<description>A crystal often harvested for use as a power source, if used as a lightsaber focus, the beam resonates, causing sonic damage.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -232,10 +261,10 @@
 	 </comps>
   </ThingDef>  
   
-      <ThingDef ParentName="KyberCrystalBase">
+      <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_HurCrystal</defName>
-    <label>Hurrikaine crystal (Indigo purple)</label>
-<description>A deep Indigo purple crystal, admired for it's unparalleled beauty. It makes an exceptional lightsaber focus, rending through an enemies defenses.</description>
+    <label>hurrikaine crystal (indigo purple)</label>
+<description>A deep Indigo purple crystal, admired for it's unparalleled beauty. It makes an exceptional lightsaber focus, rending through an enemy's defenses.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>	
@@ -252,9 +281,9 @@
 	 </comps>
   </ThingDef> 
   
-       <ThingDef ParentName="KyberCrystalBase">
+       <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_EralamCrystal</defName>
-    <label>Eralam crystal (silver)</label>
+    <label>eralam crystal (silver)</label>
 	<description>A rare crystal, envied for it's clarity and purity. It produces a shining silver beam of great power.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -272,9 +301,9 @@
 	 </comps>
   </ThingDef> 
   
-         <ThingDef ParentName="KyberCrystalBase">
+         <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_RubatCrystal</defName>
-    <label>Rubat crystal (Bronze)</label>
+    <label>rubat crystal (bronze)</label>
 	<description>Rubat crystals are often used in the construction of lightsabers when they can be found. They produce a sharper defined blade that quickens striking ability.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -293,9 +322,9 @@
 	 </comps>
   </ThingDef> 
 
-       <ThingDef ParentName="KyberCrystalBase">
+       <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_KaiburrCrystal</defName>
-    <label>Kaiburr Crystal(Red)</label>
+    <label>kaiburr crystal (red-orange)</label>
 	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most powerful crystals that can be used for a lightsaber focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -308,14 +337,14 @@
 		<statModifiers>
 	   <MeleeWeapon_DamageAmount>100</MeleeWeapon_DamageAmount>
 	 </statModifiers>
-	 <color>(255,70,70)</color>
+	 <color>(255,63,52)</color>
 	 	 </li>
 	 </comps>
   </ThingDef>    
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_FirkrannCrystal</defName>
-    <label>Firkrann crystal (silver)</label><!--==Damage Changer==-->
+    <label>firkrann crystal (silver)</label><!--==Damage Changer==-->
 	<description>Firkrann are a heavy crystal with strange piezoelectric properties. When used as a lightsaber focus, it charges the beam, causing devastating damage to robotic creatures.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -335,9 +364,9 @@
 	 </comps>
   </ThingDef>  
   
-    <ThingDef ParentName="KyberCrystalBase">
+    <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_BarabIngot</defName>
-    <label>Barab Ore Ingot (Orange)</label><!--==Damage Changer==-->
+    <label>barab ore ingot (orange)</label><!--==Damage Changer==-->
 	<description>The constant infusion of radiation from Barab I's surface into these crystalline "ingots" causes a Barab ingot focused lightsaber to produce a blade that burned like fire, even causing the target of the blade to catch fire.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
@@ -356,9 +385,9 @@
 	 </comps>
   </ThingDef>    
   
-<ThingDef ParentName="KyberCrystalBase">
+<ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_UltimaPearl</defName>
-    <label>Ultima Pearl (Pale)</label>
+    <label>ultima pearl (pale)</label>
 	<description>Uncommon pearls harvested from a deep ocean world, it takes considerable skill to prepare them for use as a lightsaber focus, but the results are unquestionable.</description>
     <graphicData>
       <texPath>Items/UltPearl</texPath>
@@ -377,9 +406,9 @@
 	 </comps>
   </ThingDef>  
   
-<ThingDef ParentName="KyberCrystalBase">
+<ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_BlackPearl</defName>
-    <label>Krayt Dragon Pearl (Black)</label>
+    <label>krayt dragon pearl (black)</label>
 	<description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously powerful.</description>
     <graphicData>
       <texPath>Items/UltPearl</texPath>
@@ -397,10 +426,6 @@
 	 <color>(38,43,65)</color>
 	  </li>
 	 </comps>
-  </ThingDef>  
-  
-  
-
-  
+  </ThingDef>    
 
 </Defs>
