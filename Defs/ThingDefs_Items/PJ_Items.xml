@@ -248,7 +248,7 @@
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>	
 	  <drawSize>(1,1)</drawSize>
-	  <color>(60,12,70)</color>
+	  <color>(218, 112, 214)</color>
     </graphicData>
 	 <comps>
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
@@ -345,7 +345,7 @@
     <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_FirkrannCrystal</defName>
     <label>firkrann crystal (silver)</label><!--==Damage Changer==-->
-	<description>Firkrann are a heavy crystal with strange piezoelectric properties. When used as a lightsaber focus, it charges the beam, causing devastating damage to robotic creatures.</description>
+	<description>Firkrann are heavy crystals with strange piezoelectric properties. This unique crystal type converts part of the saber's plasma energy into an electric charge. This effect can inflict devastating damage, especially to mechanoids.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
