@@ -364,6 +364,29 @@
 	 </comps>
   </ThingDef>  
   
+  
+    <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_PontiteCrystal</defName>
+    <label>pontite crystal (Ice Blue)</label>
+	<description>Pontite crystals imbue their blade with an endothermic effect, absorbing heat and giving the resulting blade a cold damage type.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(68,107,207)</color>
+    </graphicData>
+		<comps>
+	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+		<statModifiers>
+	   <MeleeWeapon_DamageAmount>32</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_Cooldown>-0.10</MeleeWeapon_Cooldown>
+	 </statModifiers>
+	 <damageDef>PJ_PontiteDam</damageDef>
+	 <color>(68,107,207)</color>
+	 	 </li>
+	 </comps>
+  </ThingDef> 
+  
     <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_BarabIngot</defName>
     <label>barab ore ingot (orange)</label><!--==Damage Changer==-->
