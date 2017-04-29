@@ -341,7 +341,7 @@
   
     <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_PontiteCrystal</defName>
-    <label>pontite crystal (Ice Blue)</label>
+    <label>pontite crystal (ice blue)</label>
 	<description>Pontite crystals imbue their blade with an endothermic effect, absorbing heat and giving the resulting blade a cold damage type.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
