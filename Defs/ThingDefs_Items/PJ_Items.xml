@@ -46,7 +46,21 @@
   <ThingDef Name="KyberCrystalBaseRare" ParentName="KyberCrystalBase" Abstract="True">
   	<statBases>
 	  <Beauty>5</Beauty>
-      <MarketValue>4000</MarketValue>
+      <MarketValue>3000</MarketValue>
+      <Mass>0.3</Mass>	  
+	</statBases>
+    <thingCategories>
+      <li>PJ_KyberCrystals</li>
+    </thingCategories>	
+	<tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>  
+  
+  <ThingDef Name="KyberCrystalBaseLegendary" ParentName="KyberCrystalBase" Abstract="True">
+  	<statBases>
+	  <Beauty>5</Beauty>
+      <MarketValue>5000</MarketValue>
       <Mass>0.3</Mass>	  
 	</statBases>
     <thingCategories>
@@ -194,27 +208,7 @@
 	 </statModifiers>
 		</li>
 	 </comps>
-  </ThingDef>
-  
-    <ThingDef ParentName="KyberCrystalBaseRare">
-    <defName>PJ_AnkSapphire</defName>
-    <label>ankarres sapphire (dk blue)</label>
-	<description>Ankarres sapphires have almost legendary healing properties. This one is tuned to make a powerful deep-blue lightsaber blade when used as a focus.</description>
-    <graphicData>
-      <texPath>Items/KyberCrystal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-	  <color>(28,19,151)</color>
-    </graphicData>
-		<comps>
-	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
-	 <statModifiers>
-	   <MeleeWeapon_DamageAmount>35</MeleeWeapon_DamageAmount>
-	 </statModifiers>
-	 <color>(28,19,151)</color>
-	 	 </li>
-	 </comps>
-  </ThingDef>  
+  </ThingDef> 
   
       <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_DamindCrystal</defName>
@@ -321,26 +315,6 @@
 	 	 </li>
 	 </comps>
   </ThingDef> 
-
-       <ThingDef ParentName="KyberCrystalBaseRare">
-    <defName>PJ_KaiburrCrystal</defName>
-    <label>kaiburr crystal (red-orange)</label>
-	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most powerful crystals that can be used for a lightsaber focus.</description>
-    <graphicData>
-      <texPath>Items/KyberCrystal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-	  <color>(255,70,70)</color>
-    </graphicData>
-	  	<comps>
-	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">	
-		<statModifiers>
-	   <MeleeWeapon_DamageAmount>100</MeleeWeapon_DamageAmount>
-	 </statModifiers>
-	 <color>(255,63,52)</color>
-	 	 </li>
-	 </comps>
-  </ThingDef>    
   
     <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_FirkrannCrystal</defName>
@@ -406,9 +380,35 @@
 	 <color>(206,105,27)</color>
 	 </li>
 	 </comps>
-  </ThingDef>    
+  </ThingDef> 
+
+
   
-<ThingDef ParentName="KyberCrystalBaseRare">
+    <ThingDef ParentName="KyberCrystalBaseLegendary">
+    <defName>PJ_AnkSapphire</defName>
+    <label>ankarres sapphire (dk blue)</label>
+	<description>Ankarres sapphires have legendary healing properties. This one is tuned to make a powerful deep-blue lightsaber blade when used as a focus.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(28,19,151)</color>
+    </graphicData>
+    <comps>
+	  <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+	     <statModifiers>
+	       <MeleeWeapon_DamageAmount>35</MeleeWeapon_DamageAmount>
+	     </statModifiers>
+	     <defensiveHealChance>
+	       <woundLimit>0</woundLimit>
+	       <chance>0.05</chance>
+	     </defensiveHealChance>
+	     <color>(28,19,151)</color>
+	   </li>
+	 </comps>
+  </ThingDef>   
+  
+<ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_UltimaPearl</defName>
     <label>ultima pearl (pale)</label>
 	<description>Uncommon pearls harvested from a deep ocean world, it takes considerable skill to prepare them for use as a lightsaber focus, but the results are unquestionable.</description>
@@ -429,7 +429,7 @@
 	 </comps>
   </ThingDef>  
   
-<ThingDef ParentName="KyberCrystalBaseRare">
+<ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_BlackPearl</defName>
     <label>krayt dragon pearl (black)</label>
 	<description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously powerful.</description>
@@ -449,6 +449,26 @@
 	 <color>(38,43,65)</color>
 	  </li>
 	 </comps>
-  </ThingDef>    
+  </ThingDef> 
+
+  <ThingDef ParentName="KyberCrystalBaseLegendary">
+    <defName>PJ_KaiburrCrystal</defName>
+    <label>kaiburr crystal (red-orange)</label>
+	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most powerful crystals that can be used for a lightsaber focus.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <color>(255,70,70)</color>
+    </graphicData>
+	  	<comps>
+	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">	
+		<statModifiers>
+	   <MeleeWeapon_DamageAmount>100</MeleeWeapon_DamageAmount>
+	 </statModifiers>
+	 <color>(255,63,52)</color>
+	 	 </li>
+	 </comps>
+  </ThingDef>      
 
 </Defs>

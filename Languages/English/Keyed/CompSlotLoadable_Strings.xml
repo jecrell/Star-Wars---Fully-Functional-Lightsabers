@@ -9,6 +9,9 @@
   <Effects>Effects</Effects>
   <ChangesPrimaryColor>Changes Primary Color</ChangesPrimaryColor>
   <StatModifiers>Stat Modifiers</StatModifiers>
+  <DamageType>Damage Type</DamageType>
   <NoLoadOptions>No load options available.</NoLoadOptions>
+  <DefensiveHealChance>When attacked, {1} chance to heal {0} wounds</DefensiveHealChance>
+  <VampiricChance>When attacking, {1} chance to vampiricly heal {0} wounds</VampiricChance>
 
 </LanguageData>
