@@ -4,5 +4,10 @@
 	<name>Star Wars - Fully Functional Lightsabers</name>
 	<author>Defenders of Peace</author>
 	<targetVersion>0.16.1393</targetVersion>
-	<description>Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.</description>
+	<description>Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
+	
+	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
+	
+	Programming by Jecrell.
+	Assets and XML by Xen.</description>
 </ModMetaData>
