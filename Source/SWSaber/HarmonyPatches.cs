@@ -71,7 +71,8 @@ namespace SWSaber
                     ThingDef.Named("PJ_DragiteCrystal"),
                     ThingDef.Named("PJ_DamindCrystal"),
                     ThingDef.Named("PJ_AdeganCrystal"),
-                    ThingDef.Named("PJ_EralamCrystal")
+                    ThingDef.Named("PJ_EralamCrystal"),
+                    ThingDef.Named("PJ_PontiteCrystal")
                 };
                 Thing result = GenerateCrystal(legendaryCrystals.RandomElement<ThingDef>(), 0.7f);
                 if (result != null)

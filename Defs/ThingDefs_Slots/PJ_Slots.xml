@@ -25,6 +25,7 @@
 			<li>PJ_RubatCrystal</li>
 			<li>PJ_KaiburrCrystal</li>
 			<li>PJ_FirkrannCrystal</li>
+			<li>PJ_PontiteCrystal</li>
 		</slottableThingDefs>
 		<doesChangeColor>true</doesChangeColor>
 		<doesChangeStats>true</doesChangeStats>
