@@ -140,7 +140,7 @@ namespace SWSaber
         public override void PostExposeData()
         {
             base.PostExposeData();
-            Scribe_Values.LookValue<AccuracyRoll>(ref this.lastAccuracyRoll, "lastAccuracyRoll", AccuracyRoll.Failure);
+            Scribe_Values.Look<AccuracyRoll>(ref this.lastAccuracyRoll, "lastAccuracyRoll", AccuracyRoll.Failure);
         }
     }
 }
