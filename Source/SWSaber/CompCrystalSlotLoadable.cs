@@ -15,7 +15,7 @@ namespace SWSaber
             ThingWithComps compOwner = base.parent as ThingWithComps;
             if (compOwner != null)
             {
-                //Log.Message("2");
+                //Log.Message("2"); 
 
                 CompLightsaberActivatableEffect compLightsaberActivatableEffect = compOwner.TryGetComp<CompLightsaberActivatableEffect>();
                 if (compLightsaberActivatableEffect != null)
