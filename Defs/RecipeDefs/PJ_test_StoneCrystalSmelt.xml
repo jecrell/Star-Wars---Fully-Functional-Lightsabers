@@ -35,6 +35,40 @@
 		</recipeUsers>
 	</RecipeDef>
 	
+	
+		<RecipeDef>
+		<defName>PJ_MakeCrystal_yellow</defName>
+		<label>refine lightsaber crystal (yellow)</label>
+		<description>Treats raw materials into synthetic saber crystals.</description>
+		<jobString>Refining crystals</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+		<products>
+			<PJ_KyberCrystalYellow>1</PJ_KyberCrystalYellow>
+		</products>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef>
 	<!--
 	
 		<RecipeDef>

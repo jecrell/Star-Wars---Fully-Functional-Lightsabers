@@ -92,6 +92,23 @@
 	 </comps>
   </ThingDef>
   
+    <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalYellow</defName>
+    <label>color crystal (yellow)</label>
+	<description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>	
+	  <color>(255,225,21)</color>
+    </graphicData>
+	 <comps>
+		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+			<color>(255,225,21)</color>		
+		</li>
+	 </comps>
+  </ThingDef>
+  
   <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalBlue</defName>
     <label>color crystal (blue)</label>
