@@ -35,6 +35,8 @@
 		</recipeUsers>
 	</RecipeDef>
 	
+	<!--
+	
 		<RecipeDef>
 		<defName>PJ_MakeCrystal_Barab</defName>
 		<label>refine barab ore (orange)</label>
@@ -68,6 +70,7 @@
 			<li>ElectricSmelter</li>
 		</recipeUsers>
 	</RecipeDef>
+	-->
 	
 		<RecipeDef>
 		<defName>PJ_MakeCrystal_blue</defName>
