@@ -145,7 +145,7 @@
 		<label>infuse synthetic crystal (red)</label>
 		<description>Takes a lightsaber crystal and infuses it with the power of the dark side of the force.</description>
 		<jobString>Infusing crystal</jobString>
-		<workAmount>65000</workAmount>
+		<workAmount>48000</workAmount>
 		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
 		<effectWorking>CutStone</effectWorking>
