@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic Kyber Crystals -->
+
+  <PJ_KyberCrystal.label>Cristal de color (verde)</PJ_KyberCrystal.label>
+  <PJ_KyberCrystal.description>Un cristal de coloracion basico para un sable de luz.</PJ_KyberCrystal.description>
+
+  <PJ_KyberCrystalBlue.label>Cristal de color (azul)</PJ_KyberCrystalBlue.label>
+  <PJ_KyberCrystalBlue.description>Un cristal de coloracion basico para un sable de luz.</PJ_KyberCrystalBlue.description>
+
+  <PJ_KyberCrystalCyan.label>Cristal de color (cyan)</PJ_KyberCrystalCyan.label>
+  <PJ_KyberCrystalCyan.description>Un cristal de coloracion basico para un sable de luz.</PJ_KyberCrystalCyan.description>
+
+  <PJ_KyberCrystalAzure.label>Cristal de color (azure)</PJ_KyberCrystalAzure.label>
+  <PJ_KyberCrystalAzure.description>Un cristal de coloracion basico para un sable de luz.</PJ_KyberCrystalAzure.description>
+
+  <PJ_KyberCrystalPurple.label>Cristal de color (purpura)</PJ_KyberCrystalPurple.label>
+  <PJ_KyberCrystalPurple.description>Un cristal de coloracion basico para un sable de luz.</PJ_KyberCrystalPurple.description>
+
+  <PJ_KyberCrystalRed.label>Cristal sintetico (rojo)</PJ_KyberCrystalRed.label>
+  <PJ_KyberCrystalRed.description>Este cristal sintetico ha sido mejorado, dandole una espada ligeramente mas potente que el sable estandar, junto con su reconocible tinte rojo - Esta clase de sables son populares entre los sith.</PJ_KyberCrystalRed.description>
+
+
+  <!-- Stat Bonus Crystals -->
+
+  <PJ_AdeganCrystal.label>Cristal de Adegan (Verde)</PJ_AdeganCrystal.label>
+  <PJ_AdeganCrystal.description>Un cristal que reaccion con la fuerza, dicho ser el cristal optimo para hacer sables de luz.</PJ_AdeganCrystal.description>
+
+  <PJ_DamindCrystal.label>Cristal Damind (Azure)</PJ_DamindCrystal.label>
+  <PJ_DamindCrystal.description>Cuando se coloca en un sable de luz, este cristal aumenta el grosor del rayo ligeramente, haciendo que sea mas facil el deflectar proyectiles, se rumorea que antes este era el preferido de los Sith.</PJ_DamindCrystal.description>
+
+  <PJ_DragiteCrystal.label>Cristal Dragite (Purpura)</PJ_DragiteCrystal.label>
+  <PJ_DragiteCrystal.description>Un cristal a menudo utilizado como fuente de energia, si se usa como fuente de poder de un sable de luz - Hace que el cristal resuene, haciendo daño sonico.</PJ_DragiteCrystal.description>
+
+  <PJ_HurCrystal.label>Cristal Hurrikaine (Indigo)</PJ_HurCrystal.label>
+  <PJ_HurCrystal.description>Un cristal de color Indigo, admirado por su belleza y elegancia. Es una excelente fuente de energia para los sables - Ya que puede penetrar facilmente las armaduras de tus enemigos.</PJ_HurCrystal.description>
+
+  <PJ_EralamCrystal.label>Cristal Eralam (Blanco)</PJ_EralamCrystal.label>
+  <PJ_EralamCrystal.description>Un raro cristal, envidiado por su pureza y claridad. Produce un brillo plateado y hermoso, aparte de tener un gran poder.</PJ_EralamCrystal.description>
+
+  <PJ_RubatCrystal.label>Cristal Rubat (Bronze)</PJ_RubatCrystal.label>
+  <PJ_RubatCrystal.description>Los cristales Rubat se utilizan en la construction de sables de luz cuando pueden ser encontrados. Producen un filo mas definido y afilado, aumentando la velocidad de ataque</PJ_RubatCrystal.description>
+
+  <PJ_FirkrannCrystal.label>Cristal Firkrann (Plateado)</PJ_FirkrannCrystal.label>
+  <PJ_FirkrannCrystal.description>Los cristales Firkrann son cristales pesados con extrañas propiedades, en un sable de luz - Genera una descarga electrica al atacar, siendo devastador para las unidades mecanicas.</PJ_FirkrannCrystal.description>
+
+  <PJ_PontiteCrystal.label>Cristal Pontite (Azul Hielo)</PJ_PontiteCrystal.label>
+  <PJ_PontiteCrystal.description>Los cristales Pontite imbuyen la espada con efectos endotermicos, absorbiendo el calor y causando un daño helado y congelante.</PJ_PontiteCrystal.description>
+
+  <PJ_BarabIngot.label>Lingote de mineral Barab (Naranjo)</PJ_BarabIngot.label>
+  <PJ_BarabIngot.description>La constante infusion de radiacion de estos cristalinos "Lingotes" de Barab causan un constante calor, causando quemaduras y incluso llamas a los objetivos que golpean con dicho cristal.</PJ_BarabIngot.description>
+
+  <PJ_AnkSapphire.label>Safiro Ankarres (Azul Oscuro)</PJ_AnkSapphire.label>
+  <PJ_AnkSapphire.description>Los Safiros Ankarre tienen habilidades de curacion legendarias, dichas propiedades siendo compartidas contigo al utilizarlo como fuente de energia en tu sable.</PJ_AnkSapphire.description>
+
+  <PJ_UltimaPearl.label>Perla Ultima (Palido)</PJ_UltimaPearl.label>
+  <PJ_UltimaPearl.description>Perlas poco comunes, conseguidas de los oceanos profundos de un mundo acuatico, es dificil prepararlas para ser utilizadas en un sable de luz. Pero los resultados son implacables.</PJ_UltimaPearl.description>
+
+  <PJ_BlackPearl.label>Perla de Dragon Krayt (Negro)</PJ_BlackPearl.label>
+  <PJ_BlackPearl.description>Las perlas de Krayt fueron conseguidas en la ultima camara de los dragones Krayt. Lo cual de por si no es facil, pero aun mas fificil es prepararlo para ser utilizado en un sable de luz.\nPero la espada resultante es monstruosamente implacable.</PJ_BlackPearl.description>
+
+  <PJ_KaiburrCrystal.label>Cristal Kaiburr (Rojo anaranjado)</PJ_KaiburrCrystal.label>
+  <PJ_KaiburrCrystal.description>El legendario cristal Kaiburr, a partir del cual los Kyber se nombran a si mismos, esta es una de las fuentes de poder de sable mas potente en toda la galaxia.</PJ_KaiburrCrystal.description>
+
+
+</LanguageData>

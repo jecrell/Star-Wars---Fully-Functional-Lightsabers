@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_Saber.label>Sable</PJ_Saber.label>
+  <PJ_Saber.deathMessage>{0} Ha sido propinado un corte mortal.</PJ_Saber.deathMessage>
+
+
+  <!-- Barab Crystal Damage -->
+
+  <PJ_BarabDam.label>Quemaduras de sable</PJ_BarabDam.label>
+  <PJ_BarabDam.deathMessage>{0} Ha muerto por heridas causadas por un sable de luz.</PJ_BarabDam.deathMessage>
+
+
+  <!-- Firkrann Crystal Damage -->
+
+  <PJ_FirkDam.label>Quemadura de choque</PJ_FirkDam.label>
+  <PJ_FirkDam.deathMessage>{0} Murio debido a heridas causadas por un sable cargado.</PJ_FirkDam.deathMessage>
+
+
+  <!-- Sonic Damage (Dragite) -->
+
+  <PJ_SonicDam.label>Daño sonico</PJ_SonicDam.label>
+  <PJ_SonicDam.deathMessage>{0} Ha muerto debido a fracturas sonicas.</PJ_SonicDam.deathMessage>
+
+  <PJ_PontiteDam.label>Congelacion de sable</PJ_PontiteDam.label>
+  <PJ_PontiteDam.deathMessage>{0} Murio a partir de heridas causadas por un sable de luz congelante.</PJ_PontiteDam.deathMessage>
+
+
+</LanguageData>

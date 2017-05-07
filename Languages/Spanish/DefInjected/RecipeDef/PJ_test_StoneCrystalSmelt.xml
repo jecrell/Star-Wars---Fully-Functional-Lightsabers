@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeCrystal_purp.label>Refinar cristal de sable de luz (Purpura)</PJ_MakeCrystal_purp.label>
+  <PJ_MakeCrystal_purp.description>Convierte materiales primos en cristales de sable de luz sinteticos.</PJ_MakeCrystal_purp.description>
+  <PJ_MakeCrystal_purp.jobString>Refinando cristales</PJ_MakeCrystal_purp.jobString>
+
+  <PJ_MakeCrystal_Barab.label>Refinar mineral de Barab (naranja)</PJ_MakeCrystal_Barab.label>
+  <PJ_MakeCrystal_Barab.description>Convierte materiales primos en cristales de sable de luz sinteticoss.</PJ_MakeCrystal_Barab.description>
+  <PJ_MakeCrystal_Barab.jobString>Refinando cristales</PJ_MakeCrystal_Barab.jobString>
+
+  <PJ_MakeCrystal_blue.label>Refinar cristal de sable de luz (azul)</PJ_MakeCrystal_blue.label>
+  <PJ_MakeCrystal_blue.description>Convierte materiales primos en cristales de sable de luz sinteticos.</PJ_MakeCrystal_blue.description>
+  <PJ_MakeCrystal_blue.jobString>Refinando cristales</PJ_MakeCrystal_blue.jobString>
+
+  <PJ_MakeCrystal_Red.label>Imbuir cristal sintetico (rojo)</PJ_MakeCrystal_Red.label>
+  <PJ_MakeCrystal_Red.description>Imbuye un cristal de sable de luz con el poder del lado oscuro.</PJ_MakeCrystal_Red.description>
+  <PJ_MakeCrystal_Red.jobString>Imbuyendo cristal</PJ_MakeCrystal_Red.jobString>
+
+  <PJ_MakeCrystal_Green.label>Refinar cristal de sable de luz (verde)</PJ_MakeCrystal_Green.label>
+  <PJ_MakeCrystal_Green.description>Convierte materiales primos en cristales de sable de luz sinteticos.</PJ_MakeCrystal_Green.description>
+  <PJ_MakeCrystal_Green.jobString>Refinando cristales</PJ_MakeCrystal_Green.jobString>
+
+  <PJ_MakeCrystal_Cyan.label>Refinar cristal de sable de luz (cyan)</PJ_MakeCrystal_Cyan.label>
+  <PJ_MakeCrystal_Cyan.description>Convierte materiales primos en cristales de sable de luz sinteticos.</PJ_MakeCrystal_Cyan.description>
+  <PJ_MakeCrystal_Cyan.jobString>Refinando cristales</PJ_MakeCrystal_Cyan.jobString>
+
+  <PJ_MakeCrystal_Azure.label>Refinar cristal de sable de luz (Azure)</PJ_MakeCrystal_Azure.label>
+  <PJ_MakeCrystal_Azure.description>Convierte materiales primos en cristales de sable de luz sinteticos.</PJ_MakeCrystal_Azure.description>
+  <PJ_MakeCrystal_Azure.jobString>Refinando cristales</PJ_MakeCrystal_Azure.jobString>
+
+
+</LanguageData>
