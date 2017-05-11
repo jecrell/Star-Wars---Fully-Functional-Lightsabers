@@ -73,6 +73,10 @@
       <HintPath>..\..\..\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="_saberdllchecker, Version=1.17.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\saberdllchecker\SabersDLLChecker\bin\Debug\_saberdllchecker.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SWSaber\CompLightsaberActivatableEffect.cs" />
