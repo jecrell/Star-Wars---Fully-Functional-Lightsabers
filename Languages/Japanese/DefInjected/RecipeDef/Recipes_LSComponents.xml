@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeSaberCase.label>ライトセーバーの外側ケースを作る</PJ_MakeSaberCase.label>
+  <PJ_MakeSaberCase.description>ライトセーバーの外側ケースを作る。</PJ_MakeSaberCase.description>
+  <PJ_MakeSaberCase.jobString>ライトセーバーの外側ケースを製作中</PJ_MakeSaberCase.jobString>
+  <PJ_MakeSaberInternal.label>ライトセーバーの内部を作る</PJ_MakeSaberInternal.label>
+  <PJ_MakeSaberInternal.description>ライトセーバーの重要な内部構造を作ります。</PJ_MakeSaberInternal.description>
+  <PJ_MakeSaberInternal.jobString>クリスタルの配列を調整中...</PJ_MakeSaberInternal.jobString>
+
+</LanguageData>
