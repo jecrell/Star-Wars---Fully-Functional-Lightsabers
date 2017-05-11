@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic Kyber Crystals -->
+  <!-- カイバー・クリスタル -->
+  <PJ_KyberCrystal.label>ライトクリスタル(緑色)</PJ_KyberCrystal.label>
+  <PJ_KyberCrystal.description>ライトセーバーのための基本的な色をした焦点クリスタル。</PJ_KyberCrystal.description>
+  <PJ_KyberCrystalBlue.label>ライトクリスタル(青色)</PJ_KyberCrystalBlue.label>
+  <PJ_KyberCrystalBlue.description>ライトセーバーのための基本的な色をした焦点クリスタル。</PJ_KyberCrystalBlue.description>
+  <PJ_KyberCrystalCyan.label>ライトクリスタル(青緑色)</PJ_KyberCrystalCyan.label>
+  <PJ_KyberCrystalCyan.description>ライトセーバーのための基本的な色をした焦点クリスタル。</PJ_KyberCrystalCyan.description>
+  <PJ_KyberCrystalAzure.label>ライトクリスタル(紺碧色)</PJ_KyberCrystalAzure.label>
+  <PJ_KyberCrystalAzure.description>ライトセーバーのための基本的な色をした焦点クリスタル。</PJ_KyberCrystalAzure.description>
+  <PJ_KyberCrystalPurple.label>ライトクリスタル(紫色)</PJ_KyberCrystalPurple.label>
+  <PJ_KyberCrystalPurple.description>ライトセーバーのための基本的な色をした焦点クリスタル。</PJ_KyberCrystalPurple.description>
+  <PJ_KyberCrystalRed.label>染まったクリスタル(赤色)</PJ_KyberCrystalRed.label>
+  <PJ_KyberCrystalRed.description>この悪意で満たされたクリスタルは元よりも強化され、少し強力なブレードとなります。それはトレードマークになっている赤色です。このような合成されたクリスタルはシス卿が好んで使います。</PJ_KyberCrystalRed.description>
+
+  <!-- Stat Bonus Crystals -->
+  <PJ_AdeganCrystal.label>アデガン・クリスタル(緑)</PJ_AdeganCrystal.label>
+  <PJ_AdeganCrystal.description>軽いフォース力で反応するクリスタルで、ライトセーバーの焦点に最適なクリスタルの一つと言われています。</PJ_AdeganCrystal.description>
+  <PJ_DamindCrystal.label>ダダイン・クリスタル(紺碧)</PJ_DamindCrystal.label>
+  <PJ_DamindCrystal.description>ライトセーバーにセットすると、ダイヤモンドクリスタルが非常にわずかに広いビームを生成し、遠隔武器の火を逸らせやすくなります。かつて暗黒卿シスがこれを好んだと言われています。</PJ_DamindCrystal.description>
+  <PJ_DragiteCrystal.label>ドラギット・クリスタル(紫)</PJ_DragiteCrystal.label>
+  <PJ_DragiteCrystal.description>このクリスタルは電源としてしばしば集められ、ライトセーバーの焦点クリスタルとして使用されるとライトセイバーが共鳴します。そして衝撃波による損害が発生します。</PJ_DragiteCrystal.description>
+  <PJ_HurCrystal.label>ハリケイン・クリスタル(藍紫)</PJ_HurCrystal.label>
+  <PJ_HurCrystal.description>それは比類のない美しさだと賞賛される深い藍紫色のクリスタルです。例外的な使い方としてライトセーバーの焦点クリスタルとして使用すると、敵の防御を貫通します。</PJ_HurCrystal.description>
+  <PJ_EralamCrystal.label>エララム・クリスタル(銀)</PJ_EralamCrystal.label>
+  <PJ_EralamCrystal.description>惑星Eraiの第三衛星で産出された希少なクリスタルで、透明性と純度が桁違いです。それは大出力で輝く銀色のライトセーバービームを作り出します。</PJ_EralamCrystal.description>
+  <PJ_RubatCrystal.label>ルバット・クリスタル(青銅)</PJ_RubatCrystal.label>
+  <PJ_RubatCrystal.description>ルバットクリスタルはライトセーバーが見つかる際によく使用されています。これらは素早い打撃速度を速くするよりシャープなブレードを作り出します。</PJ_RubatCrystal.description>
+  <PJ_FirkrannCrystal.label>firkrann crystal (silver)</PJ_FirkrannCrystal.label>
+  <PJ_FirkrannCrystal.description>Firkrann are heavy crystals with strange piezoelectric properties. This unique crystal type converts part of the saber's plasma energy into an electric charge. This effect can inflict devastating damage, especially to mechanoids.</PJ_FirkrannCrystal.description>
+  <PJ_PontiteCrystal.label>pontite crystal (ice blue)</PJ_PontiteCrystal.label>
+  <PJ_PontiteCrystal.description>Pontite crystals imbue their blade with an endothermic effect, absorbing heat and giving the resulting blade a cold damage type.</PJ_PontiteCrystal.description>
+  <PJ_BarabIngot.label>バラブ鉱石インゴット(オレンジ)</PJ_BarabIngot.label>
+  <PJ_BarabIngot.description>これらのクリスタル形質の「インゴット」への惑星Barab1号星の表面から常時放射される放射線の注入は、ライトセーバー焦点クリスタルの原料であるバラブ鉱石に火のように燃えた刃を生み出す力を与えます。そして、セーバーの標的さえ燃え出す原因になります。</PJ_BarabIngot.description>
+  <PJ_AnkSapphire.label>アンカレスサファイア(濃青)</PJ_AnkSapphire.label>
+  <PJ_AnkSapphire.description>アンカレスサファイアには伝説的な治癒特性があります。焦点クリスタルとして使用されると強力な深青色のライトセーバーブレードを作るように調整されています。</PJ_AnkSapphire.description>
+  <PJ_UltimaPearl.label>ウルティマパール(真珠)</PJ_UltimaPearl.label>
+  <PJ_UltimaPearl.description>惑星Dacの深海の世界から収穫される珍しい真珠は、一種のライトセーバーの焦点クリスタルとして使用する為にそれらを利用可能な状態にするにはかなりのスキルが必要ですが、その結果は疑いのないものです。</PJ_UltimaPearl.description>
+  <PJ_BlackPearl.label>クラート・ドラゴン・パール(黒)</PJ_BlackPearl.label>
+  <PJ_BlackPearl.description>クラートの真珠は、より大きなクラートの龍の最終的な砂袋から収穫されました。決して小さな偉業ではありませんが、ライトセーバーの焦点クリスタルとして使用するためにはさらに多くの準備とスキルが必要です。\n結果として得られるブレードは大変強力です。</PJ_BlackPearl.description>
+  <PJ_KaiburrCrystal.label>カイブルクリスタル(赤オレンジ)</PJ_KaiburrCrystal.label>
+  <PJ_KaiburrCrystal.description>伝説のアーティファクトの1つであるカイブル・クリスタル。惑星Mimbanとして知られるCircarpous星系5号星で産出されたカイバー・クリスタルの名前です。\nライトセーバーの焦点クリスタルに使用できる最も強力なクリスタルの1つです。</PJ_KaiburrCrystal.description>
+
+</LanguageData>
