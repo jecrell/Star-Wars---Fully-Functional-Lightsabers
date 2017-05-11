@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_BulletDeflected.label>弾き返したタレットの弾</PJ_BulletDeflected.label>
+
+  <!-- STANDARD -->
+  <SWSaber_Lightsaber.label>ライトセーバー(プロトタイプ)</SWSaber_Lightsaber.label>
+  <SWSaber_Lightsaber.description>今よりも文明化されていた時代のエレガントな(そう要求されていた)武器。基本的でシンプルなライトセーバーのデザイン。</SWSaber_Lightsaber.description>
+
+  <!-- CURVED -->
+  <SWSaber_DookuSaber.label>ライトセーバー(カーブドヒルト)</SWSaber_DookuSaber.label>
+  <SWSaber_DookuSaber.description>今よりも文明化されていた時代のエレガントな武器であり、フォースの使い手である事を証明する象徴的な武器。\nこれの柄は湾曲しており、防御が困難な迎え角に変更することができます。</SWSaber_DookuSaber.description>
+
+  <!-- Kylo Ren Crosshilt Saber -->
+  <SWSaber_KyloSaber.label>ライトセーバー(クロスガード)</SWSaber_KyloSaber.label>
+  <SWSaber_KyloSaber.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nこれはひびの入ったクリスタルを使用しているようです。</SWSaber_KyloSaber.description>
+
+  <!-- Darth Maul Double Saber -->
+  <SWSaber_Doublesaber.label>ライトセーバー(ダブルブレード)</SWSaber_Doublesaber.label>
+  <SWSaber_Doublesaber.description>今よりも文明化されていた時代のエレガントな武器です。\nこの柄は2番目のエミッタを備えており、エキゾチックな二重刃のセーバーになっています。</SWSaber_Doublesaber.description>
+
+  <!-- Obi Wan Saber -->
+  <SWSaber_ObiSaber.label>ライトセーバーを製作中(オビ＝ワン型)</SWSaber_ObiSaber.label>
+  <SWSaber_ObiSaber.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nこれは古く小さいが、当たり前の様に非常によく知られている...</SWSaber_ObiSaber.description>
+
+  <!-- Palpatine's Electrum Saber -->
+  <SWSaber_ElectrumSaber.label>ライトセーバー(エレクトラム)</SWSaber_ElectrumSaber.label>
+  <SWSaber_ElectrumSaber.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nこのバージョンは、ジェダイ最高評議会メンバーなど高位の人のために設計されたようです。</SWSaber_ElectrumSaber.description>
+
+</LanguageData>
