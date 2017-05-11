@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeCrystal_purp.label>ライトセーバークリスタルを精製する(紫色)</PJ_MakeCrystal_purp.label>
+  <PJ_MakeCrystal_purp.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_purp.description>
+  <PJ_MakeCrystal_purp.jobString>クリスタルの精製中</PJ_MakeCrystal_purp.jobString>
+  <PJ_MakeCrystal_Barab.label>バラブ鉱石を精製する(オレンジ色)</PJ_MakeCrystal_Barab.label>
+  <PJ_MakeCrystal_Barab.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Barab.description>
+  <PJ_MakeCrystal_Barab.jobString>クリスタルの精製中</PJ_MakeCrystal_Barab.jobString>
+  <PJ_MakeCrystal_blue.label>ライトセーバークリスタルを精製する(青色)</PJ_MakeCrystal_blue.label>
+  <PJ_MakeCrystal_blue.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_blue.description>
+  <PJ_MakeCrystal_blue.jobString>クリスタルの精製中</PJ_MakeCrystal_blue.jobString>
+  <PJ_MakeCrystal_Red.label>クリスタルを悪意で満たす(赤色)</PJ_MakeCrystal_Red.label>
+  <PJ_MakeCrystal_Red.description>ライトセーバークリスタルを取り外し、ダークサイドのフォースパワーを注入する。</PJ_MakeCrystal_Red.description>
+  <PJ_MakeCrystal_Red.jobString>クリスタルを悪に染めている</PJ_MakeCrystal_Red.jobString>
+  <PJ_MakeCrystal_Green.label>ライトセーバークリスタルを精製する(緑色)</PJ_MakeCrystal_Green.label>
+  <PJ_MakeCrystal_Green.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Green.description>
+  <PJ_MakeCrystal_Green.jobString>クリスタルの精製中</PJ_MakeCrystal_Green.jobString>
+  <PJ_MakeCrystal_Cyan.label>ライトセーバークリスタルを精製する(青緑色)</PJ_MakeCrystal_Cyan.label>
+  <PJ_MakeCrystal_Cyan.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Cyan.description>
+  <PJ_MakeCrystal_Cyan.jobString>クリスタルの精製中</PJ_MakeCrystal_Cyan.jobString>
+  <PJ_MakeCrystal_Azure.label>ライトセーバークリスタルを精製する(紺碧色)</PJ_MakeCrystal_Azure.label>
+  <PJ_MakeCrystal_Azure.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Azure.description>
+  <PJ_MakeCrystal_Azure.jobString>クリスタルの精製中</PJ_MakeCrystal_Azure.jobString>
+
+</LanguageData>

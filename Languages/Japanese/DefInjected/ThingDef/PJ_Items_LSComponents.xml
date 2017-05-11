@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_SaberCasing.label>ライトセイバー外側ケース</PJ_SaberCasing.label>
+  <PJ_SaberCasing.description>ライトセーバーのシールドされた外側ハウジング。焦点クリスタル・アクティベータースイッチおよびブレード調整コントロールを含むいくつかのコンポーネントが含まれています。</PJ_SaberCasing.description>
+  <PJ_SaberInternal.label>ライトセーバー内部コンポーネント</PJ_SaberInternal.label>
+  <PJ_SaberInternal.description>ダイアチウム・パワー・コア、クリスタルエネルギーチャンバー、焦点クリスタル中継器などのライトセーバーの内部コンポーネント。</PJ_SaberInternal.description>
+
+</LanguageData>
