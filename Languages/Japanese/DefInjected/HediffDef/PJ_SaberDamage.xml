@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_LightsaberEnergy.label>エネルギー火傷(Lightsaber)</PJ_LightsaberEnergy.label>
+  <PJ_LightsaberEnergy.comps.0.labelTendedWell>包帯</PJ_LightsaberEnergy.comps.0.labelTendedWell>
+  <PJ_LightsaberEnergy.comps.0.labelTendedWellInner>縫合</PJ_LightsaberEnergy.comps.0.labelTendedWellInner>
+  <PJ_LightsaberEnergy.comps.0.labelSolidTendedWell>セット</PJ_LightsaberEnergy.comps.0.labelSolidTendedWell>
+  <PJ_LightsaberEnergy.comps.2.oldLabel>エネルギー火傷跡</PJ_LightsaberEnergy.comps.2.oldLabel>
+  <PJ_LightsaberEnergy.injuryProps.destroyedLabel>削ぎ取られた</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
+  <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>斬り飛ばされた</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
+  
+  <!-- Barab Crystal Damage -->
+  <PJ_BarabRads.label>放射線熱傷(Barab)</PJ_BarabRads.label>
+  <PJ_BarabRads.comps.0.labelTendedWell>包帯</PJ_BarabRads.comps.0.labelTendedWell>
+  <PJ_BarabRads.comps.0.labelTendedWellInner>治療</PJ_BarabRads.comps.0.labelTendedWellInner>
+  <PJ_BarabRads.comps.0.labelSolidTendedWell>セット</PJ_BarabRads.comps.0.labelSolidTendedWell>
+  <PJ_BarabRads.comps.2.oldLabel>放射線熱傷跡(Barab)</PJ_BarabRads.comps.2.oldLabel>
+  <PJ_BarabRads.injuryProps.destroyedLabel>焼け落ちる</PJ_BarabRads.injuryProps.destroyedLabel>
+  <PJ_BarabRads.injuryProps.destroyedOutLabel>焼け尽くした</PJ_BarabRads.injuryProps.destroyedOutLabel>
+  
+  <!-- Firkrann Crystal Damage -->
+  <PJ_FirkZap.label>電気熱傷(Firkrann)</PJ_FirkZap.label>
+  <PJ_FirkZap.comps.0.labelTendedWell>包帯</PJ_FirkZap.comps.0.labelTendedWell>
+  <PJ_FirkZap.comps.0.labelTendedWellInner>治療</PJ_FirkZap.comps.0.labelTendedWellInner>
+  <PJ_FirkZap.comps.0.labelSolidTendedWell>セット</PJ_FirkZap.comps.0.labelSolidTendedWell>
+  <PJ_FirkZap.comps.2.oldLabel>電気熱傷跡(Firkrann)</PJ_FirkZap.comps.2.oldLabel>
+  <PJ_FirkZap.injuryProps.destroyedLabel>焼け落ちる</PJ_FirkZap.injuryProps.destroyedLabel>
+  <PJ_FirkZap.injuryProps.destroyedOutLabel>焼け尽くした</PJ_FirkZap.injuryProps.destroyedOutLabel>
+  
+  <!-- Sonic Damage (Dragite) -->
+  <PJ_SonicBoom.label>衝撃波骨折(Dragite)</PJ_SonicBoom.label>
+  <PJ_SonicBoom.comps.0.labelTendedWell>包帯</PJ_SonicBoom.comps.0.labelTendedWell>
+  <PJ_SonicBoom.comps.0.labelTendedWellInner>治療</PJ_SonicBoom.comps.0.labelTendedWellInner>
+  <PJ_SonicBoom.comps.0.labelSolidTendedWell>セット</PJ_SonicBoom.comps.0.labelSolidTendedWell>
+  <PJ_SonicBoom.comps.2.oldLabel>衝撃波骨折跡(Dragite)</PJ_SonicBoom.comps.2.oldLabel>
+  <PJ_SonicBoom.injuryProps.destroyedLabel>粉々になった</PJ_SonicBoom.injuryProps.destroyedLabel>
+  <PJ_SonicBoom.injuryProps.destroyedOutLabel>蒸発した</PJ_SonicBoom.injuryProps.destroyedOutLabel>
+  
+</LanguageData>
