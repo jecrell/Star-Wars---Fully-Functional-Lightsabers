@@ -7,9 +7,11 @@
   <PJ_MakeCrystal_yellow.label>ライトセーバークリスタルを精製する(黄色)</PJ_MakeCrystal_yellow.label>
   <PJ_MakeCrystal_yellow.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_yellow.description>
   <PJ_MakeCrystal_yellow.jobString>クリスタルの精製中</PJ_MakeCrystal_yellow.jobString>
-  <PJ_MakeCrystal_Barab.label>バラブ鉱石を精製する(オレンジ色)</PJ_MakeCrystal_Barab.label>
-  <PJ_MakeCrystal_Barab.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Barab.description>
-  <PJ_MakeCrystal_Barab.jobString>クリスタルの精製中</PJ_MakeCrystal_Barab.jobString>
+
+  <!-- <PJ_MakeCrystal_Barab.label>バラブ鉱石を精製する(オレンジ色)</PJ_MakeCrystal_Barab.label> -->
+  <!-- <PJ_MakeCrystal_Barab.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Barab.description> -->
+  <!-- <PJ_MakeCrystal_Barab.jobString>クリスタルの精製中</PJ_MakeCrystal_Barab.jobString> -->
+
   <PJ_MakeCrystal_blue.label>ライトセーバークリスタルを精製する(青色)</PJ_MakeCrystal_blue.label>
   <PJ_MakeCrystal_blue.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_blue.description>
   <PJ_MakeCrystal_blue.jobString>クリスタルの精製中</PJ_MakeCrystal_blue.jobString>
@@ -25,5 +27,5 @@
   <PJ_MakeCrystal_Azure.label>ライトセーバークリスタルを精製する(紺碧色)</PJ_MakeCrystal_Azure.label>
   <PJ_MakeCrystal_Azure.description>原材料を合成してライトセーバークリスタルにします。</PJ_MakeCrystal_Azure.description>
   <PJ_MakeCrystal_Azure.jobString>クリスタルの精製中</PJ_MakeCrystal_Azure.jobString>
-  
+
 </LanguageData>
