@@ -37,6 +37,49 @@ namespace SWSaber
             return null;
         }
 
+        public static void GenerateCrystalFor(Pawn p)
+        {
+            if (p.inventory == null) return;
+            if (p.inventory.innerContainer == null) return;
+            List<ThingDef> legendaryCrystals = new List<ThingDef>()
+                {
+                    ThingDef.Named("PJ_UltimaPearl"),
+                    ThingDef.Named("PJ_BlackPearl"),
+                    ThingDef.Named("PJ_KaiburrCrystal"),
+                    ThingDef.Named("PJ_UltimaPearl"),
+                    ThingDef.Named("PJ_AnkSapphire")
+                };
+            List<ThingDef> rareCrystals = new List<ThingDef>()
+                {
+                    ThingDef.Named("PJ_BarabIngot"),
+                    ThingDef.Named("PJ_PontiteCrystal"),
+                    ThingDef.Named("PJ_FirkrannCrystal"),
+                    ThingDef.Named("PJ_RubatCrystal"),
+                    ThingDef.Named("PJ_HurCrystal"),
+                    ThingDef.Named("PJ_DragiteCrystal"),
+                    ThingDef.Named("PJ_DamindCrystal"),
+                    ThingDef.Named("PJ_AdeganCrystal"),
+                    ThingDef.Named("PJ_EralamCrystal"),
+                    ThingDef.Named("PJ_PontiteCrystal")
+                };
+            Thing result = GenerateCrystal(legendaryCrystals.RandomElement<ThingDef>(), 0.7f);
+            if (result != null)
+            {
+                //Log.Message("5a");
+
+                p.inventory.innerContainer.TryAdd(result, true);
+                return;
+            }
+            else
+            {
+                //Log.Message("5b");
+
+                result = GenerateCrystal(rareCrystals.RandomElement<ThingDef>());
+                p.inventory.innerContainer.TryAdd(result, true);
+                return;
+            }
+        }
+
         // RimWorld.PawnInventoryGenerator
         public static void GenerateInventoryFor_PostFix(Pawn p, PawnGenerationRequest request)
         {
@@ -53,43 +96,7 @@ namespace SWSaber
             {
                 //Log.Message("4");
 
-                List<ThingDef> legendaryCrystals = new List<ThingDef>()
-                {
-                    ThingDef.Named("PJ_UltimaPearl"),
-                    ThingDef.Named("PJ_BlackPearl"),
-                    ThingDef.Named("PJ_KaiburrCrystal"),
-                    ThingDef.Named("PJ_UltimaPearl"),
-                    ThingDef.Named("PJ_AnkSapphire")
-                };
-                List<ThingDef> rareCrystals = new List<ThingDef>()
-                {
-                    ThingDef.Named("PJ_BarabIngot"),
-                    ThingDef.Named("PJ_PontiteCrystal"),
-                    ThingDef.Named("PJ_FirkrannCrystal"),
-                    ThingDef.Named("PJ_RubatCrystal"),
-                    ThingDef.Named("PJ_HurCrystal"),
-                    ThingDef.Named("PJ_DragiteCrystal"),
-                    ThingDef.Named("PJ_DamindCrystal"),
-                    ThingDef.Named("PJ_AdeganCrystal"),
-                    ThingDef.Named("PJ_EralamCrystal"),
-                    ThingDef.Named("PJ_PontiteCrystal")
-                };
-                Thing result = GenerateCrystal(legendaryCrystals.RandomElement<ThingDef>(), 0.7f);
-                if (result != null)
-                {
-                    //Log.Message("5a");
-
-                    p.inventory.innerContainer.TryAdd(result, true);
-                    return;
-                }
-                else
-                {
-                    //Log.Message("5b");
-
-                    result = GenerateCrystal(rareCrystals.RandomElement<ThingDef>());
-                    p.inventory.innerContainer.TryAdd(result, true);
-                    return;
-                }
+                GenerateCrystalFor(p);
             }
         }
 
