@@ -109,24 +109,10 @@ namespace SWSaber
             //    }
             //}
 
-            public static void AddEquipment_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps newEq)
+        public static void CrystalSlotter(CompCrystalSlotLoadable crystalSlot, CompLightsaberActivatableEffect lightsaberEffect)
         {
-            Pawn pawn = (Pawn)AccessTools.Field(typeof(Pawn_EquipmentTracker), "pawn").GetValue(__instance);
-
-            CompLightsaberActivatableEffect lightsaberEffect = newEq.TryGetComp<CompLightsaberActivatableEffect>();
-            if (lightsaberEffect != null)
-            {
-                if (pawn != null)
-                {
-                    if (pawn.Faction != Faction.OfPlayer)
-                    {
-                        Log.Message("1");
-                        CompCrystalSlotLoadable crystalSlot = newEq.GetComp<CompCrystalSlotLoadable>();
-                        if (crystalSlot != null)
-                        {
-                            crystalSlot.Initialize();
-                            Log.Message("2");
-                            List<string> randomCrystals = new List<string>()
+            crystalSlot.Initialize();
+            List<string> randomCrystals = new List<string>()
                             {
                                 "PJ_KyberCrystal",
                                 "PJ_KyberCrystalBlue",
@@ -135,14 +121,33 @@ namespace SWSaber
                                 "PJ_KyberCrystalRed",
                                 "PJ_KyberCrystalPurple",
                             };
-                            ThingWithComps thingWithComps = (ThingWithComps)ThingMaker.MakeThing(ThingDef.Named(randomCrystals.RandomElement<string>()), null);
-                            Log.Message(thingWithComps.Label);
-                            foreach (SlotLoadable slot in crystalSlot.Slots)
+            ThingWithComps thingWithComps = (ThingWithComps)ThingMaker.MakeThing(ThingDef.Named(randomCrystals.RandomElement<string>()), null);
+            Log.Message(thingWithComps.Label);
+            foreach (SlotLoadable slot in crystalSlot.Slots)
+            {
+                slot.TryLoadSlot(thingWithComps);
+            }
+            lightsaberEffect.Activate();
+        }
+        
+        public static void AddEquipment_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps newEq)
+        {
+            Pawn pawn = (Pawn)AccessTools.Field(typeof(Pawn_EquipmentTracker), "pawn").GetValue(__instance);
+
+            CompLightsaberActivatableEffect lightsaberEffect = newEq.TryGetComp<CompLightsaberActivatableEffect>();
+            if (lightsaberEffect != null)
+            {
+                if (pawn != null)
+                {
+                    if (pawn.Faction != null)
+                    {
+                        if (pawn.Faction != Faction.OfPlayerSilentFail)
+                        {
+                            CompCrystalSlotLoadable crystalSlot = newEq.GetComp<CompCrystalSlotLoadable>();
+                            if (crystalSlot != null)
                             {
-                                Log.Message("3");
-                                slot.TryLoadSlot(thingWithComps);
+                                CrystalSlotter(crystalSlot, lightsaberEffect);
                             }
-                            lightsaberEffect.Activate();
                         }
                     }
                 }
