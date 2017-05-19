@@ -20,7 +20,6 @@ namespace SWSaber
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.jecrell.starwars.lightsaber");
             harmony.Patch(AccessTools.Method(typeof(Pawn_EquipmentTracker), "AddEquipment"), null, new HarmonyMethod(typeof(HarmonyPatches).GetMethod("AddEquipment_PostFix")), null);
             harmony.Patch(AccessTools.Method(typeof(PawnInventoryGenerator), "GenerateInventoryFor"), null, new HarmonyMethod(typeof(HarmonyPatches).GetMethod("GenerateInventoryFor_PostFix")));
-            //harmony.Patch(AccessTools.Method(typeof(Pawn_EquipmentTracker), "Remove"), new HarmonyMethod(typeof(HarmonyPatches).GetMethod("Remove_PostFix")), null);
         }
 
         public static Thing GenerateCrystal(ThingDef crystalDef, float chance = 1.0f)
