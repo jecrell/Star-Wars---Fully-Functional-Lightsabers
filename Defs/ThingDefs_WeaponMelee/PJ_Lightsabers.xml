@@ -997,7 +997,7 @@
 			<texPath>Weapons/Quigon_Hilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.3</drawSize>			
+			<drawSize>2.2</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
@@ -1096,7 +1096,7 @@
 			<texPath>Weapons/Sabine_Hilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.3</drawSize>			
+			<drawSize>2.15</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
@@ -1195,7 +1195,7 @@
 			<texPath>Weapons/Yoda_hilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>1.7</drawSize>			
+			<drawSize>1.9</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
