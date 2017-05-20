@@ -12,28 +12,14 @@ namespace SWSaber
     {
         public override Graphic PostGraphicEffects(Graphic graphic)
         {
-            if (graphic != null)
+            if (graphic != null && graphic.Shader != null)
             {
-                ThingComp comp = this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
-                if (comp != null)
+                if (this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable) is CompSlotLoadable.CompSlotLoadable comp &&
+                    comp.Slots.FirstOrDefault((SlotLoadable x) => ((SlotLoadableDef)x.def).doesChangeColor == true) is SlotLoadable colorSlot &&
+                    colorSlot.SlotOccupant != null && colorSlot.SlotOccupant.TryGetComp<CompSlottedBonus>() is CompSlottedBonus slotBonus)
                 {
-                    CompSlotLoadable.CompSlotLoadable compSlotLoadable = comp as CompSlotLoadable.CompSlotLoadable;
-                    SlotLoadable colorSlot = compSlotLoadable.Slots.FirstOrDefault((SlotLoadable x) => ((SlotLoadableDef)x.def).doesChangeColor == true);
-                    if (colorSlot != null)
-                    {
-                        if (colorSlot.SlotOccupant != null)
-                        {
-                            CompSlottedBonus slotBonus = colorSlot.SlotOccupant.TryGetComp<CompSlottedBonus>();
-                            if (slotBonus != null)
-                            {
-                                if (graphic.Shader != null)
-                                {
-                                    Graphic result = graphic.GetColoredVersion(graphic.Shader, slotBonus.Props.color, slotBonus.Props.color);
-                                    if (result != null) return result;
-                                }
-                            }
-                        }
-                    }
+                        Graphic result = graphic.GetColoredVersion(graphic.Shader, slotBonus.Props.color, slotBonus.Props.color);
+                        if (result != null) return result;
                 }
             }
             return base.PostGraphicEffects(graphic);
