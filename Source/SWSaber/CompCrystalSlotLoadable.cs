@@ -12,8 +12,7 @@ namespace SWSaber
         public override void TryEmptySlot(SlotLoadable slot)
         {
             //Log.Message("1");
-            ThingWithComps compOwner = base.parent as ThingWithComps;
-            if (compOwner != null)
+            if (parent is ThingWithComps compOwner)
             {
                 //Log.Message("2"); 
 
@@ -36,7 +35,7 @@ namespace SWSaber
                     }
                 }
             }
-            
+
             base.TryEmptySlot(slot);
         }
     }

@@ -14,7 +14,7 @@ namespace SWSaber
         {
             if (graphic != null)
             {
-                ThingComp comp = base.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
+                ThingComp comp = this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
                 if (comp != null)
                 {
                     CompSlotLoadable.CompSlotLoadable compSlotLoadable = comp as CompSlotLoadable.CompSlotLoadable;
@@ -42,7 +42,7 @@ namespace SWSaber
         public override bool CanActivate()
         {
             //Log.Message("1");
-            ThingComp comp = base.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
+            ThingComp comp = this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
             if (comp != null)
             {
                 //Log.Message("2");
@@ -64,7 +64,7 @@ namespace SWSaber
         public override void ActiveTick()
         {
             //Log.Message("1");
-            ThingComp comp = base.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
+            ThingComp comp = this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
             if (comp != null)
             {
                 //Log.Message("2");
