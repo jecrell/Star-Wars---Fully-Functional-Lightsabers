@@ -43,7 +43,7 @@
       <HintPath>..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="CompActivatableEffect, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="CompActivatableEffect, Version=1.17.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\CompActivatableEffect\Assemblies\CompActivatableEffect.dll</HintPath>
     </Reference>
@@ -59,7 +59,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\CompOversizedWeapon\Assemblies\CompOversizedWeapon.dll</HintPath>
     </Reference>
-    <Reference Include="CompSlotLoadable, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="CompSlotLoadable, Version=1.17.0.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\CompSlotLoadable\Assemblies\CompSlotLoadable.dll</HintPath>
     </Reference>
