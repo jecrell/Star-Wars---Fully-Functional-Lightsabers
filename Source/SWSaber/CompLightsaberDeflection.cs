@@ -1,11 +1,7 @@
 ﻿using Harmony;
 using RimWorld;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Verse;
-using Verse.AI;
 
 namespace SWSaber
 {
@@ -57,7 +53,7 @@ namespace SWSaber
         public override bool TrySpecialMeleeBlock()
         {
             bool result = false;
-            ThingComp forceUser = GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
+            ThingComp forceUser = this.GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
             if (forceUser != null)
             {
                 int modifier = (int)AccessTools.Method(forceUser.GetType(), "ForceSkillLevel").Invoke(forceUser, new object[] { "PJ_LightsaberDefense" });
@@ -66,7 +62,7 @@ namespace SWSaber
                 {
                     for (int i = 0; i < modifier; i++)
                     {
-                        blockChance += defenseMeleeBlockChance;
+                        blockChance += this.defenseMeleeBlockChance;
                     }
                     if (blockChance > Rand.Range(0, 100))
                     {
@@ -81,7 +77,7 @@ namespace SWSaber
         public float CalculatedBlock_ForceModifier()
         {
             float result = 0;
-            ThingComp forceUser = GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
+            ThingComp forceUser = this.GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
             if (forceUser != null)
             {
                 int modifier = (int)AccessTools.Method(forceUser.GetType(), "ForceSkillLevel").Invoke(forceUser, new object[] { "PJ_LightsaberDefense" });
@@ -89,7 +85,7 @@ namespace SWSaber
                 {
                     for (int i = 0; i < modifier; i++)
                     {
-                        result += Rand.Range(reflectionReturnChance.min, reflectionReturnChance.max);
+                        result += Rand.Range(this.reflectionReturnChance.min, this.reflectionReturnChance.max);
                     }
                 }
                 //Log.Message("Lightsabers: :: New Modifier " + modifier.ToString());
@@ -102,7 +98,7 @@ namespace SWSaber
         {
             //Log.Message("Lightsabers :: ForceModifier Called");
             int result = 0;
-            ThingComp forceUser = GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
+            ThingComp forceUser = this.GetPawn.AllComps.FirstOrDefault<ThingComp>((ThingComp y) => y.GetType().ToString().Contains("CompForceUser"));
             if (forceUser != null)
             {
                 int modifier = (int)AccessTools.Method(forceUser.GetType(), "ForceSkillLevel").Invoke(forceUser, new object[] { "PJ_LightsaberReflection" });
@@ -119,22 +115,13 @@ namespace SWSaber
         }
 
         //Placeholder for now.
-        public int CalculatedAccuracy_ForceDifficulty()
-        {
-            return 100;
-        }
+        public int CalculatedAccuracy_ForceDifficulty() => 100;
 
         //Placeholder for now.
-        public Verb CopyAndReturnNewVerb_ForceAdjustments(Verb newVerb)
-        {
-            return newVerb;
-        }
+        public Verb CopyAndReturnNewVerb_ForceAdjustments(Verb newVerb) => newVerb;
 
         //Placeholder for now.
-        public Pawn ResolveDeflectionTarget_ForceAdjustments(Pawn defaultTarget = null)
-        {
-            return defaultTarget;
-        }
+        public Pawn ResolveDeflectionTarget_ForceAdjustments(Pawn defaultTarget = null) => defaultTarget;
         #endregion ForceUsers
 
         public override void PostExposeData()

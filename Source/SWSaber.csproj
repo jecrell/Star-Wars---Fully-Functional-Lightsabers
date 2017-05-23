@@ -85,6 +85,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SWSaber\SaberGlow.cs" />
     <Compile Include="SWSaber\CompLightsaberActivatableEffect.cs" />
     <Compile Include="SWSaber\CompCrystalSlotLoadable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
