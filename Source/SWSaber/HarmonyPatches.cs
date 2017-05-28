@@ -120,7 +120,7 @@ namespace SWSaber
             {
                 slot.TryLoadSlot(thingWithComps);
             }
-            lightsaberEffect.Activate();
+            lightsaberEffect.TryActivate();
         }
         
         public static void AddEquipment_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps newEq)
