@@ -103,7 +103,7 @@ namespace SWSaber
             //}
 
         public static void CrystalSlotter(CompCrystalSlotLoadable crystalSlot, CompLightsaberActivatableEffect lightsaberEffect)
-        {
+        { //
             crystalSlot.Initialize();
             List<string> randomCrystals = new List<string>()
                             {
