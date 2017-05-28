@@ -24,23 +24,26 @@ namespace SWSaber
 
         public override bool CanActivate()
         {
-            //Log.Message("1");
-            ThingComp comp = this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
-            if (comp != null)
+            if (this.parent.SpawnedOrAnyParentSpawned)
             {
-                //Log.Message("2");
-                CompSlotLoadable.CompSlotLoadable compSlotLoadable = comp as CompSlotLoadable.CompSlotLoadable;
-                SlotLoadable colorSlot = compSlotLoadable.Slots.FirstOrDefault((SlotLoadable x) => ((SlotLoadableDef)x.def).doesChangeColor == true);
-                if (colorSlot != null)
+                //Log.Message("1");
+                ThingComp comp = this.parent.AllComps.FirstOrDefault((ThingComp x) => x is CompSlotLoadable.CompSlotLoadable);
+                if (comp != null)
                 {
-                    //Log.Message("3");
-                    if (colorSlot.SlotOccupant != null)
+                    //Log.Message("2");
+                    CompSlotLoadable.CompSlotLoadable compSlotLoadable = comp as CompSlotLoadable.CompSlotLoadable;
+                    SlotLoadable colorSlot = compSlotLoadable.Slots.FirstOrDefault((SlotLoadable x) => ((SlotLoadableDef)x.def).doesChangeColor == true);
+                    if (colorSlot != null)
                     {
-                        return true;
+                        //Log.Message("3");
+                        if (colorSlot.SlotOccupant != null)
+                        {
+                            return true;
+                        }
                     }
                 }
+                Messages.Message("KyberCrystalRequired".Translate(), MessageSound.RejectInput);
             }
-            Messages.Message("KyberCrystalRequired".Translate(), MessageSound.RejectInput);
             return false;
         }
 
