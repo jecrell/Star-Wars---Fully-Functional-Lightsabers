@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeCrystal_purp.label>Raffiner un cristal pour sabre (violet)</PJ_MakeCrystal_purp.label>
+  <PJ_MakeCrystal_purp.description>Utilise des matériaux brut pour synthétiser un cristal de sabre laser.</PJ_MakeCrystal_purp.description>
+  <PJ_MakeCrystal_purp.jobString>Raffine un cristal</PJ_MakeCrystal_purp.jobString>
+
+  <PJ_MakeCrystal_yellow.label>Raffiner un cristal pour sabre (jaune)</PJ_MakeCrystal_yellow.label>
+  <PJ_MakeCrystal_yellow.description>Utilise des matériaux brut pour synthétiser un cristal de sabre laser.</PJ_MakeCrystal_yellow.description>
+  <PJ_MakeCrystal_yellow.jobString>Raffine un cristal</PJ_MakeCrystal_yellow.jobString>
+
+
+  <!-- <RecipeDef>
+		<defName>PJ_MakeCrystal_Barab</defName>
+		<label>refine barab ore (orange)</label>
+		<description>Treats raw materials into synthetic saber crystals.</description>
+		<jobString>Refining crystals</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+		<products>
+			<PJ_BarabIngot>1</PJ_BarabIngot>
+		</products>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef> -->
+
+  <PJ_MakeCrystal_blue.label>Raffiner un cristal pour sabre (bleu)</PJ_MakeCrystal_blue.label>
+  <PJ_MakeCrystal_blue.description>Utilise des matériaux brut pour synthétiser un cristal de sabre laser.</PJ_MakeCrystal_blue.description>
+  <PJ_MakeCrystal_blue.jobString>Raffine un cristal</PJ_MakeCrystal_blue.jobString>
+
+  <PJ_MakeCrystal_Red.label>Infuser un cristal synthétique (rouge)</PJ_MakeCrystal_Red.label>
+  <PJ_MakeCrystal_Red.description>Prend un cristal de sabre pour l'infuser avec le pouvoir du côté obscur de la  force.</PJ_MakeCrystal_Red.description>
+  <PJ_MakeCrystal_Red.jobString>Infuse un cristal</PJ_MakeCrystal_Red.jobString>
+
+  <PJ_MakeCrystal_Green.label>Raffiner un cristal pour sabre (vert)</PJ_MakeCrystal_Green.label>
+  <PJ_MakeCrystal_Green.description>Utilise des matériaux brut pour synthétiser un cristal de sabre laser.</PJ_MakeCrystal_Green.description>
+  <PJ_MakeCrystal_Green.jobString>Raffine un cristal</PJ_MakeCrystal_Green.jobString>
+
+  <PJ_MakeCrystal_Cyan.label>Raffiner un cristal pour sabre (turquoise)</PJ_MakeCrystal_Cyan.label>
+  <PJ_MakeCrystal_Cyan.description>Utilise des matériaux brut pour synthétiser un cristal de sabre laser.</PJ_MakeCrystal_Cyan.description>
+  <PJ_MakeCrystal_Cyan.jobString>Raffine un cristal</PJ_MakeCrystal_Cyan.jobString>
+
+  <PJ_MakeCrystal_Azure.label>Raffiner un cristal pour sabre (azur)</PJ_MakeCrystal_Azure.label>
+  <PJ_MakeCrystal_Azure.description>Utilise des matériaux brut pour synthétiser un cristal de sabre laser.</PJ_MakeCrystal_Azure.description>
+  <PJ_MakeCrystal_Azure.jobString>Raffine un cristal</PJ_MakeCrystal_Azure.jobString>
+
+
+</LanguageData>

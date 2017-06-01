@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_LightsaberEnergy.label>brûlure energetique</PJ_LightsaberEnergy.label>
+  <PJ_LightsaberEnergy.comps.0.labelTendedWell>bandé</PJ_LightsaberEnergy.comps.0.labelTendedWell>
+  <PJ_LightsaberEnergy.comps.0.labelTendedWellInner>suturé</PJ_LightsaberEnergy.comps.0.labelTendedWellInner>
+  <PJ_LightsaberEnergy.comps.0.labelSolidTendedWell>bien soigné</PJ_LightsaberEnergy.comps.0.labelSolidTendedWell>
+  <PJ_LightsaberEnergy.comps.2.oldLabel>cicatrice de brûlure energetique</PJ_LightsaberEnergy.comps.2.oldLabel>
+  <PJ_LightsaberEnergy.injuryProps.destroyedLabel>Sliced off</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
+  <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>sliced out</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
+
+
+  <!-- Barab Crystal Damage -->
+
+  <PJ_BarabRads.label>brûlure Barab</PJ_BarabRads.label>
+  <PJ_BarabRads.comps.0.labelTendedWell>bandé</PJ_BarabRads.comps.0.labelTendedWell>
+  <PJ_BarabRads.comps.0.labelTendedWellInner>traité</PJ_BarabRads.comps.0.labelTendedWellInner>
+  <PJ_BarabRads.comps.0.labelSolidTendedWell>bien soigné</PJ_BarabRads.comps.0.labelSolidTendedWell>
+  <PJ_BarabRads.comps.2.oldLabel>ciacatrice de radiation Barab</PJ_BarabRads.comps.2.oldLabel>
+  <PJ_BarabRads.injuryProps.destroyedLabel>brûlé</PJ_BarabRads.injuryProps.destroyedLabel>
+  <PJ_BarabRads.injuryProps.destroyedOutLabel>carbonisé</PJ_BarabRads.injuryProps.destroyedOutLabel>
+
+
+  <!-- Firkrann Crystal Damage -->
+
+  <PJ_FirkZap.label>brûlure électrique firkrann</PJ_FirkZap.label>
+  <PJ_FirkZap.comps.0.labelTendedWell>bandé</PJ_FirkZap.comps.0.labelTendedWell>
+  <PJ_FirkZap.comps.0.labelTendedWellInner>traité</PJ_FirkZap.comps.0.labelTendedWellInner>
+  <PJ_FirkZap.comps.0.labelSolidTendedWell>bien soigné</PJ_FirkZap.comps.0.labelSolidTendedWell>
+  <PJ_FirkZap.comps.2.oldLabel>cicatrice d'élec firkrann</PJ_FirkZap.comps.2.oldLabel>
+  <PJ_FirkZap.injuryProps.destroyedLabel>brûlé</PJ_FirkZap.injuryProps.destroyedLabel>
+  <PJ_FirkZap.injuryProps.destroyedOutLabel>carbonisé</PJ_FirkZap.injuryProps.destroyedOutLabel>
+
+
+  <!-- Sonic Damage (Dragite) -->
+
+  <PJ_SonicBoom.label>fracture sonique</PJ_SonicBoom.label>
+  <PJ_SonicBoom.comps.0.labelTendedWell>bandé</PJ_SonicBoom.comps.0.labelTendedWell>
+  <PJ_SonicBoom.comps.0.labelTendedWellInner>traité</PJ_SonicBoom.comps.0.labelTendedWellInner>
+  <PJ_SonicBoom.comps.0.labelSolidTendedWell>bien soigné</PJ_SonicBoom.comps.0.labelSolidTendedWell>
+  <PJ_SonicBoom.comps.2.oldLabel>microfracture sonique</PJ_SonicBoom.comps.2.oldLabel>
+  <PJ_SonicBoom.injuryProps.destroyedLabel>effacé</PJ_SonicBoom.injuryProps.destroyedLabel>
+  <PJ_SonicBoom.injuryProps.destroyedOutLabel>vaporisé</PJ_SonicBoom.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>

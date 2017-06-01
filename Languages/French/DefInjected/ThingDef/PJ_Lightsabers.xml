@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_BulletDeflected.label>Tir de tourelle improvisé</PJ_BulletDeflected.label>
+
+
+  <!-- STANDARD -->
+
+  <SWSaber_Lightsaber.label>Sabre laser (prototype)</SWSaber_Lightsaber.label>
+  <SWSaber_Lightsaber.description>Une arme élégante, d'un âge plus civilisé - a ce qu'il parait\n Un basique, simple design.</SWSaber_Lightsaber.description>
+
+
+  <!-- CURVED -->
+
+  <SWSaber_DookuSaber.label>Sabre laser (poignée incurvé)</SWSaber_DookuSaber.label>
+  <SWSaber_DookuSaber.description>Une arme élégante, pour une ère plus civilisé. L'arme emblématique des utilisateurs de la force.\nCette poignée est incurvé, permettant différents angles d'attaque, ou de défense.</SWSaber_DookuSaber.description>
+
+
+  <!-- Kylo Ren Crosshilt Saber -->
+
+  <SWSaber_KyloSaber.label>Sabre laser (poignée en croix)</SWSaber_KyloSaber.label>
+  <SWSaber_KyloSaber.description>Une arme élégante, pour une ère plus civilisé. L'arme emblématique des utilisateurs de la force.\nCe dernier à l'air d'utiliser un cristal abimé.</SWSaber_KyloSaber.description>
+
+
+  <!-- Darth Maul Double Saber -->
+
+  <SWSaber_Doublesaber.label>Sabre laser (double)</SWSaber_Doublesaber.label>
+  <SWSaber_Doublesaber.description>An elegant weapon, from a more civilized age.\nCette poignée à un second emetteur, ce qui permet une deuxième lame.</SWSaber_Doublesaber.description>
+
+
+  <!-- Obi Wan Saber -->
+
+  <SWSaber_ObiSaber.label>Sabre laser (poignée ancienne)</SWSaber_ObiSaber.label>
+  <SWSaber_ObiSaber.description>Une arme élégante, pour une ère plus civilisé. L'arme emblématique des utilisateurs de la force.\nC'est une poignée classique... très familière...</SWSaber_ObiSaber.description>
+
+
+  <!-- Palpatine's Electrum Saber -->
+
+  <SWSaber_ElectrumSaber.label>Sabre laser (poignée en electrum)</SWSaber_ElectrumSaber.label>
+  <SWSaber_ElectrumSaber.description>Une arme élégante, pour une ère plus civilisé. L'arme emblématique des utilisateurs de la force.\nCette version à été crée pour les jedi de haut rang.</SWSaber_ElectrumSaber.description>
+
+
+  <!-- Ahsoka Tano -->
+
+  <SWSaber_Ahsokasaber.label>Sabre laser (Ahsoka Tano)</SWSaber_Ahsokasaber.label>
+  <SWSaber_Ahsokasaber.description>Une arme élégante, d'un âge plus civilisé - a ce qu'il parait\n Un design inspiré d'un célèbre jedi du passé.</SWSaber_Ahsokasaber.description>
+
+
+  <!-- Inquisitor Blade -->
+
+  <SWSaber_Inquis.label>Sabre laser Double (Inquisitor)</SWSaber_Inquis.label>
+  <SWSaber_Inquis.description>Une arme élégante, d'un âge plus civilisé - a ce qu'il parait\n Un design employé par les chasseurs de jedi employé par l'Empereur.</SWSaber_Inquis.description>
+
+
+  <!-- Honor Guard Saberstaff -->
+
+  <SWSaber_JGuard.label>Baton des gardes d'honneur</SWSaber_JGuard.label>
+  <SWSaber_JGuard.description>Ce type de double lame etait utilisé par les gardes jedi d'élite. Comme ceux gardant la salle du conseil.</SWSaber_JGuard.description>
+
+
+  <!-- Qui Gon Jinn -->
+
+  <SWSaber_Quigon.label>Sabre laser (Qui-Gon Jinn)</SWSaber_Quigon.label>
+  <SWSaber_Quigon.description>Une arme élégante, d'un âge plus civilisé - a ce qu'il parait\n Ce design à été inspiré d'un maitre jedi légendaire.</SWSaber_Quigon.description>
+
+
+  <!-- Darksaber -->
+
+  <SWSaber_Darksaber.label>Sabre laser (Darksaber)</SWSaber_Darksaber.label>
+  <SWSaber_Darksaber.description>Une arme élégante, d'un âge plus civilisé - a ce qu'il parait\n Un design inspiré du légendaire sabre noir mandalorien.</SWSaber_Darksaber.description>
+
+
+  <!-- Yoda saber -->
+
+  <SWSaber_Yodasaber.label>Sabre laser (Yoda)</SWSaber_Yodasaber.label>
+  <SWSaber_Yodasaber.description>Une arme élégante, d'un âge plus civilisé - a ce qu'il parait\n Un design inspiré du légendaire sabre noir mandalorien.</SWSaber_Yodasaber.description>
+
+
+  <!-- Mace Windu Saber -->
+
+  <SWSaber_MaceSaber.label>Sabre laser (Mace Windu)</SWSaber_MaceSaber.label>
+  <SWSaber_MaceSaber.description>Une arme élégante, pour une ère plus civilisé. L'arme emblématique des utilisateurs de la force.\nCette version était portée par un des plus grand membre du conseil jedi.</SWSaber_MaceSaber.description>
+
+  <SWSaber_SaberPike.label>Sabre laser pike</SWSaber_SaberPike.label>
+  <SWSaber_SaberPike.description>Une arme élégante, pour une ère plus civilisé. L'arme emblématique des utilisateurs de la force.\nC'est une variante sous forme de lance, prisé par les gardes jedi.</SWSaber_SaberPike.description>
+
+
+</LanguageData>

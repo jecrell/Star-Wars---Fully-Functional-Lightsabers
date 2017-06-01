@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_SaberCasing.label>Poignée du sabre</PJ_SaberCasing.label>
+  <PJ_SaberCasing.description>Un boitier blindé, contenant plusieurs composants, incluant le bouton et le réglage d'ajustement de la lame.</PJ_SaberCasing.description>
+
+  <PJ_SaberInternal.label>Composant interne du sabre</PJ_SaberInternal.label>
+  <PJ_SaberInternal.description>Les composants internes pour un sabre laser, incluant une cellule d'énergie au diatum, la chambre du cristal et un réseau de cristaux de focalisation.</PJ_SaberInternal.description>
+
+
+</LanguageData>

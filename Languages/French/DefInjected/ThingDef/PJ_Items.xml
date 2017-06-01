@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic Kyber Crystals -->
+
+  <PJ_KyberCrystal.label>cristal de couleur (vert)</PJ_KyberCrystal.label>
+  <PJ_KyberCrystal.description>Un cristal de couleur basique pour sabre laser.</PJ_KyberCrystal.description>
+
+  <PJ_KyberCrystalYellow.label>cristal de couleur (jaune)</PJ_KyberCrystalYellow.label>
+  <PJ_KyberCrystalYellow.description>Un cristal de couleur basique pour sabre laser.</PJ_KyberCrystalYellow.description>
+
+  <PJ_KyberCrystalBlue.label>cristal de couleur (bleu)</PJ_KyberCrystalBlue.label>
+  <PJ_KyberCrystalBlue.description>Un cristal de couleur basique pour sabre laser.</PJ_KyberCrystalBlue.description>
+
+  <PJ_KyberCrystalCyan.label>cristal de couleur (turquoise)</PJ_KyberCrystalCyan.label>
+  <PJ_KyberCrystalCyan.description>Un cristal de couleur basique pour sabre laser.</PJ_KyberCrystalCyan.description>
+
+  <PJ_KyberCrystalAzure.label>cristal de couleur (azur)</PJ_KyberCrystalAzure.label>
+  <PJ_KyberCrystalAzure.description>Un cristal de couleur basique pour sabre laser.</PJ_KyberCrystalAzure.description>
+
+  <PJ_KyberCrystalPurple.label>cristal de couleur (violet)</PJ_KyberCrystalPurple.label>
+  <PJ_KyberCrystalPurple.description>Un cristal de couleur basique pour sabre laser.</PJ_KyberCrystalPurple.description>
+
+  <PJ_KyberCrystalRed.label>cristal synthétique (rouge)</PJ_KyberCrystalRed.label>
+  <PJ_KyberCrystalRed.description>Ce synthétique à été clairement amélioré, rendant la lame bien plus puissante, et sa couleur rouge. Les cristaux synthétic comme celui ci sont souvent prisés par les Sith.</PJ_KyberCrystalRed.description>
+
+
+  <!-- Stat Bonus Crystals -->
+
+  <PJ_AdeganCrystal.label>cristal adegan (vert)</PJ_AdeganCrystal.label>
+  <PJ_AdeganCrystal.description>Un cristal rare qui réagit à la force, ce qui en fait un des meilleurs cristal pour sabre laser.</PJ_AdeganCrystal.description>
+
+  <PJ_DamindCrystal.label>cristal damind (azur clair)</PJ_DamindCrystal.label>
+  <PJ_DamindCrystal.description>Une fois installé dans un sabre, le Damind produit un faisceau plus large, rendant plus facile le renvoi des blasters. Les Sith d'autrefois en était friand.</PJ_DamindCrystal.description>
+
+  <PJ_DragiteCrystal.label>cristal dragite (violet clair)</PJ_DragiteCrystal.label>
+  <PJ_DragiteCrystal.description>Souvent récolté comme source d'énergie, ce cristal cause des dégats sonique impressionnant.</PJ_DragiteCrystal.description>
+
+  <PJ_HurCrystal.label>cristal hurrikaine (indigo)</PJ_HurCrystal.label>
+  <PJ_HurCrystal.description>Admiré pour sa beauté sans pareil. Il fait un cristal pour sabre exceptionnel, pénétrant les défenses adverses.</PJ_HurCrystal.description>
+
+  <PJ_EralamCrystal.label>cristal eralam (argent)</PJ_EralamCrystal.label>
+  <PJ_EralamCrystal.description>Un cristal rare, envié pour sa pureté. Il produit un faisceau argenté.</PJ_EralamCrystal.description>
+
+  <PJ_RubatCrystal.label>cristal rubat (bronze)</PJ_RubatCrystal.label>
+  <PJ_RubatCrystal.description>les Rubat sont souvent utilisé dans la conceptions des sabres lorsqu'ils sont trouvés. Ils produisent une lame bien plus tranchante.</PJ_RubatCrystal.description>
+
+  <PJ_FirkrannCrystal.label>cristal firkrann (argent)</PJ_FirkrannCrystal.label>
+  <PJ_FirkrannCrystal.description>Les Firkrann ont d'étranges capacités électrique. Ils convertissent une partie de l'énergie plasma du sabre en électricité, ce qui inflige des dégats dévastateur, surtout aux mechanoides.</PJ_FirkrannCrystal.description>
+
+  <PJ_PontiteCrystal.label>cristal pontite (bleu glacial)</PJ_PontiteCrystal.label>
+  <PJ_PontiteCrystal.description>Les Pontite, absorbe la chaleur, ce qui donne un sabre laser causant des dégats d'un froid glacial.</PJ_PontiteCrystal.description>
+
+  <PJ_BarabIngot.label>Lingot de minerai de barab (orange)</PJ_BarabIngot.label>
+  <PJ_BarabIngot.description>L'exposition permanente au radiation provenant de la surface de Barab 1, permet au sabre ainsi équipé de brûler autant qu'un brasier, ce qui peut causer l'immolation de toute personne en contact.</PJ_BarabIngot.description>
+
+  <PJ_AnkSapphire.label>ankarres saphir (blue sombre)</PJ_AnkSapphire.label>
+  <PJ_AnkSapphire.description>Le saphir Ankarres a des propriétés curative légendaire. Ce dernier donne à la lame une couleur bleu d'un sombre intriguant quand il est monté sur un sabre laser.</PJ_AnkSapphire.description>
+
+  <PJ_UltimaPearl.label>Perle ultime (pale)</PJ_UltimaPearl.label>
+  <PJ_UltimaPearl.description>Perles rares ramssées dans les profondeurs d'une planète océan, ils faut des compétences pour réussir à le monter sur un sabre, mais le résultat est inconstestable.</PJ_UltimaPearl.description>
+
+  <PJ_BlackPearl.label>Perle de dragon Krayt (noir)</PJ_BlackPearl.label>
+  <PJ_BlackPearl.description>Les perles Krayt sont récoltés dans les antres des féroces dragon Krayt. Dur à abattre, il est non moins difficile de l'utiliser sur un sabre laser.\nMais la lame en ressort monstrueusement puissante.</PJ_BlackPearl.description>
+
+  <PJ_KaiburrCrystal.label>Cristal kaiburr (rouge orangé)</PJ_KaiburrCrystal.label>
+  <PJ_KaiburrCrystal.description>Le légendaire cristal Kaiburr, de qui le kyber prend son nom. Un des cristaux les plus puissant pouvant être utilisé dans la conception d'un sabre.</PJ_KaiburrCrystal.description>
+
+
+</LanguageData>
