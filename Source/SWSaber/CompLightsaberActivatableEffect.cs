@@ -50,6 +50,11 @@ namespace SWSaber
         public override void Activate()
         {
             base.Activate();
+            MakeGlower();
+        }
+
+        public void MakeGlower()
+        {
             SaberGlow sb;
             Pawn p = this.parent.holdingOwner.Owner.ParentHolder as Pawn;
             p.AllComps.Add(sb = new SaberGlow()
@@ -69,11 +74,20 @@ namespace SWSaber
         public override void Deactivate()
         {
             base.Deactivate();
-            Pawn p = this.parent.holdingOwner.Owner.ParentHolder as Pawn;
-            SaberGlow sb = p.TryGetComp<SaberGlow>();
-            this.parent.MapHeld.glowGrid.DeRegisterGlower(sb);
-            sb.PostDestroy(DestroyMode.Vanish, this.parent.Map);
-            p.AllComps.Remove(sb);
+            if (this.parent != null)
+            {
+                if (this.parent.holdingOwner != null)
+                {
+                    Pawn p = this.parent.holdingOwner.Owner.ParentHolder as Pawn;
+                    SaberGlow sb = p.TryGetComp<SaberGlow>();
+                    if (sb != null)
+                    {
+                        this.parent.MapHeld.glowGrid.DeRegisterGlower(sb);
+                        sb.PostDestroy(DestroyMode.Vanish, this.parent.Map);
+                        p.AllComps.Remove(sb);
+                    }
+                }
+            }
         }
     }
 }
