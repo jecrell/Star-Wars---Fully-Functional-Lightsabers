@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ExceptionSlotAlreadyFilled>{0} Slot ist schon belegt</ExceptionSlotAlreadyFilled>
+  <Unavailable>nicht verfügbar</Unavailable>
+  <IsDrafted>{0} ist kampfbereit.</IsDrafted>
+  <Unload>entlade</Unload>
+  <CurrentlyLoaded>geladen</CurrentlyLoaded>
+  <Effects>Effekte</Effects>
+  <ChangesPrimaryColor>Ändert Hauptfarbe</ChangesPrimaryColor>
+  <StatModifiers>Eigenschaftsänderer</StatModifiers>
+  <DamageType>Schadenstyp</DamageType>
+  <NoLoadOptions>keine Einstellungen zum Laden verfügbar.</NoLoadOptions>
+  <DefensiveHealChance>Wenn angegriffen, {1} chance {0} Wunden zu heilen</DefensiveHealChance>
+  <VampiricChance>Wenn angegriffen, {1} chance {0} Wunden vampirisch zu heilen</VampiricChance>
+
+</LanguageData>
