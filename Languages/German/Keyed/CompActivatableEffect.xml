@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DeactivatedWarning>WARNING: {0} Waffe ist momentan deaktiviert!</DeactivatedWarning>
-  
+  <DeactivatedWarning>WARNUNG: {0} Waffe ist momentan deaktiviert!</DeactivatedWarning>
+
 </LanguageData>

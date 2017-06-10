@@ -78,13 +78,9 @@
       <HintPath>..\..\..\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="_saberdllchecker, Version=1.17.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\saberdllchecker\SabersDLLChecker\bin\Debug\_saberdllchecker.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SWSaber\Building_BearTrap.cs" />
     <Compile Include="SWSaber\SaberGlow.cs" />
     <Compile Include="SWSaber\CompLightsaberActivatableEffect.cs" />
     <Compile Include="SWSaber\CompCrystalSlotLoadable.cs" />

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_SaberCasing.label>Lichtschwertgehäuse</PJ_SaberCasing.label>
+  <PJ_SaberCasing.description>Die schützende Hülle eines Lichtschwerts. Beinhaltet unzählige Komponenten, inklusive Schalter und Klingenregler..</PJ_SaberCasing.description>
+
+  <PJ_SaberInternal.label>Innere Lichtschwertkomponenten</PJ_SaberInternal.label>
+  <PJ_SaberInternal.description>Innere Komponenten für ein Lichtschwert, inklusive diatium Energiezelle, Kristall Energiekammer und Fokuskristallmatrix.</PJ_SaberInternal.description>
+
+
+</LanguageData>

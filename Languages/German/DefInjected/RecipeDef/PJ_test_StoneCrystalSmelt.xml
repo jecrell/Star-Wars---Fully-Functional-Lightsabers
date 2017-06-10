@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeCrystal_purp.label>raffiniere Lichtschwertkristall (lila)</PJ_MakeCrystal_purp.label>
+  <PJ_MakeCrystal_purp.description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristall.</PJ_MakeCrystal_purp.description>
+  <PJ_MakeCrystal_purp.jobString>raffiniert Kristalle</PJ_MakeCrystal_purp.jobString>
+
+  <PJ_MakeCrystal_yellow.label>raffiniere Lichtschwertkristall (gelb)</PJ_MakeCrystal_yellow.label>
+  <PJ_MakeCrystal_yellow.description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristall.</PJ_MakeCrystal_yellow.description>
+  <PJ_MakeCrystal_yellow.jobString>raffiniert Kristalle</PJ_MakeCrystal_yellow.jobString>
+
+
+  <!-- <RecipeDef>
+		<defName>PJ_MakeCrystal_Barab</defName>
+		<label>raffiniere Baraberz (orange)</label>
+		<description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristall.</description>
+		<jobString>raffiniert Kristalle</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+		<products>
+			<PJ_BarabIngot>1</PJ_BarabIngot>
+		</products>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef> -->
+
+  <PJ_MakeCrystal_blue.label>raffiniere Lichtschwertkristall (blau)</PJ_MakeCrystal_blue.label>
+  <PJ_MakeCrystal_blue.description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristalls.</PJ_MakeCrystal_blue.description>
+  <PJ_MakeCrystal_blue.jobString>raffiniert Kristalle</PJ_MakeCrystal_blue.jobString>
+
+  <PJ_MakeCrystal_Red.label>durchtränke synthetischen Kristall (rot)</PJ_MakeCrystal_Red.label>
+  <PJ_MakeCrystal_Red.description>nimmt Lichtschwertkristall und durchtränkt ihn ihn mit der Macht der dunklen Seite.</PJ_MakeCrystal_Red.description>
+  <PJ_MakeCrystal_Red.jobString>durchtränkt Kristall</PJ_MakeCrystal_Red.jobString>
+
+  <PJ_MakeCrystal_Green.label>raffiniere Lichtschwertkristall (grün)</PJ_MakeCrystal_Green.label>
+  <PJ_MakeCrystal_Green.description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristall.</PJ_MakeCrystal_Green.description>
+  <PJ_MakeCrystal_Green.jobString>raffiniert Kristalle</PJ_MakeCrystal_Green.jobString>
+
+  <PJ_MakeCrystal_Cyan.label>raffiniere Lichtschwertkristall (türkis)</PJ_MakeCrystal_Cyan.label>
+  <PJ_MakeCrystal_Cyan.description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristall.</PJ_MakeCrystal_Cyan.description>
+  <PJ_MakeCrystal_Cyan.jobString>raffiniert Kristalle</PJ_MakeCrystal_Cyan.jobString>
+
+  <PJ_MakeCrystal_Azure.label>raffiniere Lichtschwertkristall (azurblau)</PJ_MakeCrystal_Azure.label>
+  <PJ_MakeCrystal_Azure.description>verarbeitet Rohstoffe zu synthetischen Lichtschwertkristall.</PJ_MakeCrystal_Azure.description>
+  <PJ_MakeCrystal_Azure.jobString>raffiniert Kristalle</PJ_MakeCrystal_Azure.jobString>
+
+
+</LanguageData>

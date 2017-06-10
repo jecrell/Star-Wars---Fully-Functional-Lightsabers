@@ -19,19 +19,7 @@ namespace SWSaber
         {
             try
             {
-                if (this.parent != null)
-                {
-                    if (this.parent.Map != null)
-                    {
-                        if (this.parent.Map.glowGrid != null)
-                        {
-                            if (this.parent.Position != IntVec3.Invalid)
-                            {
-                                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
-                            }
-                        }
-                    }
-                }
+                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
             }
             catch (Exception ex) { Log.Error(ex.Message + "\n" + ex.StackTrace); }
         }

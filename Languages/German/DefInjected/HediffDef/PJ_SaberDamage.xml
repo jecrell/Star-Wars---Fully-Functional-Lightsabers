@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_LightsaberEnergy.label>Energieverbrennung</PJ_LightsaberEnergy.label>
+  <PJ_LightsaberEnergy.comps.0.labelTendedWell>bandagiert</PJ_LightsaberEnergy.comps.0.labelTendedWell>
+  <PJ_LightsaberEnergy.comps.0.labelTendedWellInner>genäht</PJ_LightsaberEnergy.comps.0.labelTendedWellInner>
+  <PJ_LightsaberEnergy.comps.0.labelSolidTendedWell>set</PJ_LightsaberEnergy.comps.0.labelSolidTendedWell>
+  <PJ_LightsaberEnergy.comps.2.oldLabel>Energieverbrennungsnarbe</PJ_LightsaberEnergy.comps.2.oldLabel>
+  <PJ_LightsaberEnergy.injuryProps.destroyedLabel>abgeschnitten</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
+  <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>ausgeschnitten</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
+
+
+  <!-- Barab Crystal Damage -->
+
+  <PJ_BarabRads.label>Barab Verbrennung</PJ_BarabRads.label>
+  <PJ_BarabRads.comps.0.labelTendedWell>bandagiert</PJ_BarabRads.comps.0.labelTendedWell>
+  <PJ_BarabRads.comps.0.labelTendedWellInner>behandelt</PJ_BarabRads.comps.0.labelTendedWellInner>
+  <PJ_BarabRads.comps.0.labelSolidTendedWell>gepflegt</PJ_BarabRads.comps.0.labelSolidTendedWell>
+  <PJ_BarabRads.comps.2.oldLabel>Barab Strahlennarbe</PJ_BarabRads.comps.2.oldLabel>
+  <PJ_BarabRads.injuryProps.destroyedLabel>abgebrannt</PJ_BarabRads.injuryProps.destroyedLabel>
+  <PJ_BarabRads.injuryProps.destroyedOutLabel>ausgebrannt</PJ_BarabRads.injuryProps.destroyedOutLabel>
+
+
+  <!-- Firkrann Crystal Damage -->
+
+  <PJ_FirkZap.label>Firkrann elektrische Verbrennung</PJ_FirkZap.label>
+  <PJ_FirkZap.comps.0.labelTendedWell>bandagiert</PJ_FirkZap.comps.0.labelTendedWell>
+  <PJ_FirkZap.comps.0.labelTendedWellInner>behandelt</PJ_FirkZap.comps.0.labelTendedWellInner>
+  <PJ_FirkZap.comps.0.labelSolidTendedWell>gepflegt</PJ_FirkZap.comps.0.labelSolidTendedWell>
+  <PJ_FirkZap.comps.2.oldLabel>Firkrann Stromnarbe</PJ_FirkZap.comps.2.oldLabel>
+  <PJ_FirkZap.injuryProps.destroyedLabel>abgebrannt</PJ_FirkZap.injuryProps.destroyedLabel>
+  <PJ_FirkZap.injuryProps.destroyedOutLabel>ausgebrannt</PJ_FirkZap.injuryProps.destroyedOutLabel>
+
+
+  <!-- Sonic Damage (Dragite) -->
+
+  <PJ_SonicBoom.label>Schallfraktur</PJ_SonicBoom.label>
+  <PJ_SonicBoom.comps.0.labelTendedWell>bandagiert</PJ_SonicBoom.comps.0.labelTendedWell>
+  <PJ_SonicBoom.comps.0.labelTendedWellInner>behandelt</PJ_SonicBoom.comps.0.labelTendedWellInner>
+  <PJ_SonicBoom.comps.0.labelSolidTendedWell>gepflegt</PJ_SonicBoom.comps.0.labelSolidTendedWell>
+  <PJ_SonicBoom.comps.2.oldLabel>Schallfraktur</PJ_SonicBoom.comps.2.oldLabel>
+  <PJ_SonicBoom.injuryProps.destroyedLabel>ausgelöscht</PJ_SonicBoom.injuryProps.destroyedLabel>
+  <PJ_SonicBoom.injuryProps.destroyedOutLabel>verdampft</PJ_SonicBoom.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>
