@@ -41,7 +41,6 @@
 		<tradeTags>
       <li>Exotic</li>
     </tradeTags>
-		 <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
   </ThingDef>
 
   <ThingDef Name="KyberCrystalBaseRare" ParentName="KyberCrystalBase" Abstract="True">
