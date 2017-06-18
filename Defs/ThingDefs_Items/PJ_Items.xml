@@ -34,13 +34,14 @@
 	  <Beauty>5</Beauty>
       <MarketValue>90</MarketValue>
       <Mass>0.2</Mass>	  
-	</statBases>
-	<thingCategories>
+		</statBases>
+		<thingCategories>
       <li>PJ_KyberCrystals</li>
     </thingCategories>	
-	<tradeTags>
+		<tradeTags>
       <li>Exotic</li>
     </tradeTags>
+		 <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
   </ThingDef>
 
   <ThingDef Name="KyberCrystalBaseRare" ParentName="KyberCrystalBase" Abstract="True">
