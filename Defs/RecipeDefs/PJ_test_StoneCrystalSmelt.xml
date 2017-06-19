@@ -154,7 +154,7 @@
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
-    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <unfinishedThingDef>PJ_UnfinishedRedC</unfinishedThingDef>
     <ingredients>
       <li>
         <filter>
