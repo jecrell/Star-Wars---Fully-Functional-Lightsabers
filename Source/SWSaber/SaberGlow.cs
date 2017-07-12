@@ -7,12 +7,18 @@ namespace SWSaber
 {
     class SaberGlow : CompGlower
     {
+        //bool spawnHandled = false;
+
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
-            Traverse.Create(this).Field("glowOnInt").SetValue(true);
-            this.parent.MapHeld.glowGrid.RegisterGlower(this);
+            try
+            {
+                Traverse.Create(this).Field("glowOnInt").SetValue(true);
+                this.parent.MapHeld.glowGrid.RegisterGlower(this);
+            }
+            catch { }
         }
-
+        
         IntVec3 pos = IntVec3.Invalid;
 
         public void GlowTick(object state)
@@ -21,17 +27,31 @@ namespace SWSaber
             {
                 this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
             }
-            catch (Exception ex) { Log.Error(ex.Message + "\n" + ex.StackTrace); }
+            catch { }
+            {
+                //We're interested in this, but not the end users.
+                //Log.Error(ex.Message + "\n" + ex.StackTrace);
+            }
         }
 
 
-        public override void CompTick() =>
-            this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
+        public override void CompTick()
+        {
+            try
+            {
+                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
+            }
+            catch { }
+        }
 
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {
-            this.parent.Map.glowGrid.DeRegisterGlower(this);
-            base.PostDestroy(mode, previousMap);
+            try
+            {
+                this.parent.Map.glowGrid.DeRegisterGlower(this);
+                base.PostDestroy(mode, previousMap);
+            }
+            catch { }
         }
     }
 }
