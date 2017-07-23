@@ -107,7 +107,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -207,7 +207,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -307,7 +307,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -407,7 +407,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -507,7 +507,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -608,7 +608,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -708,7 +708,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -808,7 +808,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -907,7 +907,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -1007,7 +1007,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -1106,7 +1106,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -1205,7 +1205,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -1306,7 +1306,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -1404,7 +1404,7 @@
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
