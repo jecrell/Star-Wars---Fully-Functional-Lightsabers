@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic Kyber Crystals -->
+
+  <PJ_KyberCrystal.label>[SW]核心水晶（绿）</PJ_KyberCrystal.label>
+  <PJ_KyberCrystal.description>彩色的标准光剑用核心水晶。</PJ_KyberCrystal.description>
+
+  <PJ_KyberCrystalYellow.label>[SW]核心水晶（黄）</PJ_KyberCrystalYellow.label>
+  <PJ_KyberCrystalYellow.description>彩色的标准光剑用核心水晶。</PJ_KyberCrystalYellow.description>
+
+  <PJ_KyberCrystalBlue.label>[SW]核心水晶（蓝）</PJ_KyberCrystalBlue.label>
+  <PJ_KyberCrystalBlue.description>彩色的标准光剑用核心水晶。</PJ_KyberCrystalBlue.description>
+
+  <PJ_KyberCrystalCyan.label>[SW]核心水晶（青）</PJ_KyberCrystalCyan.label>
+  <PJ_KyberCrystalCyan.description>彩色的标准光剑用核心水晶。</PJ_KyberCrystalCyan.description>
+
+  <PJ_KyberCrystalAzure.label>[SW]核心水晶（天蓝）</PJ_KyberCrystalAzure.label>
+  <PJ_KyberCrystalAzure.description>彩色的标准光剑用核心水晶。</PJ_KyberCrystalAzure.description>
+
+  <PJ_KyberCrystalPurple.label>[SW]核心水晶（紫）</PJ_KyberCrystalPurple.label>
+  <PJ_KyberCrystalPurple.description>彩色的标准光剑用核心水晶。</PJ_KyberCrystalPurple.description>
+
+  <PJ_KyberCrystalRed.label>[SW]核心水晶（西斯-红）</PJ_KyberCrystalRed.label>
+  <PJ_KyberCrystalRed.description>这块合成水晶经过了进一步的黑暗力量强化，能产生标准的红色强力能量束。有一种红，叫做西斯红。</PJ_KyberCrystalRed.description>
+
+
+  <!-- Stat Bonus Crystals -->
+
+  <PJ_AdeganCrystal.label>[SW]艾德甘水晶（绿）</PJ_AdeganCrystal.label>
+  <PJ_AdeganCrystal.description>艾德甘水晶拥有罕见的原力活性，据说是最好的光剑核心之一。</PJ_AdeganCrystal.description>
+
+  <PJ_DamindCrystal.label>[SW]达曼德水晶（天蓝）</PJ_DamindCrystal.label>
+  <PJ_DamindCrystal.description>达曼德水晶做为光剑核心能产生十分宽厚的能量束，使光剑更容易偏转远程武器的抛射物。据说曾是西斯人最爱采用的水晶之一。</PJ_DamindCrystal.description>
+
+  <PJ_DragiteCrystal.label>[SW]德拉盖特水晶（紫）</PJ_DragiteCrystal.label>
+  <PJ_DragiteCrystal.description>德拉盖特水晶是一种珍稀的战略资源，做为光剑核心产生的能量束可以通过共振产生强力冲击波。</PJ_DragiteCrystal.description>
+
+  <PJ_HurCrystal.label>[SW]哈瑞坎水晶（靛紫）</PJ_HurCrystal.label>
+  <PJ_HurCrystal.description>哈瑞坎水晶深邃绝美，绚丽靛紫，做为光剑核心能产生罕见颜色的能量束，并能够轻易的穿透敌人的护甲。</PJ_HurCrystal.description>
+
+  <PJ_EralamCrystal.label>[SW]伊拉兰姆水晶（银）</PJ_EralamCrystal.label>
+  <PJ_EralamCrystal.description>伊拉兰姆水晶纯净圣洁，绝世无双，做为光剑核心能产生炫银色的强力能量束。</PJ_EralamCrystal.description>
+
+  <PJ_RubatCrystal.label>[SW]拉巴特水晶（褐）</PJ_RubatCrystal.label>
+  <PJ_RubatCrystal.description>假如你拥有一块拉巴特水晶，一定会迫不及待想用来做为光剑核心，它产生的能量束会告诉你什么是锋利，什么是神出鬼没。</PJ_RubatCrystal.description>
+
+  <PJ_FirkrannCrystal.label>[SW]费克兰水晶（银）</PJ_FirkrannCrystal.label>
+  <PJ_FirkrannCrystal.description>神奇的费克兰水晶具备天然的高压电能。做为光剑核心能将能量束转换为电能光束，具有拥有毁天灭地的效果。也可以说是机械族杀手。</PJ_FirkrannCrystal.description>
+
+  <PJ_PontiteCrystal.label>[SW]珀泰特水晶（冰蓝）</PJ_PontiteCrystal.label>
+  <PJ_PontiteCrystal.description>珀泰特水晶具备吸热的特性，做为光剑核心产生的能量束冰冷静谧，能在攻击中吸取对手的热量。</PJ_PontiteCrystal.description>
+
+  <PJ_BarabIngot.label>[SW]巴拉布原锭（橙）</PJ_BarabIngot.label>
+  <PJ_BarabIngot.description>巴拉布原锭是一种来自巴拉布族的水晶矿，块状原锭和不断外溢的放射性能量无不显示出它的强大。巴拉布原锭做为光剑核心能产生形似火焰的能量束，并真的能令被砍到的目标着火。</PJ_BarabIngot.description>
+
+  <PJ_AnkSapphire.label>[SW]安卡瑞斯蓝钻（深蓝）</PJ_AnkSapphire.label>
+  <PJ_AnkSapphire.description>安卡瑞斯蓝钻拥有奇迹般的治疗效果，做为光剑核心能产生会形成深蓝色的绚丽能量束。</PJ_AnkSapphire.description>
+
+  <PJ_UltimaPearl.label>[SW]奥缇玛珍珠（白）</PJ_UltimaPearl.label>
+  <PJ_UltimaPearl.description>奥缇玛珍珠采自深海，十分难得，做为光剑核心产生的能量束拥有强大的攻击力。</PJ_UltimaPearl.description>
+
+  <PJ_BlackPearl.label>[SW]克瑞特龙珠（黑）</PJ_BlackPearl.label>
+  <PJ_BlackPearl.description>克瑞特龙珠取自强大的克瑞特龙的胃囊。作为光剑核心产生的能量束，拥有更多的攻击加成。\n克瑞特龙珠，让你的光剑强到没朋友！</PJ_BlackPearl.description>
+
+  <PJ_KaiburrCrystal.label>[SW]凯伯水晶（橘红）</PJ_KaiburrCrystal.label>
+  <PJ_KaiburrCrystal.description>传奇的凯伯水晶，名字取自发现它的凯伯人，是最常用于光剑能量束的强大水晶。</PJ_KaiburrCrystal.description>
+
+
+</LanguageData>

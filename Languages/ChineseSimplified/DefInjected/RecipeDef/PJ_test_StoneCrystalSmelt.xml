@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeCrystal_purp.label>炼制[SW]核心水晶（紫）</PJ_MakeCrystal_purp.label>
+  <PJ_MakeCrystal_purp.description>将水晶原矿炼制成光剑最重要的核心水晶。</PJ_MakeCrystal_purp.description>
+  <PJ_MakeCrystal_purp.jobString>正在炼制核心水晶。</PJ_MakeCrystal_purp.jobString>
+
+  <PJ_MakeCrystal_yellow.label>炼制[SW]核心水晶（黄）</PJ_MakeCrystal_yellow.label>
+  <PJ_MakeCrystal_yellow.description>将水晶原矿炼制成光剑最重要的核心水晶。</PJ_MakeCrystal_yellow.description>
+  <PJ_MakeCrystal_yellow.jobString>正在炼制核心水晶。</PJ_MakeCrystal_yellow.jobString>
+
+  <PJ_MakeCrystal_blue.label>炼制[SW]核心水晶（蓝）</PJ_MakeCrystal_blue.label>
+  <PJ_MakeCrystal_blue.description>将水晶原矿炼制成光剑最重要的核心水晶。</PJ_MakeCrystal_blue.description>
+  <PJ_MakeCrystal_blue.jobString>正在炼制核心水晶。</PJ_MakeCrystal_blue.jobString>
+
+  <PJ_MakeCrystal_Red.label>炼制[SW]核心水晶（西斯-红）</PJ_MakeCrystal_Red.label>
+  <PJ_MakeCrystal_Red.description>将黑暗原力注入一块水晶使其屈服，炼制成新的核心水晶。</PJ_MakeCrystal_Red.description>
+  <PJ_MakeCrystal_Red.jobString>正在炼制核心水晶。</PJ_MakeCrystal_Red.jobString>
+
+  <PJ_MakeCrystal_Green.label>炼制[SW]核心水晶（绿）</PJ_MakeCrystal_Green.label>
+  <PJ_MakeCrystal_Green.description>将水晶原矿炼制成光剑最重要的核心水晶。</PJ_MakeCrystal_Green.description>
+  <PJ_MakeCrystal_Green.jobString>正在炼制核心水晶。</PJ_MakeCrystal_Green.jobString>
+
+  <PJ_MakeCrystal_Cyan.label>炼制[SW]核心水晶（青）</PJ_MakeCrystal_Cyan.label>
+  <PJ_MakeCrystal_Cyan.description>将水晶原矿炼制成光剑最重要的核心水晶。</PJ_MakeCrystal_Cyan.description>
+  <PJ_MakeCrystal_Cyan.jobString>正在炼制核心水晶。</PJ_MakeCrystal_Cyan.jobString>
+
+  <PJ_MakeCrystal_Azure.label>炼制[SW]核心水晶（天蓝）</PJ_MakeCrystal_Azure.label>
+  <PJ_MakeCrystal_Azure.description>将水晶原矿炼制成光剑最重要的核心水晶。</PJ_MakeCrystal_Azure.description>
+  <PJ_MakeCrystal_Azure.jobString>正在炼制核心水晶。</PJ_MakeCrystal_Azure.jobString>
+
+
+</LanguageData>
