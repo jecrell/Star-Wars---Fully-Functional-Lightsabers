@@ -1,0 +1,3 @@
+E:\Steam2\steamapps\common\RimWorld\Mods\SabersA17\Source\obj\Release\SWSaber.csprojResolveAssemblyReference.cache
+E:\Steam2\steamapps\common\RimWorld\Mods\SabersA17\Assemblies\SWSaber.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\SabersA17\Source\obj\Release\SWSaber.dll

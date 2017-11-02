@@ -45,27 +45,27 @@
     </Reference>
     <Reference Include="CompActivatableEffect, Version=1.17.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools\Assemblies\CompActivatableEffect.dll</HintPath>
+      <HintPath>..\..\JecsToolsX\Assemblies\CompActivatableEffect.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompDeflector, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools\Assemblies\CompDeflector.dll</HintPath>
+      <HintPath>..\..\JecsToolsX\Assemblies\CompDeflector.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompExtraSounds, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools\Assemblies\CompExtraSounds.dll</HintPath>
+      <HintPath>..\..\JecsToolsX\Assemblies\CompExtraSounds.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompOversizedWeapon, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools\Assemblies\CompOversizedWeapon.dll</HintPath>
+      <HintPath>..\..\JecsToolsX\Assemblies\CompOversizedWeapon.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompSlotLoadable, Version=1.17.0.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools\Assemblies\CompSlotLoadable.dll</HintPath>
+      <HintPath>..\..\JecsToolsX\Assemblies\CompSlotLoadable.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -80,7 +80,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SWSaber\Building_BearTrap.cs" />
     <Compile Include="SWSaber\SaberGlow.cs" />
     <Compile Include="SWSaber\CompLightsaberActivatableEffect.cs" />
     <Compile Include="SWSaber\CompCrystalSlotLoadable.cs" />
