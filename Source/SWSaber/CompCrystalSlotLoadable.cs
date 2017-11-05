@@ -1,5 +1,6 @@
 ﻿using CompSlotLoadable;
 using Verse;
+using RimWorld;
 
 namespace SWSaber
 {
@@ -25,7 +26,7 @@ namespace SWSaber
                         {
                             //Log.Message("5");
 
-                            Messages.Message("DeactivateLightsaberFirst", MessageSound.RejectInput);
+                            Messages.Message("DeactivateLightsaberFirst", MessageTypeDefOf.RejectInput);
                             return;
                         }
                     }

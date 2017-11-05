@@ -42,7 +42,7 @@ namespace SWSaber
                         }
                     }
                 }
-                Messages.Message("KyberCrystalRequired".Translate(), MessageSound.RejectInput);
+                Messages.Message("KyberCrystalRequired".Translate(), MessageTypeDefOf.RejectInput);
             }
             return false;
         }

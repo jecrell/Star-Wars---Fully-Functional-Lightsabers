@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
     <techLevel>Industrial</techLevel>
@@ -101,17 +101,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-80</equippedAngleOffset>
 		<stuffCategories>
@@ -171,20 +169,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		    <tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 	
 		<!-- ================== CURVED ==================== -->
@@ -201,17 +218,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-32</equippedAngleOffset>
 		<stuffCategories>
@@ -271,20 +286,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+			<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 
 		<!-- ======== Kylo Ren Crosshilt Saber ======== -->
@@ -301,17 +335,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-68</equippedAngleOffset>
 		<stuffCategories>
@@ -371,20 +403,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		    <tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 	
 		<!-- ======== Darth Maul Double Saber ======== -->
@@ -401,17 +452,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 			</statBases>
 			<equippedAngleOffset>-35</equippedAngleOffset>
 			<stuffCategories>
@@ -470,20 +519,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 			</comps>
-			<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-			</verbs>
+			<tools>
+      <li>
+        <label>backedge</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+   		 </tools>
 			</ThingDef>
 			
 			
@@ -501,17 +569,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-88</equippedAngleOffset>
 		<stuffCategories>
@@ -571,20 +637,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 		<!-- ======== Palpatine's Electrum Saber ======== -->
@@ -602,17 +687,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-37</equippedAngleOffset>
 		<stuffCategories>
@@ -672,20 +755,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 			</comps>
-			<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-			</verbs>
+			<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+    </tools>
 			</ThingDef>
 			
 			
@@ -702,17 +804,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-78</equippedAngleOffset>
 		<stuffCategories>
@@ -772,20 +872,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 		
@@ -802,17 +921,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<stuffCategories>
@@ -872,20 +989,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>doubleblade</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 				<!-- ===== Honor Guard Saberstaff ===== -->
@@ -901,17 +1037,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-66</equippedAngleOffset>
 		<stuffCategories>
@@ -971,20 +1105,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-point</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 		
@@ -1001,17 +1154,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-25</equippedAngleOffset>
 		<stuffCategories>
@@ -1071,20 +1222,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-point</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 				<!-- ===== Darksaber ===== -->
@@ -1100,17 +1270,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<stuffCategories>
@@ -1170,20 +1338,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 			
 						<!-- ===== Yoda saber ===== -->
@@ -1199,17 +1386,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-40</equippedAngleOffset>
 		<stuffCategories>
@@ -1269,20 +1454,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 				<!-- ======== Mace Windu Saber ======== -->
@@ -1300,17 +1504,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-37</equippedAngleOffset>
 		<stuffCategories>
@@ -1370,20 +1572,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 			</comps>
-			<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-			</verbs>
+			<tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 			</ThingDef>
 			
 		<ThingDef ParentName="PJ_BaseLightsaber">
@@ -1398,17 +1619,15 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>26</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.25</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-52</equippedAngleOffset>
 		<stuffCategories>
@@ -1468,20 +1687,39 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Saber</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>haft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 
-</ThingDefs>
+</Defs>

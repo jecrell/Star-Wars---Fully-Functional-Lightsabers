@@ -6,7 +6,7 @@
   <ThingDef Name="KyberCrystalBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>	
-    <description>The kyber, or living crystal, is a rare force attuned prism able to power lightsabers. Kyber crystals can be found scattered throughout the galaxy.</description>
+    <description>The kyber, or living crystal, is a rare force attuned prism able to MeleeWeapon_DamageMultiplier lightsabers. Kyber crystals can be found scattered throughout the galaxy.</description>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -182,7 +182,7 @@
   <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalRed</defName>
     <label>synthetic crystal (red)</label>
-    <description>This synthesized crystal has been further enhanced, giving it a slightly more powerful blade, and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>	
+    <description>This synthesized crystal has been further enhanced, giving it a slightly more MeleeWeapon_DamageMultiplierful blade, and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>	
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -198,7 +198,7 @@
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 			<color>(206,12,44)</color>
 			<statModifiers>
-				<MeleeWeapon_DamageAmount>28</MeleeWeapon_DamageAmount>
+				<MeleeWeapon_DamageMultiplier>28</MeleeWeapon_DamageMultiplier>
 			</statModifiers>		
 		</li>
 	 </comps>
@@ -220,8 +220,8 @@
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 			<color>(11,176,74)</color>
 				 <statModifiers>
-	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
-	   <MeleeWeapon_Cooldown>-0.10</MeleeWeapon_Cooldown>
+	   <MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 		</li>
 	 </comps>
@@ -240,7 +240,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
 	   <AccuracyTouch>0.95</AccuracyTouch>
 		<AccuracyShort>0.85</AccuracyShort>
 		<AccuracyMedium>0.82</AccuracyMedium>
@@ -254,7 +254,7 @@
     <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_DragiteCrystal</defName> 
     <label>dragite crystal (lt purple)</label><!--==Damage Changer==-->
-	<description>A crystal often harvested for use as a power source, if used as a lightsaber focus, the beam resonates, causing sonic damage.</description>
+	<description>A crystal often harvested for use as a MeleeWeapon_DamageMultiplier source, if used as a lightsaber focus, the beam resonates, causing sonic damage.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>	
@@ -264,7 +264,7 @@
 	 <comps>
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 			<statModifiers>
-				<MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
+				<MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
 			</statModifiers>
 			<damageDef>PJ_SonicDam</damageDef>
 			<color>(60,12,70)</color>
@@ -285,7 +285,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	 <statModifiers>
-	   <MeleeWeapon_DamageAmount>40</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_DamageMultiplier>40</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <color>(71,29,144)</color>
 	 	 </li>
@@ -295,7 +295,7 @@
        <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_EralamCrystal</defName>
     <label>eralam crystal (silver)</label>
-	<description>A rare crystal, envied for it's clarity and purity. It produces a shining silver beam of great power.</description>
+	<description>A rare crystal, envied for it's clarity and purity. It produces a shining silver beam of great MeleeWeapon_DamageMultiplier.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -305,7 +305,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageAmount>32</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_DamageMultiplier>32</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <color>(188,206,210)</color>
 	 	 </li>
@@ -325,8 +325,8 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageAmount>30</MeleeWeapon_DamageAmount>
-	   <MeleeWeapon_Cooldown>-0.15</MeleeWeapon_Cooldown>
+	   <MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <color>(175,136,72)</color>
 	 	 </li>
@@ -346,8 +346,8 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageAmount>97</MeleeWeapon_DamageAmount>
-	   <MeleeWeapon_Cooldown>0.35</MeleeWeapon_Cooldown>
+	   <MeleeWeapon_DamageMultiplier>97</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_CooldownMultiplier>0.35</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <damageDef>PJ_FirkDam</damageDef>
 	   <color>(240,241,241)</color>
@@ -369,8 +369,8 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageAmount>32</MeleeWeapon_DamageAmount>
-	   <MeleeWeapon_Cooldown>-0.10</MeleeWeapon_Cooldown>
+	   <MeleeWeapon_DamageMultiplier>32</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <damageDef>PJ_PontiteDam</damageDef>
 	 <color>(68,107,207)</color>
@@ -391,7 +391,7 @@
 	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageAmount>45</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_DamageMultiplier>45</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <damageDef>PJ_BarabDam</damageDef>
 	 <color>(206,105,27)</color>
@@ -404,7 +404,7 @@
     <ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_AnkSapphire</defName>
     <label>ankarres sapphire (dk blue)</label>
-	<description>Ankarres sapphires have legendary healing properties. This one is tuned to make a powerful deep-blue lightsaber blade when used as a focus.</description>
+	<description>Ankarres sapphires have legendary healing properties. This one is tuned to make a MeleeWeapon_DamageMultiplierful deep-blue lightsaber blade when used as a focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -414,7 +414,7 @@
     <comps>
 	  <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	     <statModifiers>
-	       <MeleeWeapon_DamageAmount>35</MeleeWeapon_DamageAmount>
+	       <MeleeWeapon_DamageMultiplier>35</MeleeWeapon_DamageMultiplier>
 	     </statModifiers>
 	     <defensiveHealChance>
 	       <woundLimit>0</woundLimit>
@@ -438,8 +438,8 @@
 	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageAmount>87</MeleeWeapon_DamageAmount>
-	   <MeleeWeapon_Cooldown>-0.35</MeleeWeapon_Cooldown>
+	   <MeleeWeapon_DamageMultiplier>87</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <color>(170,205,255)</color>
 	  </li>
@@ -449,7 +449,7 @@
 <ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_BlackPearl</defName>
     <label>krayt dragon pearl (black)</label>
-	<description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously powerful.</description>
+	<description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously MeleeWeapon_DamageMultiplierful.</description>
     <graphicData>
       <texPath>Items/UltPearl</texPath>
       <graphicClass>Graphic_Single</graphicClass>	
@@ -459,8 +459,8 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageAmount>87</MeleeWeapon_DamageAmount>
-	   <MeleeWeapon_Cooldown>-0.45</MeleeWeapon_Cooldown>
+	   <MeleeWeapon_DamageMultiplier>87</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_CooldownMultiplier>-0.45</MeleeWeapon_CooldownMultiplier>
 	   <MeleeHitChance>0.45</MeleeHitChance>
 	 </statModifiers>
 	 <color>(38,43,65)</color>
@@ -471,7 +471,7 @@
   <ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_KaiburrCrystal</defName>
     <label>kaiburr crystal (red-orange)</label>
-	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most powerful crystals that can be used for a lightsaber focus.</description>
+	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most MeleeWeapon_DamageMultiplierful crystals that can be used for a lightsaber focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -481,7 +481,7 @@
 	  	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">	
 		<statModifiers>
-	   <MeleeWeapon_DamageAmount>100</MeleeWeapon_DamageAmount>
+	   <MeleeWeapon_DamageMultiplier>100</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <color>(255,63,52)</color>
 	 	 </li>

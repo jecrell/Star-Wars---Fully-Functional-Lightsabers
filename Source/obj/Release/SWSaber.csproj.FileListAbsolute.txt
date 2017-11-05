@@ -1,0 +1,6 @@
+E:\Steam2\steamapps\common\RimWorld\Mods\SabersA17\Source\obj\Release\SWSaber.csprojResolveAssemblyReference.cache
+E:\Steam2\steamapps\common\RimWorld\Mods\SabersA17\Assemblies\SWSaber.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\SabersA17\Source\obj\Release\SWSaber.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers\Assemblies\SWSaber.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers\Source\obj\Release\SWSaber.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers\Source\obj\Release\SWSaber.dll

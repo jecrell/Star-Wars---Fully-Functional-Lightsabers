@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Star Wars - Fully Functional Lightsabers</name>
-	<author>Defenders of Peace</author>
-	<targetVersion>0.17.0</targetVersion>
-	<description>Version 1.17.0.5
+	<name>Star Wars - Lightsabers A18</name>
+	<author>Jecrell and Xen</author>
+	<targetVersion>0.18.0</targetVersion>
+	<description>Version 1.18.0.0
 
 	Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
 
