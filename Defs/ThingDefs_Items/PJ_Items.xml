@@ -198,7 +198,7 @@
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 			<color>(206,12,44)</color>
 			<statModifiers>
-				<MeleeWeapon_DamageMultiplier>28</MeleeWeapon_DamageMultiplier>
+				<MeleeWeapon_DamageMultiplier>1.28</MeleeWeapon_DamageMultiplier>
 			</statModifiers>		
 		</li>
 	 </comps>
@@ -220,7 +220,7 @@
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 			<color>(11,176,74)</color>
 				 <statModifiers>
-	   <MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 		</li>
@@ -240,7 +240,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
 	   <AccuracyTouch>0.95</AccuracyTouch>
 		<AccuracyShort>0.85</AccuracyShort>
 		<AccuracyMedium>0.82</AccuracyMedium>
@@ -264,7 +264,7 @@
 	 <comps>
 		<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 			<statModifiers>
-				<MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
+				<MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
 			</statModifiers>
 			<damageDef>PJ_SonicDam</damageDef>
 			<color>(60,12,70)</color>
@@ -285,7 +285,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	 <statModifiers>
-	   <MeleeWeapon_DamageMultiplier>40</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.40</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <color>(71,29,144)</color>
 	 	 </li>
@@ -305,7 +305,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>32</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.32</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <color>(188,206,210)</color>
 	 	 </li>
@@ -325,7 +325,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>30</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <color>(175,136,72)</color>
@@ -346,7 +346,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>97</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.97</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>0.35</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <damageDef>PJ_FirkDam</damageDef>
@@ -369,7 +369,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 		<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>32</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.32</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <damageDef>PJ_PontiteDam</damageDef>
@@ -391,7 +391,7 @@
 	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>45</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.45</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <damageDef>PJ_BarabDam</damageDef>
 	 <color>(206,105,27)</color>
@@ -414,7 +414,7 @@
     <comps>
 	  <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	     <statModifiers>
-	       <MeleeWeapon_DamageMultiplier>35</MeleeWeapon_DamageMultiplier>
+	       <MeleeWeapon_DamageMultiplier>1.35</MeleeWeapon_DamageMultiplier>
 	     </statModifiers>
 	     <defensiveHealChance>
 	       <woundLimit>0</woundLimit>
@@ -438,7 +438,7 @@
 	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>87</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.87</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <color>(170,205,255)</color>
@@ -459,7 +459,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>87</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.87</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.45</MeleeWeapon_CooldownMultiplier>
 	   <MeleeHitChance>0.45</MeleeHitChance>
 	 </statModifiers>
@@ -481,7 +481,7 @@
 	  	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">	
 		<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>100</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>2</MeleeWeapon_DamageMultiplier>
 	 </statModifiers>
 	 <color>(255,63,52)</color>
 	 	 </li>

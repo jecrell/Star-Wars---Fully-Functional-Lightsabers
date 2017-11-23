@@ -6,7 +6,7 @@
     <label>saber</label>
     <workerClass>DamageWorker_Cut</workerClass>	
     <externalViolence>true</externalViolence>
-    <armorCategory>Sharp</armorCategory>	
+    <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>false</makesBlood>	
     <spreadOut>false</spreadOut>	
     <deathMessage>{0} has been cut to death.</deathMessage>
@@ -61,7 +61,7 @@
     <label>Saber radburn</label>
     <workerClass>DamageWorker_Cut</workerClass>	
     <externalViolence>true</externalViolence>
-    <armorCategory>Sharp</armorCategory>	
+    <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>true</makesBlood>	
     <spreadOut>false</spreadOut>	
     <deathMessage>{0} died from lightsaber wounds.</deathMessage>
@@ -116,7 +116,7 @@
     <label>Shock burn</label>
     <workerClass>DamageWorker_Cut</workerClass>	
     <externalViolence>true</externalViolence>
-    <armorCategory>Blunt</armorCategory>	
+    <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>true</makesBlood>	
     <spreadOut>false</spreadOut>	
     <deathMessage>{0} died from charged lightsaber wounds.</deathMessage>
@@ -225,7 +225,7 @@
 		<label>Saber frost</label>
 		<workerClass>DamageWorker_Cut</workerClass>	
 		<externalViolence>true</externalViolence>
-		<armorCategory>Blunt</armorCategory>	
+		<armorCategory>PJ_Lightsaber_Heat</armorCategory>	
 		<spreadOut>false</spreadOut>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>	
 		<deathMessage>{0} died from freezing lightsaber wounds.</deathMessage>

@@ -45,27 +45,27 @@
     </Reference>
     <Reference Include="CompActivatableEffect, Version=1.17.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsToolsX\Assemblies\CompActivatableEffect.dll</HintPath>
+      <HintPath>..\..\JecsTools-A18\Assemblies\CompActivatableEffect.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompDeflector, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsToolsX\Assemblies\CompDeflector.dll</HintPath>
+      <HintPath>..\..\JecsTools-A18\Assemblies\CompDeflector.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompExtraSounds, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsToolsX\Assemblies\CompExtraSounds.dll</HintPath>
+      <HintPath>..\..\JecsTools-A18\Assemblies\CompExtraSounds.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompOversizedWeapon, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsToolsX\Assemblies\CompOversizedWeapon.dll</HintPath>
+      <HintPath>..\..\JecsTools-A18\Assemblies\CompOversizedWeapon.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompSlotLoadable, Version=1.17.0.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsToolsX\Assemblies\CompSlotLoadable.dll</HintPath>
+      <HintPath>..\..\JecsTools-A18\Assemblies\CompSlotLoadable.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

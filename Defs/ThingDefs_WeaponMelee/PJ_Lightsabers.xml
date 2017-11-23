@@ -5,7 +5,7 @@
     <techLevel>Industrial</techLevel>
 		<smeltable>true</smeltable>
 		<weaponTags>
-			<li>Melee</li>
+			<li>PJ_Melee</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsMelee</li>

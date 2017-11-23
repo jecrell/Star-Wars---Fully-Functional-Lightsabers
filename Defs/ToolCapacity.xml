@@ -3,14 +3,14 @@
 <Defs>
 
   <ToolCapacityDef>
-    <defName>PJ_SaberStab</defName>
-    <label>lightsaber stab</label>
+    <defName>PJ_VibroStab</defName>
+    <label>vibroblade stab</label>
   </ToolCapacityDef>
 
   
   <ToolCapacityDef>
-    <defName>PJ_SaberCut</defName>
-    <label>lightsaber slash</label>
+    <defName>PJ_VibroCut</defName>
+    <label>vibroblade slash</label>
   </ToolCapacityDef>
   
 </Defs>
