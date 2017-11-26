@@ -90,6 +90,56 @@
     <Compile Include="SWSaber\HarmonyPatches.cs" />
     <Compile Include="SWSaber\SWSaber_Utility.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Defs\DamageDefs\PJ_SaberDamage.xml">
+      <Link>Defs\PJ_SaberDamage.xml</Link>
+    </Content>
+    <Content Include="..\Defs\JobDefs\CompDeflector_Jobs.xml">
+      <Link>Defs\CompDeflector_Jobs.xml</Link>
+    </Content>
+    <Content Include="..\Defs\JobDefs\CompSlotLoadable_Jobs.xml">
+      <Link>Defs\CompSlotLoadable_Jobs.xml</Link>
+    </Content>
+    <Content Include="..\Defs\Maneuvers.xml">
+      <Link>Defs\Maneuvers.xml</Link>
+    </Content>
+    <Content Include="..\Defs\PawnKindDefs_Test\PawnKindDefs_Test.xml">
+      <Link>Defs\PawnKindDefs_Test.xml</Link>
+    </Content>
+    <Content Include="..\Defs\RecipeDefs\PJ_test_StoneCrystalSmelt.xml">
+      <Link>Defs\PJ_test_StoneCrystalSmelt.xml</Link>
+    </Content>
+    <Content Include="..\Defs\RecipeDefs\Recipes_LSComponents.xml">
+      <Link>Defs\Recipes_LSComponents.xml</Link>
+    </Content>
+    <Content Include="..\Defs\SoundDefs_Lightsaber\Sounds_Lightsaber.xml">
+      <Link>Defs\Sounds_Lightsaber.xml</Link>
+    </Content>
+    <Content Include="..\Defs\Stats_Weapons_Melee.xml">
+      <Link>Defs\Stats_Weapons_Melee.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ThingDefs_Items\Items_Unfinished.xml">
+      <Link>Defs\Items_Unfinished.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ThingDefs_Items\PJ_Categories.xml">
+      <Link>Defs\PJ_Categories.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ThingDefs_Items\PJ_Items.xml">
+      <Link>Defs\PJ_Items.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ThingDefs_Items\PJ_Items_LSComponents.xml">
+      <Link>Defs\PJ_Items_LSComponents.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ThingDefs_Slots\PJ_Slots.xml">
+      <Link>Defs\PJ_Slots.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ThingDefs_WeaponMelee\PJ_Lightsabers.xml">
+      <Link>Defs\PJ_Lightsabers.xml</Link>
+    </Content>
+    <Content Include="..\Defs\ToolCapacity.xml">
+      <Link>Defs\ToolCapacity.xml</Link>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
