@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_MakeSaberCase.label>광선검 케이스 제작</PJ_MakeSaberCase.label>
+  <PJ_MakeSaberCase.description>광선검 용 외부 케이스 제작</PJ_MakeSaberCase.description>
+  <PJ_MakeSaberCase.jobString>광선검 자루 케이스 제작</PJ_MakeSaberCase.jobString>
+  <PJ_MakeSaberInternal.label>광선검 내부 부품 제작</PJ_MakeSaberInternal.label>
+  <PJ_MakeSaberInternal.description>광선검 용 중요 내부 부품 제작</PJ_MakeSaberInternal.description>
+  <PJ_MakeSaberInternal.jobString>크리스탈 매트릭스 정렬</PJ_MakeSaberInternal.jobString>
+</LanguageData>

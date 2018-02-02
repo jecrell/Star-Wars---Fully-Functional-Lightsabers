@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ExceptionSlotAlreadyFilled>{0}의 슬롯이 이미 채워져 있습니다.</ExceptionSlotAlreadyFilled>
+  <Unavailable>이용할 수 없음</Unavailable>
+  <IsDrafted>{0} 이(가) 기안되었습니다.</IsDrafted>
+  <Unload>빼내기</Unload>
+  <CurrentlyLoaded>넣다</CurrentlyLoaded>
+  <Effects>효과들</Effects>
+  <ChangesPrimaryColor>기본 색상 변경</ChangesPrimaryColor>
+  <StatModifiers>즉시 수정</StatModifiers>
+  <DamageType>피해 유형</DamageType>
+  <NoLoadOptions>사용할 수 있는 옵션이 없습니다.</NoLoadOptions>
+  <DefensiveHealChance>공격 받을 시 {1}의 확률로 {0}의 상처를 치료합니다.</DefensiveHealChance>
+  <VampiricChance>굥격 시 {1}의 확률로 {0} 상처를 치료합니다.</VampiricChance>
+</LanguageData>

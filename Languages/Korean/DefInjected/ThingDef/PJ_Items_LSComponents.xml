@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_SaberCasing.label>광선검 케이스</PJ_SaberCasing.label>
+  <PJ_SaberCasing.description>광선검 용 외부 케이스. 광선검 활성 스위치 및 블레이드 조정 컨트롤을 포함한 여러가지 요소로 구성 되어있습니다.</PJ_SaberCasing.description>
+  <PJ_SaberInternal.label>광선검 내부 부품</PJ_SaberInternal.label>
+  <PJ_SaberInternal.description>디아티움 파워 셀, 크리스탈 에너지 보관 장치, 크리스탈 파워 정렬 장치등으로 구성된 내부 부품 입니다.</PJ_SaberInternal.description>
+</LanguageData>

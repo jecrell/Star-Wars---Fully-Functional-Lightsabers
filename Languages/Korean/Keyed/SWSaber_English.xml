@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- ========== COMPS ============ -->
+  <SWSaber_TextMote_CriticalSuccess>치명타 명중</SWSaber_TextMote_CriticalSuccess>
+  <SWSaber_TextMote_CriticalFailure>치명타 실패</SWSaber_TextMote_CriticalFailure>
+  <SWSaber_Block>방어함</SWSaber_Block>
+  <KyberCrystalRequired>광선검 크리스탈 필요</KyberCrystalRequired>
+  <Activated>활성화</Activated>
+  <Deactivated>비활성화</Deactivated>
+  <DeactivateLightsaberFirst>광선검을 먼저 비활성화 하십시오.</DeactivateLightsaberFirst>
+</LanguageData>

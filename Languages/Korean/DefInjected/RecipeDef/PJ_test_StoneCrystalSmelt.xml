@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_MakeCrystal_purp.label>광선검 크리스탈 정제 (보라색)</PJ_MakeCrystal_purp.label>
+  <PJ_MakeCrystal_purp.description>원재료를 광선검 크리스탈로 정제합니다</PJ_MakeCrystal_purp.description>
+  <PJ_MakeCrystal_purp.jobString>크리스탈 정제</PJ_MakeCrystal_purp.jobString>
+  <PJ_MakeCrystal_yellow.label>광선검 크리스탈 정제 (노란색)</PJ_MakeCrystal_yellow.label>
+  <PJ_MakeCrystal_yellow.description>원재료를 광선검 크리스탈로 정제합니다</PJ_MakeCrystal_yellow.description>
+  <PJ_MakeCrystal_yellow.jobString>크리스탈 정제</PJ_MakeCrystal_yellow.jobString>
+  <!-- <RecipeDef>
+		<defName>PJ_MakeCrystal_Barab</defName>
+		<label>refine barab ore (orange)</label>
+		<description>Treats raw materials into synthetic saber crystals.</description>
+		<jobString>Refining crystals</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+		<products>
+			<PJ_BarabIngot>1</PJ_BarabIngot>
+		</products>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef> -->
+  <PJ_MakeCrystal_blue.label>광선검 크리스탈 정제 (파란색)</PJ_MakeCrystal_blue.label>
+  <PJ_MakeCrystal_blue.description>원재료를 광선검 크리스탈로 정제합니다</PJ_MakeCrystal_blue.description>
+  <PJ_MakeCrystal_blue.jobString>크리스탈 정제</PJ_MakeCrystal_blue.jobString>
+  <PJ_MakeCrystal_Red.label>인조 크리스탈 제작 (빨간색)</PJ_MakeCrystal_Red.label>
+  <PJ_MakeCrystal_Red.description>광선검 크리스탈에 포스의 다크 사이드 힘을 주입합니다.</PJ_MakeCrystal_Red.description>
+  <PJ_MakeCrystal_Red.jobString>크리스탈에 다크 사이드 주입</PJ_MakeCrystal_Red.jobString>
+  <PJ_MakeCrystal_Green.label>광선검 크리스탈 정제 (녹색)</PJ_MakeCrystal_Green.label>
+  <PJ_MakeCrystal_Green.description>원재료를 광선검 크리스탈로 정제합니다</PJ_MakeCrystal_Green.description>
+  <PJ_MakeCrystal_Green.jobString>크리스탈 정제</PJ_MakeCrystal_Green.jobString>
+  <PJ_MakeCrystal_Cyan.label>광선검 크리스탈 정제 (청록색)</PJ_MakeCrystal_Cyan.label>
+  <PJ_MakeCrystal_Cyan.description>원재료를 광선검 크리스탈로 정제합니다</PJ_MakeCrystal_Cyan.description>
+  <PJ_MakeCrystal_Cyan.jobString>크리스탈 정제</PJ_MakeCrystal_Cyan.jobString>
+  <PJ_MakeCrystal_Azure.label>광선검 크리스탈 정제 (하늘색)</PJ_MakeCrystal_Azure.label>
+  <PJ_MakeCrystal_Azure.description>원재료를 광선검 크리스탈로 정제합니다</PJ_MakeCrystal_Azure.description>
+  <PJ_MakeCrystal_Azure.jobString>크리스탈 정제하는 중..</PJ_MakeCrystal_Azure.jobString>
+</LanguageData>

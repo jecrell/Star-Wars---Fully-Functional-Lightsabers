@@ -43,30 +43,17 @@
       <HintPath>..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="CompActivatableEffect, Version=1.17.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools-A18\Assemblies\CompActivatableEffect.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="CompActivatableEffect, Version=1.18.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\JecsTools\Assemblies\CompActivatableEffect.dll</HintPath>
     </Reference>
-    <Reference Include="CompDeflector, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools-A18\Assemblies\CompDeflector.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="CompDeflector, Version=1.18.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\JecsTools\Assemblies\CompDeflector.dll</HintPath>
     </Reference>
-    <Reference Include="CompExtraSounds, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools-A18\Assemblies\CompExtraSounds.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="CompOversizedWeapon, Version=1.18.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\JecsTools\Assemblies\CompOversizedWeapon.dll</HintPath>
     </Reference>
-    <Reference Include="CompOversizedWeapon, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools-A18\Assemblies\CompOversizedWeapon.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="CompSlotLoadable, Version=1.17.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JecsTools-A18\Assemblies\CompSlotLoadable.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="CompSlotLoadable, Version=1.18.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\JecsTools\Assemblies\CompSlotLoadable.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
