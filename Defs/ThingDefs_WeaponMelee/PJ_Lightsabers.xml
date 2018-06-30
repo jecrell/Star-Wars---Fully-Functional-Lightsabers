@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
-    <techLevel>Industrial</techLevel>
-		<smeltable>true</smeltable>
-		<weaponTags>
-			<li>PJ_Melee</li>
-		</weaponTags>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
-	  <comps>
-		 <li>
-          <compClass>CompQuality</compClass>
-		 </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-	  </comps>
-		<recipeMaker>
-		 <workSpeedStat>SmithingSpeed</workSpeedStat>
-		 <workSkill>Crafting</workSkill>
-		 <effectWorking>Smith</effectWorking>
-		 <soundWorking>Recipe_Smith</soundWorking>
-		 <recipeUsers>
-			<li>ComponentAssemblyBench</li>
-		 </recipeUsers>
-		 <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-		</recipeMaker>
-		<inspectorTabs>
-		<li>ITab_Art</li>
-		</inspectorTabs>
-    </ThingDef>
-
-
-
 	   <ThingDef Name="PJ_BaseLightsaber" ParentName="BaseMeleeWeapon" Abstract="True">
 		<recipeMaker>
 			<defaultIngredientFilter>
 				<categories>
 				<li>Root</li>
 				</categories>
-				<exceptedThingDefs>
+				<disallowedThingDefs>
 					<li>Silver</li>
 					<li>Gold</li>
 					<li>WoodLog</li>
-				</exceptedThingDefs>	
+				</disallowedThingDefs>	
 			</defaultIngredientFilter>  	  
 		</recipeMaker>
 		<weaponTags>
@@ -57,11 +21,8 @@
 			<PJ_SaberInternal>1</PJ_SaberInternal>
 			<PJ_SaberCasing>1</PJ_SaberCasing>
 		</costList>
-		<canBeSpawningInventory>true</canBeSpawningInventory>
-		</ThingDef>
- 
-  
-  
+		 
+		</ThingDef>  
   
 		<!-- ============================================================== -->
 
@@ -86,7 +47,6 @@
 				</projectile>
 			</ThingDef>  
 
-  	
 		<!-- ================== STANDARD ==================== -->
   
 		<ThingDef ParentName="PJ_BaseLightsaber">
@@ -97,11 +57,11 @@
 			<texPath>Weapons/LightsaberHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.9</drawSize>			
+			<drawSize>2.5</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -123,8 +83,9 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -214,11 +175,11 @@
 			<texPath>Weapons/DookuHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.9</drawSize>
+			<drawSize>2.5</drawSize>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -240,9 +201,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-	      <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		  </li>	
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
@@ -331,11 +293,11 @@
 			<texPath>Weapons/KyloHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.9</drawSize>
+			<drawSize>2.5</drawSize>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -357,9 +319,11 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-	      <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		  </li>	
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
@@ -448,11 +412,11 @@
 			<texPath>Weapons/DoublesaberHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.9</drawSize>			
+			<drawSize>2.5</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -474,9 +438,11 @@
 				</recipeUsers>
 				</recipeMaker -->
 			<comps>
-			<li>
-		   <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
@@ -565,11 +531,11 @@
 			<texPath>Weapons/ObiwanHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.9</drawSize>
+			<drawSize>2.5</drawSize>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -591,9 +557,11 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-	      <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		  </li>	
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
@@ -683,11 +651,11 @@
 			<texPath>Weapons/ElectrumHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.9</drawSize>
+			<drawSize>2.5</drawSize>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -709,9 +677,11 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-	      <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		  </li>	
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
@@ -800,11 +770,11 @@
 			<texPath>Weapons/AhsokaHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>1.8</drawSize>			
+			<drawSize>1.6</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -826,8 +796,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -917,11 +889,11 @@
 			<texPath>Weapons/InquisHilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.4</drawSize>			
+			<drawSize>2.2</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -943,8 +915,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -1033,11 +1007,11 @@
 			<texPath>Weapons/JGuard_Hilt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>2.4</drawSize>			
+			<drawSize>2.2</drawSize>			
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -1059,8 +1033,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -1154,7 +1130,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -1176,8 +1152,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -1270,7 +1248,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -1292,8 +1270,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -1386,7 +1366,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -1408,8 +1388,10 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-		  <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
 		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
@@ -1504,7 +1486,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -1526,9 +1508,11 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-	      <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		  </li>	
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>
@@ -1619,7 +1603,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Standard_Pickup</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<costStuffCount>10</costStuffCount>
 		<statBases>
@@ -1641,9 +1625,11 @@
 			</recipeUsers>
 		</recipeMaker -->
 		<comps>
-	      <li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		  </li>	
+
+		  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+			  <eastOffset>(0.31,0,0)</eastOffset>
+			  <westOffset>(-0.31,0,0)</westOffset>
+		  </li>
 		  <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
 			<compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
 			<altitudeLayer>MoteOverhead</altitudeLayer>

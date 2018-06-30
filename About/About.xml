@@ -2,9 +2,9 @@
 
 <ModMetaData>
 	<name>Star Wars - Fully Functional Lightsabers</name>
-	<author>Defenders of Peace</author>
-	<targetVersion>0.18.0</targetVersion>
-	<description>Version X
+	<author>Jecrell and Xen</author>
+	<targetVersion>1.0.0</targetVersion>
+	<description>Last updated: 6/23/18
 
 	Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
 
@@ -15,6 +15,5 @@
     Logo/Art designed by Harrison Gaushell (harrisongaushell.com)
 
 	Patreon Patrons:
-	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black
-	</description>
+	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black</description>
 </ModMetaData>

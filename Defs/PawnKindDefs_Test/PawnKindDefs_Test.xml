@@ -29,7 +29,7 @@
       <min>1500</min>
       <max>2800</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>9900</min>
       <max>9900</max>
@@ -60,7 +60,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>

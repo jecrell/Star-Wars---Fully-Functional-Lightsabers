@@ -8,7 +8,7 @@
     <externalViolence>true</externalViolence>
     <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>false</makesBlood>	
-    <spreadOut>false</spreadOut>	
+     	
     <deathMessage>{0} has been cut to death.</deathMessage>
     <hediff>PJ_LightsaberEnergy</hediff>
     <hediffSkin>PJ_LightsaberEnergy</hediffSkin>
@@ -40,13 +40,13 @@
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.05</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>energy burn scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>energy burn scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.01875</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <bleedRate>0.01</bleedRate>
 			<destroyedLabel>Sliced off</destroyedLabel>
@@ -63,7 +63,7 @@
     <externalViolence>true</externalViolence>
     <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>true</makesBlood>	
-    <spreadOut>false</spreadOut>	
+     	
     <deathMessage>{0} died from lightsaber wounds.</deathMessage>
     <hediff>PJ_BarabRads</hediff>
     <hediffSkin>PJ_BarabRads</hediffSkin>
@@ -95,13 +95,13 @@
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.05</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>barab radiation scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>barab radiation scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.02375</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <bleedRate>0.02</bleedRate>
 			<destroyedLabel>Burned off</destroyedLabel>
@@ -118,7 +118,7 @@
     <externalViolence>true</externalViolence>
     <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>true</makesBlood>	
-    <spreadOut>false</spreadOut>	
+     	
     <deathMessage>{0} died from charged lightsaber wounds.</deathMessage>
     <hediff>PJ_FirkZap</hediff>
     <hediffSkin>PJ_FirkZap</hediffSkin>
@@ -150,13 +150,13 @@
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.05</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>firkrann shock scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>firkrann shock scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.02375</painPerSeverity>
-      <averagePainPerSeverityOld>0.00325</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00325</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <bleedRate>0.01</bleedRate>
 			<destroyedLabel>Burned off</destroyedLabel>
@@ -173,7 +173,7 @@
     <externalViolence>true</externalViolence>
     <armorCategory>Blunt</armorCategory>	
     <makesBlood>true</makesBlood>	
-    <spreadOut>false</spreadOut>	
+     	
     <deathMessage>{0} has died from sonic fractures.</deathMessage>
     <hediff>PJ_SonicBoom</hediff>
     <hediffSkin>PJ_SonicBoom</hediffSkin>
@@ -205,13 +205,13 @@
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.03</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>sonic microfracture</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>sonic microfracture</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.02475</painPerSeverity>
-      <averagePainPerSeverityOld>0.00345</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00345</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <bleedRate>0.035</bleedRate>
 			<destroyedLabel>obliterated</destroyedLabel>
@@ -226,7 +226,7 @@
 		<workerClass>DamageWorker_Cut</workerClass>	
 		<externalViolence>true</externalViolence>
 		<armorCategory>PJ_Lightsaber_Heat</armorCategory>	
-		<spreadOut>false</spreadOut>
+		 
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>	
 		<deathMessage>{0} died from freezing lightsaber wounds.</deathMessage>
 		<hediff>Frostbite</hediff>

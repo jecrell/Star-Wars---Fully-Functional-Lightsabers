@@ -438,7 +438,7 @@
 	<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>1.87</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.86</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
 	 </statModifiers>
 	 <color>(170,205,255)</color>
@@ -459,7 +459,7 @@
 		<comps>
 	<li Class="CompSlotLoadable.CompProperties_SlottedBonus">
 	<statModifiers>
-	   <MeleeWeapon_DamageMultiplier>1.87</MeleeWeapon_DamageMultiplier>
+	   <MeleeWeapon_DamageMultiplier>1.88</MeleeWeapon_DamageMultiplier>
 	   <MeleeWeapon_CooldownMultiplier>-0.45</MeleeWeapon_CooldownMultiplier>
 	   <MeleeHitChance>0.45</MeleeHitChance>
 	 </statModifiers>

@@ -169,9 +169,9 @@
       <categories>
         <li>PJ_KyberCrystals</li>
       </categories>
-      <exceptedThingDefs>
+      <disallowedThingDefs>
         <li>PJ_KyberCrystalRed</li>
-      </exceptedThingDefs>	  
+      </disallowedThingDefs>	  
     </fixedIngredientFilter>
 		<products>
 			<PJ_KyberCrystalRed>1</PJ_KyberCrystalRed>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ae78988-8d5f-4e8d-9183-9766298ace49" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </ComponentIndustrial>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="CompCrystalSlotLoadable.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SWSaber/CompCrystalSlotLoadable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509530660000" expanded="false" signature="6:52" ph="..." />
+                <marker date="1509530660000" expanded="true" signature="71:1187" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="150:1185" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="217:1179" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="311:1131" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="563:1117" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="690:1099" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="835:1077" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompLightsaberActivatableEffect.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SWSaber/CompLightsaberActivatableEffect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509530660000" expanded="false" signature="6:71" ph="..." />
+                <marker date="1509530660000" expanded="true" signature="187:3713" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="261:1080" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="330:1017" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="786:1003" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1124:2180" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1189:2144" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1400:2030" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1771:2012" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1897:1990" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2221:2296" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2330:3093" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2501:3043" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2599:3029" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3136:3707" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3400:3697" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3434:3657" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompLightsaberDeflection.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SWSaber/CompLightsaberDeflection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509530660000" expanded="false" signature="6:62" ph="..." />
+                <marker date="1509530660000" expanded="true" signature="81:5086" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="155:5084" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="433:647" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="794:1018" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1111:1346" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1177:1335" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1411:1642" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1518:1604" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1664:4861" ph="ForceUsers" />
+                <marker date="1509530660000" expanded="true" signature="1735:2738" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1963:2701" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2203:2687" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2276:2389" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2447:2669" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2792:3604" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3017:3567" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3220:3467" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3293:3449" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3660:4481" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3949:4444" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="4155:4344" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="4228:4326" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="4908:5078" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompProperties_CrystalSlotLoadable.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SWSaber/CompProperties_CrystalSlotLoadable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509530660000" expanded="true" signature="42:245" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="126:243" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompProperties_LightsaberActivatableEffect.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SWSaber/CompProperties_LightsaberActivatableEffect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509530660000" expanded="true" signature="47:279" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="144:277" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SWSaber/HarmonyPatches.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509530660000" expanded="false" signature="6:101" ph="..." />
+                <marker date="1509530660000" expanded="true" signature="120:5902" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="187:5900" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="225:724" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="811:1148" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="859:1113" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="913:1099" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1203:2897" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1403:1693" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="1774:2350" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2478:2633" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="2650:2887" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3036:3524" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3410:3514" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="3538:3866" ph="/* public static void Remove_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps eq) ... */" />
+                <marker date="1509530660000" expanded="true" signature="3996:4881" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="4137:4496" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="4749:4827" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="4994:5894" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="5272:5884" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="5320:5870" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="5384:5852" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="5478:5830" ph="{...}" />
+                <marker date="1509530660000" expanded="true" signature="5665:5804" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </ComponentIndustrial>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SWSaber/CompProperties_LightsaberActivatableEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SWSaber/CompLightsaberDeflection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SWSaber/CompProperties_CrystalSlotLoadable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SWSaber/CompLightsaberActivatableEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SWSaber/CompCrystalSlotLoadable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SWSaber/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
+  </ComponentIndustrial>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </ComponentIndustrial>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="151" />
+    <option name="y" value="80" />
+    <option name="width" value="1351" />
+    <option name="height" value="924" />
+  </ComponentIndustrial>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SWSaber (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SWSaber (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SWSaber" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SWSaber (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SWSaber" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SWSaber (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SWSaber" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SWSaber (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SWSaber" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SWSaber" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </ComponentIndustrial>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JecsTools/Assemblies/CompSlotLoadable.dll" />
+  </ComponentIndustrial>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </ComponentIndustrial>
+  <component name="RunManager" selected=".NET Executable.Deployer">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
+      <option name="EXE_PATH" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Fully-Functional-Lightsabers\RimworldModReleaseTool.exe" />
+      <option name="PROGRAM_PARAMETERS" value="D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers" />
+      <option name="WORKING_DIRECTORY" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Fully-Functional-Lightsabers" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Executable.Deployer" />
+      <item index="1" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </ComponentIndustrial>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </ComponentIndustrial>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ae78988-8d5f-4e8d-9183-9766298ace49" name="Default" comment="" />
+      <created>1517536709721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517536709721</updated>
+      <workItem from="1517536710891" duration="606000" />
+      <workItem from="1517797420528" duration="339000" />
+      <workItem from="1517917129714" duration="701000" />
+      <workItem from="1518529829347" duration="870000" />
+    </task>
+    <servers />
+  </ComponentIndustrial>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2516000" />
+  </ComponentIndustrial>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </ComponentIndustrial>
+  <component name="ToolWindowManager">
+    <frame x="151" y="80" width="1351" height="924" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36009002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </ComponentIndustrial>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </ComponentIndustrial>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </ComponentIndustrial>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </ComponentIndustrial>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompCrystalSlotLoadable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="71:1187" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="150:1185" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="217:1179" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="311:1131" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="563:1117" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="690:1099" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="835:1077" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompLightsaberActivatableEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:71" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="187:3713" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="261:1080" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="330:1017" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="786:1003" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1124:2180" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1189:2144" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1400:2030" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1771:2012" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1897:1990" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2221:2296" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2330:3093" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2501:3043" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2599:3029" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3136:3707" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3400:3697" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3434:3657" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompLightsaberDeflection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:62" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="81:5086" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="155:5084" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="433:647" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="794:1018" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1111:1346" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1177:1335" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1411:1642" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1518:1604" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1664:4861" ph="ForceUsers" />
+            <marker date="1509530660000" expanded="true" signature="1735:2738" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1963:2701" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2203:2687" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2276:2389" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2447:2669" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2792:3604" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3017:3567" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3220:3467" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3293:3449" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3660:4481" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3949:4444" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4155:4344" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4228:4326" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4908:5078" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompProperties_CrystalSlotLoadable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="true" signature="42:245" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="126:243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompProperties_LightsaberActivatableEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="true" signature="47:279" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="144:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:101" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="120:5902" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="187:5900" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="225:724" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="811:1148" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="859:1113" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="913:1099" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1203:2897" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1403:1693" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1774:2350" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2478:2633" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2650:2887" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3036:3524" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3410:3514" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3538:3866" ph="/* public static void Remove_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps eq) ... */" />
+            <marker date="1509530660000" expanded="true" signature="3996:4881" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4137:4496" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4749:4827" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4994:5894" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5272:5884" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5320:5870" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5384:5852" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5478:5830" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5665:5804" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompCrystalSlotLoadable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="71:1187" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="150:1185" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="217:1179" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="311:1131" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="563:1117" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="690:1099" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="835:1077" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompLightsaberActivatableEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:71" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="187:3713" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="261:1080" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="330:1017" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="786:1003" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1124:2180" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1189:2144" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1400:2030" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1771:2012" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1897:1990" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2221:2296" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2330:3093" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2501:3043" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2599:3029" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3136:3707" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3400:3697" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3434:3657" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompLightsaberDeflection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:62" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="81:5086" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="155:5084" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="433:647" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="794:1018" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1111:1346" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1177:1335" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1411:1642" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1518:1604" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1664:4861" ph="ForceUsers" />
+            <marker date="1509530660000" expanded="true" signature="1735:2738" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1963:2701" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2203:2687" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2276:2389" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2447:2669" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2792:3604" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3017:3567" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3220:3467" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3293:3449" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3660:4481" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3949:4444" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4155:4344" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4228:4326" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4908:5078" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompProperties_CrystalSlotLoadable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="true" signature="42:245" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="126:243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/CompProperties_LightsaberActivatableEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="true" signature="47:279" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="144:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWSaber/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509530660000" expanded="false" signature="6:101" ph="..." />
+            <marker date="1509530660000" expanded="true" signature="120:5902" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="187:5900" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="225:724" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="811:1148" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="859:1113" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="913:1099" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1203:2897" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1403:1693" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="1774:2350" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2478:2633" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="2650:2887" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3036:3524" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3410:3514" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="3538:3866" ph="/* public static void Remove_PostFix(Pawn_EquipmentTracker __instance, ThingWithComps eq) ... */" />
+            <marker date="1509530660000" expanded="true" signature="3996:4881" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4137:4496" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4749:4827" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="4994:5894" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5272:5884" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5320:5870" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5384:5852" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5478:5830" ph="{...}" />
+            <marker date="1509530660000" expanded="true" signature="5665:5804" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </ComponentIndustrial>
+</project>

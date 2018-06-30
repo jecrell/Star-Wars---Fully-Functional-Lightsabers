@@ -16,7 +16,7 @@
     <DamageArmorCategoryDef>
     <defName>PJ_Lightsaber_Heat</defName>
     <multStat>PJ_HeatDamageMultiplier</multStat>
-    <deflectionStat>ArmorRating_Heat</deflectionStat>
+     
   </DamageArmorCategoryDef>
 
 </Defs>
