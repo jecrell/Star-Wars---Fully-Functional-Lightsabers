@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
  
   <StatDef>
     <defName>PJ_HeatDamageMultiplier</defName>
@@ -13,10 +12,10 @@
     <showIfUndefined>false</showIfUndefined>
   </StatDef>
 
-    <DamageArmorCategoryDef>
+  <DamageArmorCategoryDef>
     <defName>PJ_Lightsaber_Heat</defName>
     <multStat>PJ_HeatDamageMultiplier</multStat>
-     
+    <armorRatingStat>ArmorRating_Heat</armorRatingStat>
   </DamageArmorCategoryDef>
 
 </Defs>

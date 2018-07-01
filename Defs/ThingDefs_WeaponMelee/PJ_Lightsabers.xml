@@ -139,7 +139,7 @@
 		</comps>
 		    <tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -147,7 +147,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -155,7 +155,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -257,7 +257,7 @@
 		</comps>
 			<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -265,7 +265,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -273,7 +273,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -376,7 +376,7 @@
 		</comps>
 		    <tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -384,7 +384,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -392,7 +392,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -502,7 +502,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -510,7 +510,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -614,7 +614,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -622,7 +622,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -630,7 +630,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -734,7 +734,7 @@
 			</comps>
 			<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -742,7 +742,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -750,7 +750,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -853,7 +853,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -861,7 +861,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -869,7 +869,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -980,7 +980,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -988,7 +988,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -1090,7 +1090,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1106,7 +1106,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -1209,7 +1209,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1225,7 +1225,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -1327,7 +1327,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1335,7 +1335,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1343,7 +1343,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -1445,7 +1445,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1453,7 +1453,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1461,7 +1461,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -1565,7 +1565,7 @@
 			</comps>
 			<tools>
       <li>
-        <label>hilt</label>
+        <label>hilt</label><commonality>0.05</commonality>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1573,7 +1573,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1581,7 +1581,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -1690,7 +1690,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1698,7 +1698,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-edge</label>
+        <label>lightsaber-edge</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>

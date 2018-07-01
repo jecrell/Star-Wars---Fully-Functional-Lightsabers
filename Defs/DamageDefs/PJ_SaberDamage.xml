@@ -8,7 +8,6 @@
     <externalViolence>true</externalViolence>
     <armorCategory>PJ_Lightsaber_Heat</armorCategory>	
     <makesBlood>false</makesBlood>	
-     	
     <deathMessage>{0} has been cut to death.</deathMessage>
     <hediff>PJ_LightsaberEnergy</hediff>
     <hediffSkin>PJ_LightsaberEnergy</hediffSkin>
@@ -26,32 +25,32 @@
   </DamageDef>
 
   	<HediffDef>
-		<defName>PJ_LightsaberEnergy</defName>
-		<label>energy burn</label>
-		<hediffClass>Hediff_Injury</hediffClass>
-		<tendable>true</tendable>
-		<displayWound>true</displayWound>		
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>bandaged</labelTendedWell>
-        <labelTendedWellInner>treated</labelTendedWellInner>
-        <labelSolidTendedWell>medicated</labelSolidTendedWell>
-      </li>
-      <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.05</infectionChance>
-      </li>
-      <li Class="HediffCompProperties_GetsPermanent">
-        <permanentLabel>energy burn scar</permanentLabel>
-      </li>
-    </comps>
-		<injuryProps>
-      <painPerSeverity>0.01875</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <canMerge>true</canMerge>
-      <bleedRate>0.01</bleedRate>
-			<destroyedLabel>Sliced off</destroyedLabel>
-			<destroyedOutLabel>sliced out</destroyedOutLabel>
-		</injuryProps>
+	  <defName>PJ_LightsaberEnergy</defName>
+	  <label>energy burn</label>
+	  <hediffClass>Hediff_Injury</hediffClass>
+	  <tendable>true</tendable>
+	  <displayWound>true</displayWound>		
+      <comps>
+        <li Class="HediffCompProperties_TendDuration">
+          <labelTendedWell>bandaged</labelTendedWell>
+          <labelTendedWellInner>treated</labelTendedWellInner>
+          <labelSolidTendedWell>medicated</labelSolidTendedWell>
+        </li>
+        <li Class="HediffCompProperties_Infecter">
+          <infectionChance>0.05</infectionChance>
+        </li>
+        <li Class="HediffCompProperties_GetsPermanent">
+          <permanentLabel>energy burn scar</permanentLabel>
+        </li>
+      </comps>
+	  <injuryProps>
+        <painPerSeverity>0.01875</painPerSeverity>
+        <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+        <canMerge>true</canMerge>
+        <bleedRate>0.01</bleedRate>
+	    <destroyedLabel>Sliced off</destroyedLabel>
+	    <destroyedOutLabel>sliced out</destroyedOutLabel>
+	  </injuryProps>
 	</HediffDef>
 	
 	<!-- ====== Barab Crystal Damage ====== -->
