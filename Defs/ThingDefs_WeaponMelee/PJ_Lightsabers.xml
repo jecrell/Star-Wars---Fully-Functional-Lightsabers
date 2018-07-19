@@ -139,7 +139,7 @@
 		</comps>
 		    <tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -147,7 +147,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -257,7 +257,7 @@
 		</comps>
 			<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -265,7 +265,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -376,7 +376,7 @@
 		</comps>
 		    <tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -384,7 +384,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -502,7 +502,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberCut</li>
         </capacities>
@@ -614,7 +614,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -622,7 +622,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -734,7 +734,7 @@
 			</comps>
 			<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -742,7 +742,7 @@
         <cooldownTime>2.25</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -853,7 +853,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -861,7 +861,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -980,7 +980,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1090,7 +1090,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1209,7 +1209,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1327,7 +1327,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1335,7 +1335,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1445,7 +1445,7 @@
 		</comps>
 		<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1453,7 +1453,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1565,7 +1565,7 @@
 			</comps>
 			<tools>
       <li>
-        <label>hilt</label><commonality>0.05</commonality>
+        <label>hilt</label><chanceFactor>0.05</chanceFactor>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -1573,7 +1573,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
@@ -1690,7 +1690,7 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
-        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><commonality>0.5</commonality>
+        <label>lightsaber-tip</label><alwaysTreatAsWeapon>true</alwaysTreatAsWeapon><chanceFactor>0.5</chanceFactor>
         <capacities>
           <li>PJ_SaberStab</li>
         </capacities>
