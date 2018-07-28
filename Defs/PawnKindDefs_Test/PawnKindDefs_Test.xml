@@ -22,7 +22,7 @@
       <max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-      <li>Outlander</li>
+      <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
       <li>Military</li>
     </apparelTags>
     <apparelMoney>
