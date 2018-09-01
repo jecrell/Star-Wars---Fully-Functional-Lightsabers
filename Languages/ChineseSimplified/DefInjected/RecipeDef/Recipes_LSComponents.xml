@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MakeSaberCase.label>制造[SW]光剑外柄</PJ_MakeSaberCase.label>
+  <PJ_MakeSaberCase.description>制造可以放置内构的剑柄。</PJ_MakeSaberCase.description>
+  <PJ_MakeSaberCase.jobString>正在制造光剑外柄。</PJ_MakeSaberCase.jobString>
+
+  <PJ_MakeSaberInternal.label>制造[SW]光剑内构</PJ_MakeSaberInternal.label>
+  <PJ_MakeSaberInternal.description>制造光剑最关键的核心内构，</PJ_MakeSaberInternal.description>
+  <PJ_MakeSaberInternal.jobString>正在校准水晶矩阵。</PJ_MakeSaberInternal.jobString>
+
+
+</LanguageData>
