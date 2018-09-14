@@ -182,7 +182,7 @@
   <ThingDef ParentName="KyberCrystalBaseSynthetic">
     <defName>PJ_KyberCrystalRed</defName>
     <label>synthetic crystal (red)</label>
-    <description>This synthesized crystal has been further enhanced, giving it a slightly more MeleeWeapon_DamageMultiplierful blade, and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>	
+    <description>This synthesized crystal has been further enhanced, giving it a slightly more powerful blade and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>	
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -254,7 +254,7 @@
     <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_DragiteCrystal</defName> 
     <label>dragite crystal (lt purple)</label><!--==Damage Changer==-->
-	<description>A crystal often harvested for use as a MeleeWeapon_DamageMultiplier source, if used as a lightsaber focus, the beam resonates, causing sonic damage.</description>
+	<description>A crystal often harvested for use as a power source, if used as a lightsaber focus, the beam resonates, causing sonic damage.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>	
@@ -295,7 +295,7 @@
        <ThingDef ParentName="KyberCrystalBaseRare">
     <defName>PJ_EralamCrystal</defName>
     <label>eralam crystal (silver)</label>
-	<description>A rare crystal, envied for it's clarity and purity. It produces a shining silver beam of great MeleeWeapon_DamageMultiplier.</description>
+	<description>A rare crystal, envied for it's clarity and purity. It produces a shining silver beam of great power.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -404,7 +404,7 @@
     <ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_AnkSapphire</defName>
     <label>ankarres sapphire (dk blue)</label>
-	<description>Ankarres sapphires have legendary healing properties. This one is tuned to make a MeleeWeapon_DamageMultiplierful deep-blue lightsaber blade when used as a focus.</description>
+	<description>Ankarres sapphires have legendary healing properties. This one is tuned to make a powerful deep-blue lightsaber blade when used as a focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -449,7 +449,7 @@
 <ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_BlackPearl</defName>
     <label>krayt dragon pearl (black)</label>
-	<description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously MeleeWeapon_DamageMultiplierful.</description>
+	<description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously powerful.</description>
     <graphicData>
       <texPath>Items/UltPearl</texPath>
       <graphicClass>Graphic_Single</graphicClass>	
@@ -471,7 +471,7 @@
   <ThingDef ParentName="KyberCrystalBaseLegendary">
     <defName>PJ_KaiburrCrystal</defName>
     <label>kaiburr crystal (red-orange)</label>
-	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most MeleeWeapon_DamageMultiplierful crystals that can be used for a lightsaber focus.</description>
+	<description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most powerful crystals that can be used for a lightsaber focus.</description>
     <graphicData>
       <texPath>Items/KyberCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>

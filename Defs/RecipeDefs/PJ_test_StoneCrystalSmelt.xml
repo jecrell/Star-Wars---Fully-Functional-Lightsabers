@@ -148,7 +148,7 @@
 		<label>infuse synthetic crystal (red)</label>
 		<description>Takes a lightsaber crystal and infuses it with the power of the dark side of the force.</description>
 		<jobString>Infusing crystal</jobString>
-		<workAmount>48000</workAmount>
+		<workAmount>8500</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
 		<effectWorking>Smelt</effectWorking>
@@ -164,10 +164,19 @@
         </filter>
         <count>1</count>
       </li>
+        <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
         <li>PJ_KyberCrystals</li>
+        <li>StoneBlocks</li>
       </categories>
       <disallowedThingDefs>
         <li>PJ_KyberCrystalRed</li>
