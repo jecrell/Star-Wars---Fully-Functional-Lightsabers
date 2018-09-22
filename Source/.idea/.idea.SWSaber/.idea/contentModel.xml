@@ -21,6 +21,8 @@
       <e p="SWSaber.csproj" t="IncludeRecursive" />
       <e p="SWSaber.sln" t="IncludeFlat" />
     </e>
-    <e p="C:\Users\mattw\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_SWSaber.-1056197134.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mattw\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\mattw\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mattw\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_SWSaber.-1056197134.00" t="ExcludeRecursive" />
   </component>
 </project>

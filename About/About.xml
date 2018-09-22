@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <ModMetaData>
-	<name>Star Wars - Fully Functional Lightsabers</name>
-	<author>Jecrell and Xen</author>
-	<targetVersion>0.19.0</targetVersion>
-	<description>Last updated: 6/23/18
+  <name>Star Wars - Fully Functional Lightsabers</name>
+  <author>Jecrell and Xen</author>
+  <targetVersion>0.19.0</targetVersion>
+  <description>1.19.0.2
 
 	Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
 
 	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
 
-	Programming by Jecrell.
-	Assets and XML by Xen.
+	C# Programming by Jecrell.
+	C# Fixes, Assets, and XML by Xen.
     Logo/Art designed by Harrison Gaushell (harrisongaushell.com)
 
 	Patreon Patrons:
