@@ -27,6 +27,7 @@
   	<HediffDef>
 	  <defName>PJ_LightsaberEnergy</defName>
 	  <label>energy burn</label>
+    <description>a severe burn from an energy-based weapon</description>
 	  <hediffClass>Hediff_Injury</hediffClass>
 	  <tendable>true</tendable>
 	  <displayWound>true</displayWound>		
@@ -83,6 +84,7 @@
 		<defName>PJ_BarabRads</defName>
 		<label>barab burn</label>
 		<hediffClass>Hediff_Injury</hediffClass>
+    <description>radiation burns from a Barab enhanced lightsaber</description>
 		<tendable>true</tendable>
 		<displayWound>true</displayWound>		
     <comps>
@@ -138,6 +140,7 @@
 		<defName>PJ_FirkZap</defName>
 		<label>firkrann shock burn</label>
 		<hediffClass>Hediff_Injury</hediffClass>
+    <description>electrical burns from firkrann energy</description>
 		<tendable>true</tendable>
 		<displayWound>true</displayWound>		
     <comps>
@@ -193,6 +196,7 @@
 		<defName>PJ_SonicBoom</defName>
 		<label>sonic fracture</label>
 		<hediffClass>Hediff_Injury</hediffClass>
+    <description>SONIC-BOOOOOM!!!</description>
 		<tendable>true</tendable>
 		<displayWound>true</displayWound>		
     <comps>

@@ -1,3 +1,7 @@
+1.21.0.0 (02-29-2020)
+========================
+Updates Star Wars Lightsabers to work with the newest version of RimWorld. RimWorld v1.1.
+
 1.20.0.0 (10-19-2018)
 ========================
 Initial release for RimWorld 1.0.

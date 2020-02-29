@@ -8,7 +8,7 @@
     <label>craft lightsaber casing</label>
     <description>Craft the outer casing for a Lightsaber.</description>
     <jobString>Crafting lightsaber hilt casing.</jobString>
-    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>800</workAmount>
@@ -50,7 +50,7 @@
     <label>craft lightsaber internals</label>
     <description>Craft the critical internals of a Lightsaber.</description>
     <jobString>Aligning crystal matrix...</jobString>
-    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>8000</workAmount>

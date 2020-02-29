@@ -29,10 +29,7 @@
       <min>1000</min>
       <max>1500</max>
     </techHediffsMoney>
-    <combatEnhancingDrugsCount>
-      <min>0</min>
-      <max>2</max>
-    </combatEnhancingDrugsCount>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
