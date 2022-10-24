@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================== Base ==================-->
+  <ThingDef Name="KyberCrystalBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <description>The kyber, or living crystal, is a rare force attuned prism able to MeleeWeapon_DamageMultiplier lightsabers. Kyber crystals can be found scattered throughout the galaxy.</description>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>false</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  <ThingDef Name="KyberCrystalBaseSynthetic" ParentName="KyberCrystalBase" Abstract="True">
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>90</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PJ_KyberCrystals</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="KyberCrystalBaseRare" ParentName="KyberCrystalBase" Abstract="True">
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>3000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PJ_KyberCrystals</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="KyberCrystalBaseLegendary" ParentName="KyberCrystalBase" Abstract="True">
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>5000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PJ_KyberCrystals</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- ================ Synthetic Kyber Crystals ================ -->
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystal</defName>
+    <label>color crystal (green)</label>
+    <description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(23,175,10)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(23,175,10)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalYellow</defName>
+    <label>color crystal (yellow)</label>
+    <description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(255,225,21)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(255,225,21)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalBlue</defName>
+    <label>color crystal (blue)</label>
+    <description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(39,25,199)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(39,25,199)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalCyan</defName>
+    <label>color crystal (cyan)</label>
+    <description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(0,255,255)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(0,255,255)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalAzure</defName>
+    <label>color crystal (azure)</label>
+    <description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(0, 153, 255)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(0,153,255)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalPurple</defName>
+    <label>color crystal (purple)</label>
+    <description>A basic colored focusing crystal for a lightsaber.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(153,50,204)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(153,50,204)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseSynthetic">
+    <defName>PJ_KyberCrystalRed</defName>
+    <label>synthetic crystal (red)</label>
+    <description>This synthesized crystal has been further enhanced, giving it a slightly more powerful blade and it's trademark red hue. Synthetic crystals like this are often favored by the Sith.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(206,12,44)</color>
+    </graphicData>
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>1800</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(206,12,44)</color>
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.28</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ====== Stat Bonus Crystals ====== -->
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_AdeganCrystal</defName>
+    <label>adegan crystal (green)</label>
+    <description>A rare force-reactive crystal, said to make one of the best crystals for a lightsaber focus.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(11,176,74)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <color>(11,176,74)</color>
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_DamindCrystal</defName>
+    <label>damind crystal (lt azure)</label>
+    <description>When set in a lightsaber, a Damind crystal produces a very slightly wider beam, making it easier to deflect ranged weapon fire. It is said that the Sith once favored these.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(124,196,243)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
+          <AccuracyTouch>0.95</AccuracyTouch>
+          <AccuracyShort>0.85</AccuracyShort>
+          <AccuracyMedium>0.82</AccuracyMedium>
+          <AccuracyLong>0.82</AccuracyLong>
+        </statModifiers>
+        <color>(124,196,243)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_DragiteCrystal</defName>
+    <label>dragite crystal (lt purple)</label>
+    <!--==Damage Changer==-->
+    <description>A crystal often harvested for use as a power source, if used as a lightsaber focus, the beam resonates, causing sonic damage.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(218, 112, 214)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <damageDef>PJ_SonicDam</damageDef>
+        <color>(60,12,70)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_HurCrystal</defName>
+    <label>hurrikaine crystal (indigo purple)</label>
+    <description>A deep Indigo purple crystal, admired for it's unparalleled beauty. It makes an exceptional lightsaber focus, rending through an enemy's defenses.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(71,29,144)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.40</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <color>(71,29,144)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_EralamCrystal</defName>
+    <label>eralam crystal (silver)</label>
+    <description>A rare crystal, envied for it's clarity and purity. It produces a shining silver beam of great power.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(188,206,210)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.32</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <color>(188,206,210)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_RubatCrystal</defName>
+    <label>rubat crystal (bronze)</label>
+    <description>Rubat crystals are often used in the construction of lightsabers when they can be found. They produce a sharper defined blade that quickens striking ability.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(175,136,72)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.30</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+        <color>(175,136,72)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_FirkrannCrystal</defName>
+    <label>firkrann crystal (silver)</label>
+    <!--==Damage Changer==-->
+    <description>Firkrann are heavy crystals with strange piezoelectric properties. This unique crystal type converts part of the saber's plasma energy into an electric charge. This effect can inflict devastating damage, especially to mechanoids.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(240,241,241)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.97</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>0.35</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+        <damageDef>PJ_FirkDam</damageDef>
+        <color>(240,241,241)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_PontiteCrystal</defName>
+    <label>pontite crystal (ice blue)</label>
+    <description>Pontite crystals imbue their blade with an endothermic effect, absorbing heat and giving the resulting blade a cold damage type.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(68,107,207)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.32</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+        <damageDef>PJ_PontiteDam</damageDef>
+        <color>(68,107,207)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseRare">
+    <defName>PJ_BarabIngot</defName>
+    <label>barab ore ingot (orange)</label>
+    <!--==Damage Changer==-->
+    <description>The constant infusion of radiation from Barab I's surface into these crystalline "ingots" causes a Barab ingot focused lightsaber to produce a blade that burned like fire, even causing the target of the blade to catch fire.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(206,105,27)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.45</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <damageDef>PJ_BarabDam</damageDef>
+        <color>(206,105,27)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseLegendary">
+    <defName>PJ_AnkSapphire</defName>
+    <label>ankarres sapphire (dk blue)</label>
+    <description>Ankarres sapphires have legendary healing properties. This one is tuned to make a powerful deep-blue lightsaber blade when used as a focus.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(28,19,151)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.35</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <defensiveHealChance>
+          <woundLimit>0</woundLimit>
+          <chance>0.05</chance>
+        </defensiveHealChance>
+        <color>(28,19,151)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseLegendary">
+    <defName>PJ_UltimaPearl</defName>
+    <label>ultima pearl (pale)</label>
+    <description>Uncommon pearls harvested from a deep ocean world, it takes considerable skill to prepare them for use as a lightsaber focus, but the results are unquestionable.</description>
+    <graphicData>
+      <texPath>Items/UltPearl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(170,205,255)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.86</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+        <color>(170,205,255)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseLegendary">
+    <defName>PJ_BlackPearl</defName>
+    <label>krayt dragon pearl (black)</label>
+    <description>Krayt pearls were harvested from the final gizzard chamber of the greater Krayt dragons. No small feat, yet it takes even more skill to prepare them for use as a lightsaber focus.\nThe resulting blade is monstrously powerful.</description>
+    <graphicData>
+      <texPath>Items/UltPearl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(48,53,75)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.88</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.45</MeleeWeapon_CooldownMultiplier>
+          <MeleeHitChance>0.45</MeleeHitChance>
+        </statModifiers>
+        <color>(38,43,65)</color>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="KyberCrystalBaseLegendary">
+    <defName>PJ_KaiburrCrystal</defName>
+    <label>kaiburr crystal (red-orange)</label>
+    <description>The legendary Kaiburr crystal, from which the kyber take their name. One of the most powerful crystals that can be used for a lightsaber focus.</description>
+    <graphicData>
+      <texPath>Items/KyberCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(255,70,70)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>2</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <color>(255,63,52)</color>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

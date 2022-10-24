@@ -1,88 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_BulletDeflected.label>improvisierte Geschützkugel</PJ_BulletDeflected.label>
-
-
   <!-- STANDARD -->
-
   <SWSaber_Lightsaber.label>Lichtschwert (Prototyp)</SWSaber_Lightsaber.label>
   <SWSaber_Lightsaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit - so sagt man jedenfalls.\n Ein einfaches grundlegendes Lichtschwert Design</SWSaber_Lightsaber.description>
-
-
   <!-- CURVED -->
-
   <SWSaber_DookuSaber.label>Lichtschwert (krummer Schwertgriff)</SWSaber_DookuSaber.label>
   <SWSaber_DookuSaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit. Diese ikonische Waffe ist das Markenzeichen der Machtnutzer.\nDieser Schwertgriff ist krumm, was ihm einen schwierig zu verteidigenden Angriffswinkel bietet.</SWSaber_DookuSaber.description>
-
-
   <!-- Kylo Ren Crosshilt Saber -->
-
   <SWSaber_KyloSaber.label>Lichtschwert (Schwertgriff mit Parierstange)</SWSaber_KyloSaber.label>
   <SWSaber_KyloSaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit. Diese ikonische Waffe ist das Markenzeichen der Machtnutzer.\nDiese sieht so aus als verwende sie einen gerissenen primitiven Kristall.</SWSaber_KyloSaber.description>
-
-
   <!-- Darth Maul Double Saber -->
-
   <SWSaber_Doublesaber.label>Lichtschwert (doppel)</SWSaber_Doublesaber.label>
   <SWSaber_Doublesaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit.\nDieser Schwertgriff emittiert eine zweite Klinge, was es zu einem exotischen Doppellichtschwert macht.</SWSaber_Doublesaber.description>
-
-
   <!-- Obi Wan Saber -->
-
   <SWSaber_ObiSaber.label>Lichtschwert (Retrostil Schwertgriff)</SWSaber_ObiSaber.label>
   <SWSaber_ObiSaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit. Diese ikonische Waffe ist das Markenzeichen der Machtnutzer.\nDies ist ein klassischer Schwertgriff...sehr vetraut...</SWSaber_ObiSaber.description>
-
-
   <!-- Palpatine's Electrum Saber -->
-
   <SWSaber_ElectrumSaber.label>Lichtschwert (Electrum Schwertgriff)</SWSaber_ElectrumSaber.label>
   <SWSaber_ElectrumSaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit. Diese ikonische Waffe ist das Markenzeichen der Machtnutzer.\nDiese Version sieht so aus, als wurde sie für jemanden in hoher Position getragen.</SWSaber_ElectrumSaber.description>
-
-
   <!-- Ahsoka Tano -->
-
   <SWSaber_Ahsokasaber.label>Lichtschwert (Ahsoka Tano)</SWSaber_Ahsokasaber.label>
   <SWSaber_Ahsokasaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit - so sagt man jedenfalls.\n Ein Design, welches früher von berühmten Jedi benutzt wurde.</SWSaber_Ahsokasaber.description>
-
-
   <!-- Inquisitor Blade -->
-
   <SWSaber_Inquis.label>Doppellichtschwert (Imperator)</SWSaber_Inquis.label>
   <SWSaber_Inquis.description>Eine elegante Waffe, aus einer zivilisierteren Zeit - so sagt man jedenfalls.\n Ein Design, welches von den geheimen Jedi-Jägern des Imperators benutzt wurde.</SWSaber_Inquis.description>
-
-
   <!-- Honor Guard Saberstaff -->
-
   <SWSaber_JGuard.label>Ehrenwachen Schwertstab</SWSaber_JGuard.label>
   <SWSaber_JGuard.description>Dieser Typ eines doppelbeklingten Schwertes wurde von den Jedi Elitewachen getragen, welche zum Beispiel die Kammer des Rates bewachten.</SWSaber_JGuard.description>
-
-
   <!-- Qui Gon Jinn -->
-
   <SWSaber_Quigon.label>Lichtschwert (Qui-Gon Jinn)</SWSaber_Quigon.label>
   <SWSaber_Quigon.description>Eine elegante Waffe, aus einer zivilisierteren Zeit - so sagt man jedenfalls.\n Dieses Design wurde von einem legendären Jedimeister genutzt.</SWSaber_Quigon.description>
-
-
   <!-- Darksaber -->
-
   <SWSaber_Darksaber.label>Lichtschwert (Darksaber)</SWSaber_Darksaber.label>
   <SWSaber_Darksaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit - so sagt man jedenfalls.\n Ein Design, basierend auf dem legendären mandalorianischen Darksaber .</SWSaber_Darksaber.description>
-
-
   <!-- Yoda saber -->
-
   <SWSaber_Yodasaber.label>Lichtschwert (Yoda)</SWSaber_Yodasaber.label>
   <SWSaber_Yodasaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit - so sagt man jedenfalls.\n Dieses Design wurde von einem legendären Jedimeister genutzt</SWSaber_Yodasaber.description>
-
-
   <!-- Mace Windu Saber -->
-
   <SWSaber_MaceSaber.label>Lichtschwert (Mace Windu)</SWSaber_MaceSaber.label>
   <SWSaber_MaceSaber.description>Eine elegante Waffe, aus einer zivilisierteren Zeit. Diese ikonische Waffe ist das Markenzeichen der Machtnutzer.\n Diese Version wurde von einer verdammten Atompilzwolken-Schmierbacke getragen.</SWSaber_MaceSaber.description>
-
   <SWSaber_SaberPike.label>Lichtschwertpike</SWSaber_SaberPike.label>
   <SWSaber_SaberPike.description>Eine elegante Waffe, aus einer zivilisierteren Zeit. Diese ikonische Waffe ist das Markenzeichen der Machtnutzer.\n Dies ist die Pikenvariante; oft von Jediwachen benutzt.</SWSaber_SaberPike.description>
-
-
 </LanguageData>

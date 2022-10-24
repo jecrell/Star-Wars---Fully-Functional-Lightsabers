@@ -1,29 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Saber.label>斬る(セーバー)</PJ_Saber.label>
   <PJ_Saber.deathMessage>{0} は斬られて死亡した。</PJ_Saber.deathMessage>
-
-
   <!-- Barab Crystal Damage -->
-
   <PJ_BarabDam.label>放射線熱傷(セーバー)</PJ_BarabDam.label>
   <PJ_BarabDam.deathMessage>{0} はライトセイバーの傷で死んだ。</PJ_BarabDam.deathMessage>
-
-
   <!-- Firkrann Crystal Damage -->
-
   <PJ_FirkDam.label>電気熱傷(セーバー)</PJ_FirkDam.label>
   <PJ_FirkDam.deathMessage>{0} は帯電したライトセーバーの傷で死んだ。</PJ_FirkDam.deathMessage>
-
-
   <!-- Sonic Damage (Dragite) -->
-
   <PJ_SonicDam.label>衝撃波(セーバー)</PJ_SonicDam.label>
   <PJ_SonicDam.deathMessage>{0} は衝撃波による骨折で死亡しました。</PJ_SonicDam.deathMessage>
-
   <PJ_PontiteDam.label>凍傷(セーバー)</PJ_PontiteDam.label>
   <PJ_PontiteDam.deathMessage>{0} はライトセーバーの傷によって凍死した。</PJ_PontiteDam.deathMessage>
-
-
 </LanguageData>

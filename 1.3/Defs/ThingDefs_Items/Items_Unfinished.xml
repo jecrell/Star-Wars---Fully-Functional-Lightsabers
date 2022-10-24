@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>PJ_UnfinishedCrystal</defName>
+    <label>unfinished crystal</label>
+    <graphicData>
+      <texPath>Items/CrystalXX</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>PJ_UnfinishedRedC</defName>
+    <label>unfinished infusion</label>
+    <graphicData>
+      <texPath>Items/CrystalXX</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories />
+  </ThingDef>
+</Defs>

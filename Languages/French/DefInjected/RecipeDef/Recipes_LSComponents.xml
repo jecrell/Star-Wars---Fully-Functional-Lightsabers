@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_MakeSaberCase.label>Fabriquer une poignée pour sabre</PJ_MakeSaberCase.label>
   <PJ_MakeSaberCase.description>Fabriquer la poignée pour un sabre laser.</PJ_MakeSaberCase.description>
   <PJ_MakeSaberCase.jobString>Fabrique la poignée d'un sabre.</PJ_MakeSaberCase.jobString>
-
   <PJ_MakeSaberInternal.label>Fabriquer les pièces internes du sabre</PJ_MakeSaberInternal.label>
   <PJ_MakeSaberInternal.description>Fabriquer les pièces internes du sabre.</PJ_MakeSaberInternal.description>
   <PJ_MakeSaberInternal.jobString>Aligne la matrice de cristaux...</PJ_MakeSaberInternal.jobString>
-
-
 </LanguageData>

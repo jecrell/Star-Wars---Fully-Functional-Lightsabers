@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>PJ_KyberCrystals</defName>
+    <label>saber crystals</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>PJ_KyberCrytalsRare</defName>
+    <label>crystal artifacts</label>
+    <parent>Artifacts</parent>
+  </ThingCategoryDef>
+</Defs>

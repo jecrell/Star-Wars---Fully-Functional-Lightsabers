@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- ========== PJ_BaseLightsaber ========== -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="PJ_BaseLightsaber"]</xpath>
+        <value>
+          <statBases>
+            <Bulk>1.5</Bulk>
+          </statBases>
+          <equippedStatOffsets>
+            <MeleeCritChance>0.5</MeleeCritChance>
+            <MeleeParryChance>0.65</MeleeParryChance>
+          </equippedStatOffsets>
+        </value>
+      </li>
+      <!-- Add CE attribute to all tools entries -->
+      <li Class="PatchOperationAttributeSet">
+        <xpath>Defs/ThingDef[@ParentName="PJ_BaseLightsaber"]/tools/li</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.ToolCE</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="PJ_BaseLightsaber"]/tools/li[label="hilt"]</xpath>
+        <value>
+          <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="PJ_BaseLightsaber"]/tools/li[label="lightsaber-tip"]</xpath>
+        <value>
+          <armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+          <armorPenetrationSharp>1.9</armorPenetrationSharp>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="PJ_BaseLightsaber"]/tools/li[label="lightsaber-edge"]</xpath>
+        <value>
+          <armorPenetrationBlunt>2.992</armorPenetrationBlunt>
+          <armorPenetrationSharp>0.88</armorPenetrationSharp>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="PJ_BaseLightsaber"]</xpath>
+        <value>
+          <weaponTags>
+            <li>CE_Sidearm</li>
+            <li>CE_OneHandedWeapon</li>
+          </weaponTags>
+        </value>
+      </li>
+      <!-- ========== SWSaber_Doublesaber ========== -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SWSaber_Doublesaber"]/statBases</xpath>
+        <value>
+          <Bulk>1.5</Bulk>
+        </value>
+      </li>
+      <!-- Insert CE weapon tags. Create node if needed -->
+      <li Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationTest">
+            <xpath>Defs/ThingDef[defName="SWSaber_Doublesaber"]/weaponTags</xpath>
+            <success>Invert</success>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="SWSaber_Doublesaber"]</xpath>
+            <value>
+              <weaponTags />
+            </value>
+          </li>
+        </operations>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="SWSaber_Doublesaber" or defName="SWSaber_SaberPike" or defName="SWSaber_JGuard" or defName="SWSaber_Inquis"]/weaponTags/li[text()="CE_OneHandedWeapon"]</xpath>
+      </li>
+    </operations>
+    <!-- end sequence -->
+  </Operation>
+  <!-- end sequence -->
+</Patch>

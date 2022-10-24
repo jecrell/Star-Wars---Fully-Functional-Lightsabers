@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_LightsaberEnergy.label>Quemadura de energia</PJ_LightsaberEnergy.label>
   <PJ_LightsaberEnergy.comps.0.labelTendedWell>Vendada</PJ_LightsaberEnergy.comps.0.labelTendedWell>
   <PJ_LightsaberEnergy.comps.0.labelTendedWellInner>Suturada</PJ_LightsaberEnergy.comps.0.labelTendedWellInner>
@@ -8,10 +7,7 @@
   <PJ_LightsaberEnergy.comps.2.permanentLabel>Cicatriz de quemadura de energia</PJ_LightsaberEnergy.comps.2.permanentLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedLabel>Decapitado</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>Mutilado</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
-
-
   <!-- Barab Crystal Damage -->
-
   <PJ_BarabRads.label>Quemadura Barab</PJ_BarabRads.label>
   <PJ_BarabRads.comps.0.labelTendedWell>Vendada</PJ_BarabRads.comps.0.labelTendedWell>
   <PJ_BarabRads.comps.0.labelTendedWellInner>Tratada</PJ_BarabRads.comps.0.labelTendedWellInner>
@@ -19,10 +15,7 @@
   <PJ_BarabRads.comps.2.permanentLabel>Cicatriz de radiacion Barab</PJ_BarabRads.comps.2.permanentLabel>
   <PJ_BarabRads.injuryProps.destroyedLabel>Decapitado por quemadura</PJ_BarabRads.injuryProps.destroyedLabel>
   <PJ_BarabRads.injuryProps.destroyedOutLabel>Cercenado por quemadura</PJ_BarabRads.injuryProps.destroyedOutLabel>
-
-
   <!-- Firkrann Crystal Damage -->
-
   <PJ_FirkZap.label>Quemadura de shock Firkrann</PJ_FirkZap.label>
   <PJ_FirkZap.comps.0.labelTendedWell>Vendada</PJ_FirkZap.comps.0.labelTendedWell>
   <PJ_FirkZap.comps.0.labelTendedWellInner>Tratada</PJ_FirkZap.comps.0.labelTendedWellInner>
@@ -30,10 +23,7 @@
   <PJ_FirkZap.comps.2.permanentLabel>Cicatriz de quemadura Firkrann</PJ_FirkZap.comps.2.permanentLabel>
   <PJ_FirkZap.injuryProps.destroyedLabel>Decapitado por quemadura</PJ_FirkZap.injuryProps.destroyedLabel>
   <PJ_FirkZap.injuryProps.destroyedOutLabel>Mutilado por quemadura</PJ_FirkZap.injuryProps.destroyedOutLabel>
-
-
   <!-- Sonic Damage (Dragite) -->
-
   <PJ_SonicBoom.label>Fractura sonica</PJ_SonicBoom.label>
   <PJ_SonicBoom.comps.0.labelTendedWell>Vendada</PJ_SonicBoom.comps.0.labelTendedWell>
   <PJ_SonicBoom.comps.0.labelTendedWellInner>Tratada</PJ_SonicBoom.comps.0.labelTendedWellInner>
@@ -41,6 +31,4 @@
   <PJ_SonicBoom.comps.2.permanentLabel>Microfractura sonica</PJ_SonicBoom.comps.2.permanentLabel>
   <PJ_SonicBoom.injuryProps.destroyedLabel>Destrozada</PJ_SonicBoom.injuryProps.destroyedLabel>
   <PJ_SonicBoom.injuryProps.destroyedOutLabel>Vaporizada</PJ_SonicBoom.injuryProps.destroyedOutLabel>
-
-
 </LanguageData>

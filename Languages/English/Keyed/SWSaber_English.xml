@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
-<!-- ========== COMPS ============ -->
-
-<SWSaber_TextMote_CriticalSuccess>Critical Hit</SWSaber_TextMote_CriticalSuccess>
-<SWSaber_TextMote_CriticalFailure>Critical Failure</SWSaber_TextMote_CriticalFailure>
-<SWSaber_Block>Blocked</SWSaber_Block>
-
-<KyberCrystalRequired>Lightsaber crystal required</KyberCrystalRequired>
-<Activated>Activate</Activated>
-<Deactivated>Deactivate</Deactivated>
-<DeactivateLightsaberFirst>Deactivate lightsaber first</DeactivateLightsaberFirst>
-
+  <!-- ========== COMPS ============ -->
+  <SWSaber_TextMote_CriticalSuccess>Critical Hit</SWSaber_TextMote_CriticalSuccess>
+  <SWSaber_TextMote_CriticalFailure>Critical Failure</SWSaber_TextMote_CriticalFailure>
+  <SWSaber_Block>Blocked</SWSaber_Block>
+  <KyberCrystalRequired>Lightsaber crystal required</KyberCrystalRequired>
+  <Activated>Activate</Activated>
+  <Deactivated>Deactivate</Deactivated>
+  <DeactivateLightsaberFirst>Deactivate lightsaber first</DeactivateLightsaberFirst>
 </LanguageData>

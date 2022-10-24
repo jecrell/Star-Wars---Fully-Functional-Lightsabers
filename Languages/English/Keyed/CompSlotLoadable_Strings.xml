@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ExceptionSlotAlreadyFilled>{0}'s slot is already filled</ExceptionSlotAlreadyFilled>
   <Unavailable>unavailable</Unavailable>
   <IsDrafted>{0} is drafted.</IsDrafted>
@@ -13,5 +12,4 @@
   <NoLoadOptions>No load options available.</NoLoadOptions>
   <DefensiveHealChance>When attacked, {1} chance to heal {0} wounds</DefensiveHealChance>
   <VampiricChance>When attacking, {1} chance to vampiricly heal {0} wounds</VampiricChance>
-
 </LanguageData>

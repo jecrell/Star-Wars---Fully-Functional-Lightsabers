@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_LightsaberEnergy.label>エネルギー火傷(Lightsaber)</PJ_LightsaberEnergy.label>
   <PJ_LightsaberEnergy.comps.HediffCompProperties_TendDuration.labelTendedWell>包帯</PJ_LightsaberEnergy.comps.HediffCompProperties_TendDuration.labelTendedWell>
   <PJ_LightsaberEnergy.comps.HediffCompProperties_TendDuration.labelTendedWellInner>縫合</PJ_LightsaberEnergy.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
@@ -8,10 +7,7 @@
   <PJ_LightsaberEnergy.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(やけど)</PJ_LightsaberEnergy.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedLabel>削ぎ取られた</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>斬り飛ばされた</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
-
-
   <!-- Barab Crystal Damage -->
-
   <PJ_BarabRads.label>放射線熱傷(Barab)</PJ_BarabRads.label>
   <PJ_BarabRads.comps.HediffCompProperties_TendDuration.labelTendedWell>包帯</PJ_BarabRads.comps.HediffCompProperties_TendDuration.labelTendedWell>
   <PJ_BarabRads.comps.HediffCompProperties_TendDuration.labelTendedWellInner>治療</PJ_BarabRads.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
@@ -19,10 +15,7 @@
   <PJ_BarabRads.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(やけど)</PJ_BarabRads.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_BarabRads.injuryProps.destroyedLabel>焼け落ちる</PJ_BarabRads.injuryProps.destroyedLabel>
   <PJ_BarabRads.injuryProps.destroyedOutLabel>焼け尽くした</PJ_BarabRads.injuryProps.destroyedOutLabel>
-
-
   <!-- Firkrann Crystal Damage -->
-
   <PJ_FirkZap.label>電気熱傷(Firkrann)</PJ_FirkZap.label>
   <PJ_FirkZap.comps.HediffCompProperties_TendDuration.labelTendedWell>包帯</PJ_FirkZap.comps.HediffCompProperties_TendDuration.labelTendedWell>
   <PJ_FirkZap.comps.HediffCompProperties_TendDuration.labelTendedWellInner>治療</PJ_FirkZap.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
@@ -30,10 +23,7 @@
   <PJ_FirkZap.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(やけど)</PJ_FirkZap.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_FirkZap.injuryProps.destroyedLabel>焼け落ちる</PJ_FirkZap.injuryProps.destroyedLabel>
   <PJ_FirkZap.injuryProps.destroyedOutLabel>焼け尽くした</PJ_FirkZap.injuryProps.destroyedOutLabel>
-
-
   <!-- Sonic Damage (Dragite) -->
-
   <PJ_SonicBoom.label>衝撃波骨折(Dragite)</PJ_SonicBoom.label>
   <PJ_SonicBoom.comps.HediffCompProperties_TendDuration.labelTendedWell>包帯</PJ_SonicBoom.comps.HediffCompProperties_TendDuration.labelTendedWell>
   <PJ_SonicBoom.comps.HediffCompProperties_TendDuration.labelTendedWellInner>治療</PJ_SonicBoom.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
@@ -41,6 +31,4 @@
   <PJ_SonicBoom.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(ひび)</PJ_SonicBoom.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_SonicBoom.injuryProps.destroyedLabel>粉々になった</PJ_SonicBoom.injuryProps.destroyedLabel>
   <PJ_SonicBoom.injuryProps.destroyedOutLabel>蒸発した</PJ_SonicBoom.injuryProps.destroyedOutLabel>
-
-
 </LanguageData>

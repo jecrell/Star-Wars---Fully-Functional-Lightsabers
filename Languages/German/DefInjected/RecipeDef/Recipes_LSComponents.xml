@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_MakeSaberCase.label>Lichtschwertgehäuse bauen</PJ_MakeSaberCase.label>
   <PJ_MakeSaberCase.description>Stellt die Aussenhülle des Lichtschwertgriffs her.</PJ_MakeSaberCase.description>
   <PJ_MakeSaberCase.jobString>baut Lichtschwertgehäuse.</PJ_MakeSaberCase.jobString>
-
   <PJ_MakeSaberInternal.label>Innere Lichtschwertkomponenten bauen</PJ_MakeSaberInternal.label>
   <PJ_MakeSaberInternal.description>Stellt die essentiellen inneren Komponenten eines Lichtschwerts her.</PJ_MakeSaberInternal.description>
   <PJ_MakeSaberInternal.jobString>justiert die Kristallmatrix...</PJ_MakeSaberInternal.jobString>
-
-
 </LanguageData>

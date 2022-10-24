@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_HeatDamageMultiplier.label>熱ダメージ</PJ_HeatDamageMultiplier.label>
   <PJ_HeatDamageMultiplier.description>この素材で作られたライトセーバーのようなアイテムによる熱攻撃ダメージの倍率係数です。</PJ_HeatDamageMultiplier.description>
-
-
 </LanguageData>

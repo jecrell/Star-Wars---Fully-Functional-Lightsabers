@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Class="CompSlotLoadable.SlotLoadableDef">
+    <defName>PJ_KyberCrystalSlot</defName>
+    <thingClass>CompSlotLoadable.SlotLoadable</thingClass>
+    <label>Crystal</label>
+    <description>This lightsaber crystal slot gives the lightsaber its color among other effects.</description>
+    <slottableThingDefs>
+      <li>PJ_UltimaPearl</li>
+      <li>PJ_BlackPearl</li>
+      <li>PJ_KyberCrystal</li>
+      <li>PJ_KyberCrystalBlue</li>
+      <li>PJ_KyberCrystalCyan</li>
+      <li>PJ_KyberCrystalAzure</li>
+      <li>PJ_KyberCrystalRed</li>
+      <li>PJ_KyberCrystalPurple</li>
+      <li>PJ_BarabIngot</li>
+      <li>PJ_AdeganCrystal</li>
+      <li>PJ_AnkSapphire</li>
+      <li>PJ_DamindCrystal</li>
+      <li>PJ_DragiteCrystal</li>
+      <li>PJ_HurCrystal</li>
+      <li>PJ_EralamCrystal</li>
+      <li>PJ_RubatCrystal</li>
+      <li>PJ_KaiburrCrystal</li>
+      <li>PJ_FirkrannCrystal</li>
+      <li>PJ_PontiteCrystal</li>
+      <li>PJ_KyberCrystalYellow</li>
+    </slottableThingDefs>
+    <doesChangeColor>true</doesChangeColor>
+    <doesChangeStats>true</doesChangeStats>
+    <colorToChangeTo>(255, 255, 255, 255)</colorToChangeTo>
+  </ThingDef>
+</Defs>

@@ -1,29 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Saber.label>砍伤（光剑）</PJ_Saber.label>
   <PJ_Saber.deathMessage>{0}被砍死了。</PJ_Saber.deathMessage>
-
-
   <!-- Barab Crystal Damage -->
-
   <PJ_BarabDam.label>烧伤（光剑）</PJ_BarabDam.label>
   <PJ_BarabDam.deathMessage>{0}死于光剑造成的烧伤。</PJ_BarabDam.deathMessage>
-
-
   <!-- Firkrann Crystal Damage -->
-
   <PJ_FirkDam.label>灼伤（光剑）</PJ_FirkDam.label>
   <PJ_FirkDam.deathMessage>{0}死于光剑造成的电击灼伤。</PJ_FirkDam.deathMessage>
-
-
   <!-- Sonic Damage (Dragite) -->
-
   <PJ_SonicDam.label>冲击波（光剑）</PJ_SonicDam.label>
   <PJ_SonicDam.deathMessage>{0}死于光剑冲击波造成的骨折。</PJ_SonicDam.deathMessage>
-
   <PJ_PontiteDam.label>霜冻（光剑）</PJ_PontiteDam.label>
   <PJ_PontiteDam.deathMessage>{0}死于光剑造成的冻伤。</PJ_PontiteDam.deathMessage>
-
-
 </LanguageData>

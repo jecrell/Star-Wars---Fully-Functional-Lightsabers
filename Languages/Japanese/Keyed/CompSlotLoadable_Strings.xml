@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ExceptionSlotAlreadyFilled>{0} のスロットは既に埋め込まれています</ExceptionSlotAlreadyFilled>
   <Unavailable>利用できません</Unavailable>
   <IsDrafted>{0} は徴兵されています。</IsDrafted>
@@ -13,6 +12,4 @@
   <NoLoadOptions>利用可能な取り付けオプションはありません。</NoLoadOptions>
   <DefensiveHealChance>攻撃を受けると、{1} が {0} の傷を治すチャンスがあります</DefensiveHealChance>
   <VampiricChance>攻撃した時、{1} は {0} の傷を吸収回復するチャンスがあります</VampiricChance>
-
-
 </LanguageData>

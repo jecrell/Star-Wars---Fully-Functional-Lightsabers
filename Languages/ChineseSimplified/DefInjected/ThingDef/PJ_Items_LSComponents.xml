@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_SaberCasing.label>[SW]光剑外柄</PJ_SaberCasing.label>
   <PJ_SaberCasing.description>一个可以隔离光剑内构的剑柄，包含能量阀开关和能量束调制器。</PJ_SaberCasing.description>
-
   <PJ_SaberInternal.label>[SW]光剑内构</PJ_SaberInternal.label>
   <PJ_SaberInternal.description>光剑内构主要包括了一块迪亚特素能量电池，水晶能量匣，水晶发射矩阵，是一把光剑的核心。</PJ_SaberInternal.description>
-
-
 </LanguageData>

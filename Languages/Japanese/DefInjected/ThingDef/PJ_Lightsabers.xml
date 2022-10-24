@@ -1,130 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_BulletDeflected.label>弾き返したタレットの弾</PJ_BulletDeflected.label>
-
-
   <!-- STANDARD -->
-
   <SWSaber_Lightsaber.label>ライトセーバー(プロトタイプ)</SWSaber_Lightsaber.label>
   <SWSaber_Lightsaber.description>今よりも文明化されていた時代のエレガントな(そう要求されていた)武器。基本的でシンプルなライトセーバーのデザイン。</SWSaber_Lightsaber.description>
   <SWSaber_Lightsaber.tools.0.label>柄</SWSaber_Lightsaber.tools.0.label>
   <SWSaber_Lightsaber.tools.1.label>ライトセイバーの先端</SWSaber_Lightsaber.tools.1.label>
   <SWSaber_Lightsaber.tools.2.label>ライトセイバーの刃先</SWSaber_Lightsaber.tools.2.label>
-
-
   <!-- CURVED -->
-
   <SWSaber_DookuSaber.label>ライトセーバー(カーブドヒルト)</SWSaber_DookuSaber.label>
   <SWSaber_DookuSaber.description>今よりも文明化されていた時代のエレガントな武器であり、フォースの使い手である事を証明する象徴的な武器。\nこれの柄は湾曲しており、防御が困難な迎え角に変更することができます。</SWSaber_DookuSaber.description>
   <SWSaber_DookuSaber.tools.0.label>柄</SWSaber_DookuSaber.tools.0.label>
   <SWSaber_DookuSaber.tools.1.label>ライトセイバーの先端</SWSaber_DookuSaber.tools.1.label>
   <SWSaber_DookuSaber.tools.2.label>ライトセイバーの刃先</SWSaber_DookuSaber.tools.2.label>
-
-
   <!-- Kylo Ren Crosshilt Saber -->
-
   <SWSaber_KyloSaber.label>ライトセーバー(クロスガード)</SWSaber_KyloSaber.label>
   <SWSaber_KyloSaber.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nこれはひびの入ったクリスタルを使用しているようです。</SWSaber_KyloSaber.description>
   <SWSaber_KyloSaber.tools.0.label>柄</SWSaber_KyloSaber.tools.0.label>
   <SWSaber_KyloSaber.tools.1.label>ライトセイバーの先端</SWSaber_KyloSaber.tools.1.label>
   <SWSaber_KyloSaber.tools.2.label>ライトセイバーの刃先</SWSaber_KyloSaber.tools.2.label>
-
-
   <!-- Darth Maul Double Saber -->
-
   <SWSaber_Doublesaber.label>ライトセーバー(ダブルブレード)</SWSaber_Doublesaber.label>
   <SWSaber_Doublesaber.description>今よりも文明化されていた時代のエレガントな武器です。\nこの柄は2番目のエミッタを備えており、エキゾチックな二重刃のセーバーになっています。</SWSaber_Doublesaber.description>
   <SWSaber_Doublesaber.tools.0.label>backedge</SWSaber_Doublesaber.tools.0.label>
   <SWSaber_Doublesaber.tools.1.label>ライトセイバーの先端</SWSaber_Doublesaber.tools.1.label>
   <SWSaber_Doublesaber.tools.2.label>ライトセイバーの刃先</SWSaber_Doublesaber.tools.2.label>
-
-
   <!-- Obi Wan Saber -->
-
   <SWSaber_ObiSaber.label>ライトセーバー(オビ＝ワン型)</SWSaber_ObiSaber.label>
   <SWSaber_ObiSaber.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nこれは古く小さいが、当たり前の様に非常によく知られている...</SWSaber_ObiSaber.description>
   <SWSaber_ObiSaber.tools.0.label>柄</SWSaber_ObiSaber.tools.0.label>
   <SWSaber_ObiSaber.tools.1.label>ライトセイバーの先端</SWSaber_ObiSaber.tools.1.label>
   <SWSaber_ObiSaber.tools.2.label>ライトセイバーの刃先</SWSaber_ObiSaber.tools.2.label>
-
-
   <!-- Palpatine's Electrum Saber -->
-
   <SWSaber_ElectrumSaber.label>ライトセーバー(エレクトラム)</SWSaber_ElectrumSaber.label>
   <SWSaber_ElectrumSaber.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nこのバージョンは、ジェダイ最高評議会メンバーなど高位の人のために設計されたようです。</SWSaber_ElectrumSaber.description>
   <SWSaber_ElectrumSaber.tools.0.label>柄</SWSaber_ElectrumSaber.tools.0.label>
   <SWSaber_ElectrumSaber.tools.1.label>ライトセイバーの先端</SWSaber_ElectrumSaber.tools.1.label>
   <SWSaber_ElectrumSaber.tools.2.label>ライトセイバーの刃先</SWSaber_ElectrumSaber.tools.2.label>
-
-
   <!-- Ahsoka Tano -->
-
   <SWSaber_Ahsokasaber.label>ライトセーバー(アソーカ・タノ型)</SWSaber_Ahsokasaber.label>
   <SWSaber_Ahsokasaber.description>今よりも文明化されていた時代のエレガントな武器です。\n過去の有名なジェダイのデザイン。</SWSaber_Ahsokasaber.description>
   <SWSaber_Ahsokasaber.tools.0.label>柄</SWSaber_Ahsokasaber.tools.0.label>
   <SWSaber_Ahsokasaber.tools.1.label>ライトセイバーの先端</SWSaber_Ahsokasaber.tools.1.label>
   <SWSaber_Ahsokasaber.tools.2.label>ライトセイバーの刃先</SWSaber_Ahsokasaber.tools.2.label>
-
-
   <!-- Inquisitor Blade -->
-
   <SWSaber_Inquis.label>ダブル＝ブレード(尋問官型)</SWSaber_Inquis.label>
   <SWSaber_Inquis.description>今よりも文明化されていた時代のエレガントな武器です。\n皇帝のジェダイ審問官が使用したデザイン。</SWSaber_Inquis.description>
   <SWSaber_Inquis.tools.0.label>ダブルブレード</SWSaber_Inquis.tools.0.label>
   <SWSaber_Inquis.tools.1.label>ライトセイバーの先端</SWSaber_Inquis.tools.1.label>
   <SWSaber_Inquis.tools.2.label>ライトセイバーの刃先</SWSaber_Inquis.tools.2.label>
-
-
   <!-- Honor Guard Saberstaff -->
-
   <SWSaber_JGuard.label>ライトセーバーパイク(ジェダイガード)</SWSaber_JGuard.label>
   <SWSaber_JGuard.description>このタイプの二重ブレードのライトサーベルは、評議会の部屋を守っているようなエリートのジェダイガードによって使用されていました。</SWSaber_JGuard.description>
   <SWSaber_JGuard.tools.0.label>柄</SWSaber_JGuard.tools.0.label>
   <SWSaber_JGuard.tools.1.label>ライトセイバーの突起</SWSaber_JGuard.tools.1.label>
   <SWSaber_JGuard.tools.2.label>ライトセイバーの刃先</SWSaber_JGuard.tools.2.label>
-
-
   <!-- Qui Gon Jinn -->
-
   <SWSaber_Quigon.label>ライトセーバー(マスタークワイ型)</SWSaber_Quigon.label>
   <SWSaber_Quigon.description>今よりも文明化されていた時代のエレガントな武器です。\n過去の有名なジェダイのデザイン。</SWSaber_Quigon.description>
   <SWSaber_Quigon.tools.0.label>柄</SWSaber_Quigon.tools.0.label>
   <SWSaber_Quigon.tools.1.label>ライトセイバーの突起</SWSaber_Quigon.tools.1.label>
   <SWSaber_Quigon.tools.2.label>ライトセイバーの刃先</SWSaber_Quigon.tools.2.label>
-
-
   <!-- Darksaber -->
-
   <SWSaber_Darksaber.label>ライトセーバー(ダークセーバー)</SWSaber_Darksaber.label>
   <SWSaber_Darksaber.description>今よりも文明化されていた時代のエレガントな武器です。\nマンダロリアンの伝説級ライトセイバーであるダークセイパーを元としたデザイン。</SWSaber_Darksaber.description>
   <SWSaber_Darksaber.tools.0.label>柄</SWSaber_Darksaber.tools.0.label>
   <SWSaber_Darksaber.tools.1.label>ライトセイバーの先端</SWSaber_Darksaber.tools.1.label>
   <SWSaber_Darksaber.tools.2.label>ライトセイバーの刃先</SWSaber_Darksaber.tools.2.label>
-
-
   <!-- Yoda saber -->
-
   <SWSaber_Yodasaber.label>ライトセーバー(ヨーダ型)</SWSaber_Yodasaber.label>
   <SWSaber_Yodasaber.description>今よりも文明化されていた時代のエレガントな武器です。\n過去の有名なジェダイが三本目に使っていたデザイン。\nデザインの元はマンダロリアンの伝説級ライトセイバーであるダークセイパー。</SWSaber_Yodasaber.description>
   <SWSaber_Yodasaber.tools.0.label>柄</SWSaber_Yodasaber.tools.0.label>
   <SWSaber_Yodasaber.tools.1.label>ライトセイバーの先端</SWSaber_Yodasaber.tools.1.label>
   <SWSaber_Yodasaber.tools.2.label>ライトセイバーの刃先</SWSaber_Yodasaber.tools.2.label>
-
-
   <!-- Mace Windu Saber -->
-
   <SWSaber_MaceSaber.label>ライトセーバー(メイス・ウィンドゥ型)</SWSaber_MaceSaber.label>
   <SWSaber_MaceSaber.description>今よりも文明化されていた時代のエレガントな武器であり、フォースの使い手である事を証明する象徴的な武器。\nこのタイプのライトセイバーはmushroom-cloud-layin-mutha'f****, Mutha'f****を歌う\nジュールス・ウィンフィールドによって使われていました。</SWSaber_MaceSaber.description>
   <SWSaber_MaceSaber.tools.0.label>柄</SWSaber_MaceSaber.tools.0.label>
   <SWSaber_MaceSaber.tools.1.label>ライトセイバーの先端</SWSaber_MaceSaber.tools.1.label>
   <SWSaber_MaceSaber.tools.2.label>ライトセイバーの刃先</SWSaber_MaceSaber.tools.2.label>
-
   <SWSaber_SaberPike.label>ライトセーバーパイク</SWSaber_SaberPike.label>
   <SWSaber_SaberPike.description>今よりも文明化されていた時代のエレガントな武器です。またフォースの使い手である事を証明する象徴的な武器。\nライトセーバー・パイクはダブル＝ブレード・ライトセーバーにも似た特徴的なライトセーバーでジェダイ・テンプル防衛を担うジェダイ・オーダーのナイト、ジェダイ・テンプル・ガードが使用していました。</SWSaber_SaberPike.description>
   <SWSaber_SaberPike.tools.0.label>長柄</SWSaber_SaberPike.tools.0.label>
   <SWSaber_SaberPike.tools.1.label>ライトセイバーの先端</SWSaber_SaberPike.tools.1.label>
   <SWSaber_SaberPike.tools.2.label>ライトセイバーの刃先</SWSaber_SaberPike.tools.2.label>
-
-
 </LanguageData>

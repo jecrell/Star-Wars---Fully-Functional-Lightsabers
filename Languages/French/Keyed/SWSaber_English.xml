@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
   <!-- ========== COMPS ============ -->
-
   <SWSaber_TextMote_CriticalSuccess>Coup critique</SWSaber_TextMote_CriticalSuccess>
   <SWSaber_TextMote_CriticalFailure>Echec critique</SWSaber_TextMote_CriticalFailure>
   <SWSaber_Block>Bloqué</SWSaber_Block>
-
   <KyberCrystalRequired>Cristal de sabre laser requis</KyberCrystalRequired>
   <Activated>Active</Activated>
   <Deactivated>Désactive</Deactivated>
   <DeactivateLightsaberFirst>Désactive le sabrelaser d'abord</DeactivateLightsaberFirst>
-
 </LanguageData>
