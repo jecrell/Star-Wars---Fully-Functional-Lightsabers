@@ -1,70 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Synthetic Kyber Kristalls -->
-
   <PJ_KyberCrystal.label>Farbkristall (grün)</PJ_KyberCrystal.label>
   <PJ_KyberCrystal.description>Ein einfacher farblicher Fokuskristall für ein Lichtschwert.</PJ_KyberCrystal.description>
-
   <PJ_KyberCrystalYellow.label>Farbkristall (gelb)</PJ_KyberCrystalYellow.label>
   <PJ_KyberCrystalYellow.description>Ein einfacher farblicher Fokuskristall für ein Lichtschwert.</PJ_KyberCrystalYellow.description>
-
   <PJ_KyberCrystalBlue.label>Farbkristall (blau)</PJ_KyberCrystalBlue.label>
   <PJ_KyberCrystalBlue.description>Ein einfacher farblicher Fokuskristall für ein Lichtschwert.</PJ_KyberCrystalBlue.description>
-
   <PJ_KyberCrystalCyan.label>Farbkristall (türkis)</PJ_KyberCrystalCyan.label>
   <PJ_KyberCrystalCyan.description>Ein einfacher farblicher Fokuskristall für ein Lichtschwert.</PJ_KyberCrystalCyan.description>
-
   <PJ_KyberCrystalAzur.label>Farbkristall (Azur)</PJ_KyberCrystalAzur.label>
   <PJ_KyberCrystalAzur.description>Ein einfacher farblicher Fokuskristall für ein Lichtschwert.</PJ_KyberCrystalAzur.description>
-
   <PJ_KyberCrystalPurple.label>Farbkristall (lila)</PJ_KyberCrystalPurple.label>
   <PJ_KyberCrystalPurple.description>Ein einfacher farblicher Fokuskristall für ein Lichtschwert.</PJ_KyberCrystalPurple.description>
-
   <PJ_KyberCrystalRed.label>synthetischer Kristall (rot)</PJ_KyberCrystalRed.label>
   <PJ_KyberCrystalRed.description>Dieser synthesierte Kristall wurde weiter verfeinert, um eine etwas stärkere Klinge zu bekommen und ihm seine typisches Rede Farbe zu verleihen. Synthetische Kristalle werden oft von Sith verwendet.</PJ_KyberCrystalRed.description>
-
-
   <!-- Stat Bonus Kristalls -->
-
   <PJ_AdeganCrystal.label>Adegan Kristall (grün)</PJ_AdeganCrystal.label>
   <PJ_AdeganCrystal.description>Ein seltener machtreaktiver Kristall, dem nachgesagt wird er würde einer der besten Kristalle für ein Lichtschwertfokus sein.</PJ_AdeganCrystal.description>
-
   <PJ_DamindCrystal.label>Damind Kristall (Azur)</PJ_DamindCrystal.label>
   <PJ_DamindCrystal.description>Wenn der Damind Kristall in ein Lichtschwert eingesetzt wird, produziert er eine klein wenig breitere Klinge, die das Ablenken von Fernkampfwaffenbeschuß vereinfacht. Man sagt, dass die Sith diese mal favorisierten.</PJ_DamindCrystal.description>
-
   <PJ_DragiteCrystal.label>Dragite Kristall (lila)</PJ_DragiteCrystal.label>
   <PJ_DragiteCrystal.description>Ein Kristall, der oft als Energiequelle abgebaut wurde. In einem Lichtschwertfokus eingesetzt, bringt er die Klinge zum vibrieren, die dann Schallschaden verursacht.</PJ_DragiteCrystal.description>
-
   <PJ_HurCrystal.label>Hurrikaine Kristall (indigo lila)</PJ_HurCrystal.label>
   <PJ_HurCrystal.description>Ein dunkel indigo-lilaner Kristall, bewundert für seine unvergleichliche Schönheit. In einem Lichtschwertfokus schneidet dieser ausergewöhnliche Kristall durch die gegenerische Verteidigung.</PJ_HurCrystal.description>
-
   <PJ_EralamCrystal.label>Eralam Kristall (silber)</PJ_EralamCrystal.label>
   <PJ_EralamCrystal.description>Dieser seltene Kristall, wird für seine Reinheit beneidet. Er produziert eine glänzende silberne Klinge mit großer Kraft.</PJ_EralamCrystal.description>
-
   <PJ_RubatCrystal.label>Rubat Kristall (bronze)</PJ_RubatCrystal.label>
   <PJ_RubatCrystal.description>Rubat Kristalle werden oft in Lichtschwertern verwendet. Sie produzieren eine Klinge mit schärferen Konturen, die die Schlaggeschwindigkeit verbessert.</PJ_RubatCrystal.description>
-
   <PJ_FirkrannCrystal.label>Firkrann Kristall (silber)</PJ_FirkrannCrystal.label>
   <PJ_FirkrannCrystal.description>Firkranne sind schwere Kristalle mit seltsamen pezioelektischen Eigenschaften. Dieser untypischer Kristalltyp wandelt ein Teil des Schwertplasmas in elektrische Ladungen. Dies kann, vor allem bei Mechanoids, zu verheerenden Wunden führen.</PJ_FirkrannCrystal.description>
-
   <PJ_PontiteCrystal.label>Pontit Kristall (eisblau)</PJ_PontiteCrystal.label>
   <PJ_PontiteCrystal.description>Ponit Kristalle verleihen der Klinge einen endothermischen Effekt, der Hitze absorbiert und in der Folge dem Schwert Kälteschaden hinzufügt.</PJ_PontiteCrystal.description>
-
   <PJ_BarabIngot.label>Baraberz Barren (orange)</PJ_BarabIngot.label>
   <PJ_BarabIngot.description>Die konstante Strahlung von der Oberfläche der Baraberze, lassen die kristallinen "Barren" wie Feuer brennen, wenn sie in ein Lichtschwert eingesetzt werden. Sie lassen gar ihre Feinde entflammen.</PJ_BarabIngot.description>
-
   <PJ_AnkSapphire.label>Ankarres Saphir (dunkelblau)</PJ_AnkSapphire.label>
   <PJ_AnkSapphire.description>Ankarres Saphire haben legendäre Heilungsfähigkeiten. Dieser hier ist so eingestellt, dass er eine tiefblaue Klinge ausgibt, wenn er in ein Lichtschwert eingesetzt wird.</PJ_AnkSapphire.description>
-
   <PJ_UltimaPearl.label>Ultima Perle (blass)</PJ_UltimaPearl.label>
   <PJ_UltimaPearl.description>Ungewöhnliche Perlen, aus den Tiefen von Ozeanwelten gewonnen, brauchen beachtliche Fähigkeiten, um sie in ein Lichtschwert einzubauen. Aber die Resultate stehen ausser Frage.</PJ_UltimaPearl.description>
-
   <PJ_BlackPearl.label>Krayt Drachenperle (schwarz)</PJ_BlackPearl.label>
   <PJ_BlackPearl.description>Krayt Perlen werden aus dem letzten Kaumagen größerer Krayt Drachen gewonnen. Kein leichtes Unterfangen, doch benötigen sie enorme Fähigkeiten, um sie für einen Lichtschwertfokus vorzubereiten.\nDas daraus resultierende Schwert ist unsagbar mächtig.</PJ_BlackPearl.description>
-
   <PJ_KaiburrCrystal.label>Kaiburr Kristall (rot-orange)</PJ_KaiburrCrystal.label>
   <PJ_KaiburrCrystal.description>Der Legendäre Kaiburr Kristall, der Namensgeber der Kyber Kristalle! Einer der mächtigstens Kristalle, die man in ein Lichtschwertfokus einsetzen kann.</PJ_KaiburrCrystal.description>
-
-
 </LanguageData>

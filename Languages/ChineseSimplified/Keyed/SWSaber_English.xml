@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
   <!-- ========== COMPS ============ -->
-
   <SWSaber_TextMote_CriticalSuccess>致命打击</SWSaber_TextMote_CriticalSuccess>
   <SWSaber_TextMote_CriticalFailure>重击失败</SWSaber_TextMote_CriticalFailure>
   <SWSaber_Block>格挡</SWSaber_Block>
-
   <KyberCrystalRequired>需要核心水晶</KyberCrystalRequired>
   <Activated>激活</Activated>
   <Deactivated>关闭</Deactivated>
   <DeactivateLightsaberFirst>首先要关闭光剑</DeactivateLightsaberFirst>
-
 </LanguageData>

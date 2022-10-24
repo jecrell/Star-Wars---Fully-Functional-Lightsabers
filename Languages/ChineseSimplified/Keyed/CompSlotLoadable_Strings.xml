@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ExceptionSlotAlreadyFilled>{0}的水晶能量槽已插入水晶。</ExceptionSlotAlreadyFilled>
   <Unavailable>不可用</Unavailable>
   <IsDrafted>{0}已被征召。</IsDrafted>
@@ -13,5 +12,4 @@
   <NoLoadOptions>无可用水晶</NoLoadOptions>
   <DefensiveHealChance>当受到攻击时，{1}几率触发效果治愈{0}的伤势</DefensiveHealChance>
   <VampiricChance>当攻击时，{1}几率触发吸血效果治愈{0}的伤势</VampiricChance>
-
 </LanguageData>

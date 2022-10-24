@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ExceptionSlotAlreadyFilled>{0} ya tiene esa ranura ocupada!</ExceptionSlotAlreadyFilled>
   <Unavailable>No disponible</Unavailable>
   <IsDrafted>{0} esta reclutado.</IsDrafted>
@@ -13,5 +12,4 @@
   <NoLoadOptions>No hay opciones de carga disponible.</NoLoadOptions>
   <DefensiveHealChance>Cuando se le ataca, {1} tiene chances de curar {0} heridas</DefensiveHealChance>
   <VampiricChance>Cuando ataca, {1} tiene chances de sanarse vampiricamente a partir de {0} </VampiricChance>
-
 </LanguageData>

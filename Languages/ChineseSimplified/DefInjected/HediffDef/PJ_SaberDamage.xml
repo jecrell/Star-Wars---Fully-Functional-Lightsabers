@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_LightsaberEnergy.label>烧伤（光剑）</PJ_LightsaberEnergy.label>
   <PJ_LightsaberEnergy.comps.0.labelTendedWell>已包扎</PJ_LightsaberEnergy.comps.0.labelTendedWell>
   <PJ_LightsaberEnergy.comps.0.labelTendedWellInner>已处理</PJ_LightsaberEnergy.comps.0.labelTendedWellInner>
@@ -8,10 +7,7 @@
   <PJ_LightsaberEnergy.comps.2.oldLabel>烧伤疤痕（光剑）</PJ_LightsaberEnergy.comps.2.oldLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedLabel>被切坏</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>被切掉</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
-
-
   <!-- Barab Crystal Damage -->
-
   <PJ_BarabRads.label>烧伤（光剑）</PJ_BarabRads.label>
   <PJ_BarabRads.comps.0.labelTendedWell>已包扎</PJ_BarabRads.comps.0.labelTendedWell>
   <PJ_BarabRads.comps.0.labelTendedWellInner>已处理</PJ_BarabRads.comps.0.labelTendedWellInner>
@@ -19,10 +15,7 @@
   <PJ_BarabRads.comps.2.oldLabel>烧伤疤痕（光剑）</PJ_BarabRads.comps.2.oldLabel>
   <PJ_BarabRads.injuryProps.destroyedLabel>被烧毁</PJ_BarabRads.injuryProps.destroyedLabel>
   <PJ_BarabRads.injuryProps.destroyedOutLabel>被烧掉</PJ_BarabRads.injuryProps.destroyedOutLabel>
-
-
   <!-- Firkrann Crystal Damage -->
-
   <PJ_FirkZap.label>灼伤（光剑）</PJ_FirkZap.label>
   <PJ_FirkZap.comps.0.labelTendedWell>已包扎</PJ_FirkZap.comps.0.labelTendedWell>
   <PJ_FirkZap.comps.0.labelTendedWellInner>已处理</PJ_FirkZap.comps.0.labelTendedWellInner>
@@ -30,10 +23,7 @@
   <PJ_FirkZap.comps.2.oldLabel>灼伤疤痕（电击）</PJ_FirkZap.comps.2.oldLabel>
   <PJ_FirkZap.injuryProps.destroyedLabel>被烧毁</PJ_FirkZap.injuryProps.destroyedLabel>
   <PJ_FirkZap.injuryProps.destroyedOutLabel>被烧掉</PJ_FirkZap.injuryProps.destroyedOutLabel>
-
-
   <!-- Sonic Damage (Dragite) -->
-
   <PJ_SonicBoom.label>冲击波（光剑）</PJ_SonicBoom.label>
   <PJ_SonicBoom.comps.0.labelTendedWell>已包扎</PJ_SonicBoom.comps.0.labelTendedWell>
   <PJ_SonicBoom.comps.0.labelTendedWellInner>已处理</PJ_SonicBoom.comps.0.labelTendedWellInner>
@@ -41,6 +31,4 @@
   <PJ_SonicBoom.comps.2.oldLabel>骨折（冲击波）</PJ_SonicBoom.comps.2.oldLabel>
   <PJ_SonicBoom.injuryProps.destroyedLabel>被打坏</PJ_SonicBoom.injuryProps.destroyedLabel>
   <PJ_SonicBoom.injuryProps.destroyedOutLabel>被打掉</PJ_SonicBoom.injuryProps.destroyedOutLabel>
-
-
 </LanguageData>

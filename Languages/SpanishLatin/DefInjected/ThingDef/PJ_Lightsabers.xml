@@ -1,43 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_BulletDeflected.label>improvised turret bullet</PJ_BulletDeflected.label>
-
-
   <!-- STANDARD -->
-
   <SWSaber_Lightsaber.label>Sable de luz (Prototipo)</SWSaber_Lightsaber.label>
   <SWSaber_Lightsaber.description>Una arma elegante, perteneciente a una era mas civilizada - O almenos eso dicen.\n Un diseño simple de sable de luz.</SWSaber_Lightsaber.description>
-
-
   <!-- CURVED -->
-
   <SWSaber_DookuSaber.label>Sable de luz (Mango Curvo)</SWSaber_DookuSaber.label>
   <SWSaber_DookuSaber.description>Una arma elegante, perteneciente a una era mas civilizada - Utilizada por miembros mas altos de los usuarios de la fuerza.\nEl mango esta curvado, permitiendo ataques de estilo erratico, mas dificiles de bloquear.</SWSaber_DookuSaber.description>
-
-
   <!-- Kylo Ren Crosshilt Saber -->
-
   <SWSaber_KyloSaber.label>Sable de luz (Mango de Cruz)</SWSaber_KyloSaber.label>
   <SWSaber_KyloSaber.description>Una arma elegante, perteneciente a una era mas civilizada - Utilizada por miembros mas altos de los usuarios de la fuerza.\nEste sable parece utilizar un cristal primario de diseño quebrado.</SWSaber_KyloSaber.description>
-
-
   <!-- Darth Maul Double Saber -->
-
   <SWSaber_Doublesaber.label>Sable de luz (Doble)</SWSaber_Doublesaber.label>
   <SWSaber_Doublesaber.description>Una arma elegante, perteneciente a una era mas civilizada .\nEste mango tiene la calidad añadida de un segundo emisor, convirtiendolo en un exotico sable de doble filo.</SWSaber_Doublesaber.description>
-
-
   <!-- Obi Wan Saber -->
-
   <SWSaber_ObiSaber.label>Sable de luz (Mango clasico)</SWSaber_ObiSaber.label>
   <SWSaber_ObiSaber.description>Una arma elegante, perteneciente a una era mas civilizada - Utilizada por miembros mas altos de los usuarios de la fuerza.\nEste es un mango clasico... De hecho, hasta parece familiar...</SWSaber_ObiSaber.description>
-
-
   <!-- Palpatine's Electrum Saber -->
-
   <SWSaber_ElectrumSaber.label>Sable de luz (Mango de Electrum)</SWSaber_ElectrumSaber.label>
   <SWSaber_ElectrumSaber.description>Una arma elegante, perteneciente a una era mas civilizada - Utilizada por miembros mas altos de los usuarios de la fuerza.\nEsta version del sable parece haber sido hecha para alguien importante.</SWSaber_ElectrumSaber.description>
-
-
 </LanguageData>

@@ -1,88 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!--[JecsTools]<PJ_BulletDeflected.label>improvised turret bullet</PJ_BulletDeflected.label>-->
-
-
   <!-- STANDARD -->
-
   <SWSaber_Lightsaber.label>[SW]光剑-标准</SWSaber_Lightsaber.label>
   <SWSaber_Lightsaber.description>一件精致的武器，传说来自更高级的文明-反正人们都这么说。\n一种简约的标准化设计。</SWSaber_Lightsaber.description>
-
-
   <!-- CURVED -->
-
   <SWSaber_DookuSaber.label>[SW]光剑-曲柄</SWSaber_DookuSaber.label>
   <SWSaber_DookuSaber.description>一件精致的武器，传说来自更高级的文明。它可以说是原力使用者的标志性武器。\n曲柄的设计令使用者的攻击更加刁钻，防不胜防。</SWSaber_DookuSaber.description>
-
-
   <!-- Kylo Ren Crosshilt Saber -->
-
   <SWSaber_KyloSaber.label>[SW]光剑-十字护手</SWSaber_KyloSaber.label>
   <SWSaber_KyloSaber.description>一件精致的武器，传说来自更高级的文明。它可以说是原力使用者的标志性武器。\n这武器看来需要一块有特殊裂痕的核心水晶。</SWSaber_KyloSaber.description>
-
-
   <!-- Darth Maul Double Saber -->
-
   <SWSaber_Doublesaber.label>[SW]光剑-双刃</SWSaber_Doublesaber.label>
   <SWSaber_Doublesaber.description>一件精致的武器，传说来自更高级的文明。\n剑柄两端都配有调制发射器，造就了这把不同寻常的双刃光剑。</SWSaber_Doublesaber.description>
-
-
   <!-- Obi Wan Saber -->
-
   <SWSaber_ObiSaber.label>[SW]光剑-复古</SWSaber_ObiSaber.label>
   <SWSaber_ObiSaber.description>一件精致的武器，传说来自更高级的文明。它可以说是原力使用者的标志性武器。\n看起来十分“复古”的剑柄，实际上有时复古=土得掉渣。。。</SWSaber_ObiSaber.description>
-
-
   <!-- Palpatine's Electrum Saber -->
-
   <SWSaber_ElectrumSaber.label>[SW]光剑-银柄</SWSaber_ElectrumSaber.label>
   <SWSaber_ElectrumSaber.description>一件精致的武器，传说来自更高级的文明。它可以说是原力使用者的标志性武器。\n这大概是闲得蛋疼富得流油的土豪设计出来的。</SWSaber_ElectrumSaber.description>
-
-
   <!-- Ahsoka Tano -->
-
   <SWSaber_Ahsokasaber.label>[SW]光剑（阿索卡·塔诺）</SWSaber_Ahsokasaber.label>
   <SWSaber_Ahsokasaber.description>一件精致的武器，传说来自更高级的文明 - 反正是人都这么说。\n一位著名的老牌绝地武士曾使用过这种设计的光剑。</SWSaber_Ahsokasaber.description>
-
-
   <!-- Inquisitor Blade -->
-
   <SWSaber_Inquis.label>[SW]光剑-双刃（裁判官）</SWSaber_Inquis.label>
   <SWSaber_Inquis.description>一件精致的武器，传说来自更高级的文明 - 反正是人都这么说。\n皇帝麾下的秘密绝地武士猎杀组织的标配。</SWSaber_Inquis.description>
-
-
   <!-- Honor Guard Saberstaff -->
-
   <SWSaber_JGuard.label>[SW]光杖-双刃（仪仗队）</SWSaber_JGuard.label>
   <SWSaber_JGuard.description>通常只有高阶绝地武士才能运用这种类型的双刃光剑，比如那些守卫委员会议事厅的家伙。</SWSaber_JGuard.description>
-
-
   <!-- Qui Gon Jinn -->
-
   <SWSaber_Quigon.label>[SW]光剑（魁刚·金）</SWSaber_Quigon.label>
   <SWSaber_Quigon.description>一件精致的武器，传说来自更高级的文明 - 反正是人都这么说。\n一位传奇绝地大师曾使用过这种设计的光剑。</SWSaber_Quigon.description>
-
-
   <!-- Darksaber -->
-
   <SWSaber_Darksaber.label>[SW]光剑-暗剑</SWSaber_Darksaber.label>
   <SWSaber_Darksaber.description>一件精致的武器，传说来自更高级的文明 - 反正是人都这么说。\n以曼达洛人的暗剑为参考的设计。</SWSaber_Darksaber.description>
-
-
   <!-- Yoda saber -->
-
   <SWSaber_Yodasaber.label>[SW]光剑（尤达）</SWSaber_Yodasaber.label>
   <SWSaber_Yodasaber.description>一件精致的武器，传说来自更高级的文明 - 反正是人都这么说。\n以曼达洛人的暗剑为参考的设计。</SWSaber_Yodasaber.description>
-
-
   <!-- Mace Windu Saber -->
-
   <SWSaber_MaceSaber.label>[SW]光剑（梅斯·温杜）</SWSaber_MaceSaber.label>
   <SWSaber_MaceSaber.description>一件精致的武器，传说来自更高级的文明。它可以说是原力使用者的标志性武器。\n一位悲催的好人曾使用过这种设计的光剑。</SWSaber_MaceSaber.description>
-
   <SWSaber_SaberPike.label>[SW]光剑-矛式</SWSaber_SaberPike.label>
   <SWSaber_SaberPike.description>一件精致的武器，传说来自更高级的文明。它可以说是原力使用者的标志性武器。\n这种非常规的矛式光剑通常是绝地卫士的装备。</SWSaber_SaberPike.description>
-
-
 </LanguageData>

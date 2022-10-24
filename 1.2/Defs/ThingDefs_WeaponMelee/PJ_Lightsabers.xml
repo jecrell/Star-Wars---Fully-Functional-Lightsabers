@@ -1,0 +1,1719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="PJ_BaseLightsaber" ParentName="BaseMeleeWeapon" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+          <li>WoodLog</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>PJ_Lightsaber</li>
+    </weaponTags>
+    <costList>
+      <PJ_SaberInternal>1</PJ_SaberInternal>
+      <PJ_SaberCasing>1</PJ_SaberCasing>
+    </costList>
+  </ThingDef>
+  <!-- ============================================================== -->
+  <ThingDef>
+    <defName>PJ_BulletDeflected</defName>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <label>improvised turret bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <!-- ================== STANDARD ==================== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Lightsaber</defName>
+    <label>lightsaber (prototype)</label>
+    <description>An elegant weapon, from a more civilized age - or so it is claimed.\n A basic, simple lightsaber design.</description>
+    <graphicData>
+      <texPath>Weapons/LightsaberHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.5</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-80</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/LightsaberBlade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ================== CURVED ==================== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_DookuSaber</defName>
+    <label>lightsaber (curved hilt)</label>
+    <description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis hilt is curved, allowing for an altered angle of attack that can be difficult to defend against.</description>
+    <graphicData>
+      <texPath>Weapons/DookuHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.5</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-32</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/CurActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/CurDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/LightsaberBlade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ======== Kylo Ren Crosshilt Saber ======== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_KyloSaber</defName>
+    <label>lightsaber (cross hilt)</label>
+    <description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis one looks like it uses a cracked primary crystal.</description>
+    <graphicData>
+      <texPath>Weapons/KyloHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.5</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-68</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/KyloActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/KyloDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_KyloActivate</activateSound>
+        <sustainerSound>PJ_KyloHum</sustainerSound>
+        <deactivateSound>PJ_KyloDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/KyloBlade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_KyloSwing</soundMiss>
+        <soundHitPawn>PJ_KyloHit</soundHitPawn>
+        <soundHitBuilding>PJ_KyloHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ======== Darth Maul Double Saber ======== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Doublesaber</defName>
+    <label>lightsaber (double)</label>
+    <description>An elegant weapon, from a more civilized age.\nThis hilt boasts a second emitter, making it an exotic double-bladed saber.</description>
+    <graphicData>
+      <texPath>Weapons/DoublesaberHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.5</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+				<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+				</recipeUsers>
+				</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/DubActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DubDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/DoublesaberBlade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>backedge</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ======== Obi Wan Saber ======== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_ObiSaber</defName>
+    <label>lightsaber (old style hilt)</label>
+    <description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis is a classical hilt... very familiar in fact...</description>
+    <graphicData>
+      <texPath>Weapons/ObiwanHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.5</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-88</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ObiActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/ObiDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/LightsaberBlade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ======== Palpatine's Electrum Saber ======== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_ElectrumSaber</defName>
+    <label>lightsaber (electrum hilt)</label>
+    <description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis version looks like it was designed for a person of high office.</description>
+    <graphicData>
+      <texPath>Weapons/ElectrumHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.5</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-37</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/EleActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/EleDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/LightsaberBlade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===== Ahsoka Tano ===== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Ahsokasaber</defName>
+    <label>lightsaber (Ahsoka Tano)</label>
+    <description>An elegant weapon, from a more civilized age - or so it is claimed.\n A design used by a famous Jedi of the past.</description>
+    <graphicData>
+      <texPath>Weapons/AhsokaHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.6</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-78</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/AhsokaHilt_Blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===== Inquisitor Blade ===== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Inquis</defName>
+    <label>double lightsaber (Inquisitor)</label>
+    <description>An elegant weapon, from a more civilized age - or so it is claimed.\n A design used by the Emperor's secret Jedi hunters.</description>
+    <graphicData>
+      <texPath>Weapons/InquisHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.2</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-30</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/DubActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DubDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/InquisHilt_Blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>doubleblade</label>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===== Honor Guard Saberstaff ===== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_JGuard</defName>
+    <label>Honor Guard Saberstaff</label>
+    <description>This type of double-bladed saber was wielded by elite Jedi guards, such as those guarding the Council's chambers.</description>
+    <graphicData>
+      <texPath>Weapons/JGuard_Hilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.2</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-66</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/DubActivate</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DubDeactivate</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/JGuard_Blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-point</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===== Qui Gon Jinn ===== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Quigon</defName>
+    <label>lightsaber (Qui-Gon Jinn)</label>
+    <description>An elegant weapon, from a more civilized age - or so it is claimed.\n This design was used by a legendary Jedi master.</description>
+    <graphicData>
+      <texPath>Weapons/Quigon_Hilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.2</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/Quigon_blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-point</label>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===== Darksaber ===== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Darksaber</defName>
+    <label>lightsaber (Darksaber)</label>
+    <description>An elegant weapon, from a more civilized age - or so it is claimed.\n A design based off the legendary Mandalorian Darksaber.</description>
+    <graphicData>
+      <texPath>Weapons/Sabine_Hilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.15</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-30</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/Sabine_Blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ===== Yoda saber ===== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_Yodasaber</defName>
+    <label>lightsaber (Yoda)</label>
+    <description>An elegant weapon, from a more civilized age - or so it is claimed.\n A design based off the legendary Mandalorian Darksaber.</description>
+    <graphicData>
+      <texPath>Weapons/Yoda_hilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.9</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-40</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/Yoda_Blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ======== Mace Windu Saber ======== -->
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_MaceSaber</defName>
+    <label>lightsaber (Mace Windu)</label>
+    <description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis version was wielded by a mushroom-cloud-layin-mutha'f****, Mutha'f****.</description>
+    <graphicData>
+      <texPath>Weapons/MaceHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.3</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-37</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/Mace_blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>hilt</label>
+        <chanceFactor>0.05</chanceFactor>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="PJ_BaseLightsaber">
+    <defName>SWSaber_SaberPike</defName>
+    <label>lightsaber pike</label>
+    <description>An elegant weapon, for a more civilized age. The iconic weapon and badge of office for force users.\nThis is a pike variant, often favored by Jedi guardsmen.</description>
+    <graphicData>
+      <texPath>Weapons/PikeHilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>2.4</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1.8</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+    </statBases>
+    <equippedAngleOffset>-52</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.31,0,0)</eastOffset>
+        <westOffset>(-0.31,0,0)</westOffset>
+      </li>
+      <li Class="SWSaber.CompProperties_LightsaberActivatableEffect">
+        <compClass>SWSaber.CompLightsaberActivatableEffect</compClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <ActivateLabel>Activate</ActivateLabel>
+        <uiIconPathActivate>UI/Lightsaber/ActivateSaber</uiIconPathActivate>
+        <DeactivateLabel>Deactivate</DeactivateLabel>
+        <uiIconPathDeactivate>UI/Lightsaber/DeactivateSaber</uiIconPathDeactivate>
+        <activateSound>PJ_LightsaberActivate</activateSound>
+        <sustainerSound>PJ_LightsaberHum</sustainerSound>
+        <deactivateSound>PJ_LightsaberDeactivate</deactivateSound>
+        <gizmosOnEquip>true</gizmosOnEquip>
+        <graphicData>
+          <texPath>Weapons/PikeHilt_Blade</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>PJ_LightsaberSwing</soundMiss>
+        <soundHitPawn>PJ_LightsaberFleshHit</soundHitPawn>
+        <soundHitBuilding>PJ_LightsaberHit</soundHitBuilding>
+      </li>
+      <li Class="SWSaber.CompProperties_CrystalSlotLoadable">
+        <compClass>SWSaber.CompCrystalSlotLoadable</compClass>
+        <slots>
+          <li>PJ_KyberCrystalSlot</li>
+        </slots>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <compClass>SWSaber.CompLightsaberDeflection</compClass>
+        <baseDeflectChance>0.99</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>PJ_LightsaberDeflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>3</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>PJ_BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>haft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <capacities>
+          <li>PJ_SaberStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>lightsaber-edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <capacities>
+          <li>PJ_SaberCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,29 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Saber.label>sabré</PJ_Saber.label>
   <PJ_Saber.deathMessage>{0} a été tué au sabre laser.</PJ_Saber.deathMessage>
-
-
   <!-- Barab Crystal Damage -->
-
   <PJ_BarabDam.label>Brûlure de sabrelaser</PJ_BarabDam.label>
   <PJ_BarabDam.deathMessage>{0} est mort de blessure au sabrelaser.</PJ_BarabDam.deathMessage>
-
-
   <!-- Firkrann Crystal Damage -->
-
   <PJ_FirkDam.label>Bûlure électrique</PJ_FirkDam.label>
   <PJ_FirkDam.deathMessage>{0} est mort de blessure au sabrelaser chargé.</PJ_FirkDam.deathMessage>
-
-
   <!-- Sonic Damage (Dragite) -->
-
   <PJ_SonicDam.label>Dégats sonique</PJ_SonicDam.label>
   <PJ_SonicDam.deathMessage>{0} est mort de fracture sonique.</PJ_SonicDam.deathMessage>
-
   <PJ_PontiteDam.label>Brûlure de gel</PJ_PontiteDam.label>
   <PJ_PontiteDam.deathMessage>{0} est mort de blessure au sabrelaser gelée.</PJ_PontiteDam.deathMessage>
-
-
 </LanguageData>
