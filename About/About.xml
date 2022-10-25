@@ -20,7 +20,7 @@
   <loadAfter>
     <li>jecrell.jecstools</li>
   </loadAfter>
-  <description>1.21.0.0 (02-29-2020)
+  <description>1.22.0.0 (10-24-2022)
 
 	Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
 
@@ -36,11 +36,15 @@
 Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
 
 These are the most excellent rim dwellers who support me: 
-Marcus Bell, RainerWingel, Dalton Johnson, Chris Seieroe, Robin Gleeson, Robert Alessi, Lea Stannard, Teres, David Silberstein, Sam, Kiya Nicoll, Matt Harris, Paul Fenwick, Grendalloffen, Don Homer, Josh McCabe, Elodie, Gothi, J, Michael Paugh, Audrin Navarro, Михаил Юрченко, Calum, Tim Stillson, Adam Bliss, Populous25, Marcus Sireanu, Maaxar, John Kanady, Midgeman, Dick Jones, Patrick, TinyFloatingTurtle, Nathan Getman, LionsFate, Sharp Spook, Cristina Shaver, Mark, George Chong Chuang Ming, Oliver White, roxxploxx, Emily Shaw, Karol Rybak, Justin Andres, Marcus Regan, Robin Hager, Allic, Austin Harbert, E_T, Alex Mederer, Alexander, Toss Antilles
+Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stannard, David Silberstein, Matt Harris, Kiya Nicoll, Paul Fenwick, Genaeve , Populous25 , David Turner, TinyATuin, Michael Cailler, Jimes Tooper, Sharp Spook, Don Homer, roxxploxx , Alex Mederer, Dan Jones, Michael Whitehead, iknowdude00, Kaz, Alexander , Ken Birdwell, Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stannard, David Silberstein, Matt Harris, Kiya Nicoll, Paul Fenwick, Genaeve , Populous25 , David Turner, TinyATuin, Michael Cailler, Jimes Tooper, Sharp Spook, Don Homer, roxxploxx , Alex Mederer, Dan Jones, Michael Whitehead, iknowdude00, Kaz, Alexander , Ken Birdwell
 
 ========================
 Changelog
 ========================
+1.22.0.0 (10-24-2022)
+========================
+Lightsabers updated to support RimWorld 1.4
+
 1.21.0.0 (02-29-2020)
 ========================
 Updates Star Wars Lightsabers to work with the newest version of RimWorld. RimWorld v1.1.
