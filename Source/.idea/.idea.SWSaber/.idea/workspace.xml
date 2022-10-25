@@ -2,69 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53103851-76a7-4430-a646-3d9dcd57a99a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SWSaber/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SWSaber/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SWSaber/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SWSaber/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SWSaber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SWSaber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SWSaber/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/CompSlotLoadable/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SWSaber/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SWSaber/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SWSaber/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SWSaber/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SWSaber/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SWSaber/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompCrystalSlotLoadable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CompCrystalSlotLoadable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompLightsaberActivatableEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CompLightsaberActivatableEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompLightsaberDeflection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CompLightsaberDeflection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompProperties_CrystalSlotLoadable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CompProperties_CrystalSlotLoadable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompProperties_LightsaberActivatableEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CompProperties_LightsaberActivatableEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarmonyPatches.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HarmonyPatches.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWSaber.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SWSaber.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWSaber.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWSaber.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SWSaber.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWSaber.userprefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWSaber_Utility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaberGlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SaberGlow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ArkhamEstate.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ArkhamEstate.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ArkhamEstate.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ArkhamEstate.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/CosmicHorrors.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/CosmicHorrors.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Factions.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Factions.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/IndustrialAge.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/IndustrialAge.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/IndustrialPack.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/IndustrialPack.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectJedi.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectJedi.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectJedi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/RimWorld_ExampleProjectDLL.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/RimWorld_ExampleProjectDLL.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SWSaber.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SWSaber.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SWSaber.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SWSaber.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SWSaber.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/SWSaber.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/SWSaber.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/SWSaber.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/SWSaber.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/SWSaber.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/SWSaber.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Directory.Build.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CompCrystalSlotLoadable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,15 +24,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "rider.run.widget.enabled.cache": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -108,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666655294318</updated>
       <workItem from="1666655300225" duration="226000" />
+      <workItem from="1666655537374" duration="656000" />
     </task>
     <servers />
   </component>
