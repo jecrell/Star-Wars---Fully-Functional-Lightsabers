@@ -1,12 +1,11 @@
-﻿using Verse;
-using HarmonyLib;
-using System.Threading;
-using System;
+﻿using HarmonyLib;
+using Verse;
 
 namespace SWSaber
 {
-    class SaberGlow : CompGlower
+    internal class SaberGlow : CompGlower
     {
+        private IntVec3 pos = IntVec3.Invalid;
         //bool spawnHandled = false;
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
@@ -14,20 +13,25 @@ namespace SWSaber
             try
             {
                 Traverse.Create(this).Field("glowOnInt").SetValue(true);
-                this.parent.MapHeld.glowGrid.RegisterGlower(this);
+                parent.MapHeld.glowGrid.RegisterGlower(this);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
         }
-        
-        IntVec3 pos = IntVec3.Invalid;
 
         public void GlowTick(object state)
         {
             try
             {
-                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
+                parent.Map.glowGrid.MarkGlowGridDirty(parent.Position);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
+
             {
                 //We're interested in this, but not the end users.
                 //Log.Error(ex.Message + "\n" + ex.StackTrace);
@@ -39,19 +43,25 @@ namespace SWSaber
         {
             try
             {
-                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
+                parent.Map.glowGrid.MarkGlowGridDirty(parent.Position);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
         }
 
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {
             try
             {
-                this.parent.Map.glowGrid.DeRegisterGlower(this);
+                parent.Map.glowGrid.DeRegisterGlower(this);
                 base.PostDestroy(mode, previousMap);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
         }
     }
 }

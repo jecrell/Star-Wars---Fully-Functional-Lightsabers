@@ -1,6 +1,6 @@
 ﻿using CompSlotLoadable;
-using Verse;
 using RimWorld;
+using Verse;
 
 namespace SWSaber
 {
@@ -9,11 +9,11 @@ namespace SWSaber
         public override void TryEmptySlot(SlotLoadable slot)
         {
             //Log.Message("1");
-            if (parent is ThingWithComps compOwner)
+            if (parent is { } compOwner)
             {
                 //Log.Message("2"); 
 
-                CompLightsaberActivatableEffect compLightsaberActivatableEffect = compOwner.TryGetComp<CompLightsaberActivatableEffect>();
+                var compLightsaberActivatableEffect = compOwner.TryGetComp<CompLightsaberActivatableEffect>();
                 if (compLightsaberActivatableEffect != null)
                 {
                     //Log.Message("3");

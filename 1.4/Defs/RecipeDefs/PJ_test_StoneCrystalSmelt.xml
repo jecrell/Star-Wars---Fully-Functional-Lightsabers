@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_purp</defName>
+    <label>refine lightsaber crystal (purple)</label>
+    <description>Treats raw materials into synthetic saber crystals.</description>
+    <jobString>Refining crystals</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystalPurple>1</PJ_KyberCrystalPurple>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_yellow</defName>
+    <label>refine lightsaber crystal (yellow)</label>
+    <description>Treats raw materials into synthetic saber crystals.</description>
+    <jobString>Refining crystals</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystalYellow>1</PJ_KyberCrystalYellow>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--
+	
+		<RecipeDef>
+		<defName>PJ_MakeCrystal_Barab</defName>
+		<label>refine barab ore (orange)</label>
+		<description>Treats raw materials into synthetic saber crystals.</description>
+		<jobString>Refining crystals</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+		<products>
+			<PJ_BarabIngot>1</PJ_BarabIngot>
+		</products>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef>
+	-->
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_blue</defName>
+    <label>refine lightsaber crystal (blue)</label>
+    <description>Treats raw materials into synthetic saber crystals.</description>
+    <jobString>Refining crystals</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystalBlue>1</PJ_KyberCrystalBlue>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_Red</defName>
+    <label>infuse synthetic crystal (red)</label>
+    <description>Takes a lightsaber crystal and infuses it with the power of the dark side of the force.</description>
+    <jobString>Infusing crystal</jobString>
+    <workAmount>8500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedRedC</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PJ_KyberCrystals</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PJ_KyberCrystals</li>
+        <li>StoneBlocks</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>PJ_KyberCrystalRed</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystalRed>1</PJ_KyberCrystalRed>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_Green</defName>
+    <label>refine lightsaber crystal (green)</label>
+    <description>Treats raw materials into synthetic saber crystals.</description>
+    <jobString>Refining crystals</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystal>1</PJ_KyberCrystal>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_Cyan</defName>
+    <label>refine lightsaber crystal (cyan)</label>
+    <description>Treats raw materials into synthetic saber crystals.</description>
+    <jobString>Refining crystals</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystalCyan>1</PJ_KyberCrystalCyan>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>PJ_MakeCrystal_Azure</defName>
+    <label>refine lightsaber crystal (azure)</label>
+    <description>Treats raw materials into synthetic saber crystals.</description>
+    <jobString>Refining crystals</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>PJ_UnfinishedCrystal</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <PJ_KyberCrystalAzure>1</PJ_KyberCrystalAzure>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
