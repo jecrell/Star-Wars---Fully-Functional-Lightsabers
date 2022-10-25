@@ -81,7 +81,7 @@
           <Private>false</Private>
         </Reference>
         <Reference Include="CompSlotLoadable">
-          <HintPath>..\..\..\..\mods\JecsTools\1.4\Assemblies\CompSlotLoadable.dll</HintPath>
+          <HintPath>..\..\..\mods\JecsTools\1.4\Assemblies\CompSlotLoadable.dll</HintPath>
           <Private>false</Private>
         </Reference>
       </ItemGroup>
@@ -113,7 +113,7 @@
           <Private>false</Private>
         </Reference>
         <Reference Include="CompSlotLoadable">
-          <HintPath>..\..\..\..\mods\JecsTools\1.4\Assemblies\CompSlotLoadable.dll</HintPath>
+          <HintPath>..\..\..\mods\JecsTools\1.4\Assemblies\CompSlotLoadable.dll</HintPath>
           <Private>false</Private>
         </Reference>
       </ItemGroup>
